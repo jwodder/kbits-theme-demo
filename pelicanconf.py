@@ -54,7 +54,7 @@ TAG_URL = 'tags/{slug}/'
 TAG_SAVE_AS = TAG_URL + 'index.html'
 TAGS_SAVE_AS = 'tags/index.html'
 
-DEFAULT_PAGINATION = 20
+DEFAULT_PAGINATION = 5
 
 PAGINATION_PATTERNS = [
     (1, '{url}', '{save_as}'),
