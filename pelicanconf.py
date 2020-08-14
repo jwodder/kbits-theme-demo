@@ -1,5 +1,3 @@
-from datetime import date
-
 # Site metadata
 SITENAME = 'kbits-theme-demo'
 SITESUBTITLE = "Demonstration of the kbits theme for Pelican"
@@ -72,9 +70,7 @@ STATIC_CHECK_IF_MODIFIED = True
 
 DOCUTILS_SETTINGS = {
     "smart_quotes": True,
-    "strip_comments": True,
     "math_output": "mathjax irrelevant.value",
-    "toc_backlinks": "top",
 }
 
 SLUGIFY_SOURCE = 'basename'
