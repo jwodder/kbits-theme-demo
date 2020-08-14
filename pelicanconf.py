@@ -2,7 +2,7 @@ from datetime import date
 
 # Site metadata
 SITENAME = 'kbits-theme-demo'
-SITESUBTITLE = "Demonstration of the kbits Pelican theme"
+SITESUBTITLE = "Demonstration of the kbits theme for Pelican"
 AUTHOR = 'John T. Wodder II'
 DEFAULT_LANG = 'en'
 TIMEZONE = 'America/New_York'
@@ -20,12 +20,16 @@ USE_FOLDER_AS_CATEGORY = False
 # Site output layout
 OUTPUT_PATH = 'build'
 
-ARTICLE_URL = 'posts/{slug}/'
+ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{slug}/'
 ARTICLE_SAVE_AS = ARTICLE_URL + 'index.html'
-ARTICLE_LANG_URL = '{lang}/posts/{slug}/'
+ARTICLE_LANG_URL = '{lang}/posts/{date:%Y}/{date:%m}/{slug}/'
 ARTICLE_LANG_SAVE_AS = ARTICLE_LANG_URL + 'index.html'
 
 ARCHIVES_SAVE_AS = 'posts/index.html'
+YEAR_ARCHIVE_URL = 'posts/{date:%Y}/'
+YEAR_ARCHIVE_SAVE_AS = YEAR_ARCHIVE_URL + 'index.html'
+MONTH_ARCHIVE_URL = 'posts/{date:%Y}/{date:%m}/'
+MONTH_ARCHIVE_SAVE_AS = MONTH_ARCHIVE_URL + 'index.html'
 
 DRAFT_URL = 'drafts/{slug}/'
 DRAFT_SAVE_AS = DRAFT_URL + 'index.html'
@@ -83,7 +87,7 @@ FORMATTED_FIELDS = ['summary', 'Summary']
 
 
 # Plugins
-PLUGINS = ['plugins.autopages']
+#PLUGINS = ['plugins.autopages']
 
 # autopages
 AUTHOR_PAGE_PATH = f'{PATH}/authors'
@@ -109,6 +113,8 @@ href="https://github.com/jwodder/kbits-theme">kbits theme</a>
 DISPLAY_CATEGORIES_ON_MENU = False
 
 MENUITEMS = [
+    ('Archives', 'posts/'),
+    ('Authors', 'authors/'),
     ('Categories', 'categories/'),
     ('Tags', 'tags/'),
     ('Site Repository', 'https://github.com/jwodder/kbits-theme-demo'),

@@ -1,0 +1,4 @@
+*.pyc
+.nox/
+__pycache__/
+build/
