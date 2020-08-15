@@ -19,7 +19,6 @@
           Example, EX  Canada
           A1B 2C3
 :Contact: docutils-develop@lists.sourceforge.net
-:Authors: Me; Myself; I
 :organization: humankind
 :date: $Date: 2012-01-03 20:23:53 +0100 (Di, 03. Jän 2012) $
 :revision: $Revision: 7302 $
@@ -46,6 +45,8 @@
     This document is a demonstration of the reStructuredText markup
     language, containing examples of all basic reStructuredText
     constructs and many advanced constructs.
+
+:Source: <https://docutils.sourceforge.io/docs/user/rst/demo.txt>
 
 .. meta::
    :keywords: reStructuredText, demonstration, demo, parser

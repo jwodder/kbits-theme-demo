@@ -79,7 +79,7 @@ DEFAULT_CATEGORY = 'Miscellanea'
 DEFAULT_DATE_FORMAT = '%Y-%m-%d %H:%M %z'
 
 # <https://github.com/getpelican/pelican/pull/2785>
-FORMATTED_FIELDS = ['summary', 'Summary']
+FORMATTED_FIELDS = ['summary', 'Summary', 'Source']
 
 
 # Plugins
@@ -116,6 +116,16 @@ MENUITEMS = [
     ('Categories', 'categories/'),
     ('Tags', 'tags/'),
     ('Site Repository', 'https://github.com/jwodder/kbits-theme-demo'),
+]
+
+EXTRA_METADATA_FIELDS = [
+    ('Address', 'address'),
+    ('Contact', 'contact'),
+    ('Organization', 'organization'),
+    ('Revision', 'revision'),
+    ('Version', 'version'),
+    ('Source', 'source'),
+    ('Copyright', 'copyright'),
 ]
 
 
