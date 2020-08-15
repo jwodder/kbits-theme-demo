@@ -1,6 +1,6 @@
 # Site metadata
 SITENAME = 'kbits-theme-demo'
-SITESUBTITLE = "Demonstration of the kbits theme for Pelican"
+SITESUBTITLE = "Demonstration of kbits-theme for Pelican"
 AUTHOR = 'John T. Wodder II'
 DEFAULT_LANG = 'en'
 TIMEZONE = 'America/New_York'
@@ -96,6 +96,8 @@ THEME = './theme'
 
 
 # Theme variables
+USE_MATHJAX = True
+#MATHJAX_CONFIG = ???
 GITHUB_SOURCE_URL = 'https://github.com/jwodder/kbits-theme-demo'
 PATH_IN_REPO = PATH  # PATH relative to root of repository
 SHOW_AUTHOR = True
@@ -103,7 +105,7 @@ SHOW_AUTHOR_IN_LISTINGS = True
 
 FOOTER_HTML = '''
 Made with <a href="https://getpelican.com/">Pelican</a> and the <a
-href="https://github.com/jwodder/kbits-theme">kbits theme</a>
+href="https://github.com/jwodder/kbits-theme">kbits-theme</a>
 '''
 
 DISPLAY_CATEGORIES_ON_MENU = False
