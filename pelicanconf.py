@@ -124,6 +124,7 @@ EXTRA_METADATA_FIELDS = [
     ('Organization', 'organization'),
     ('Revision', 'revision'),
     ('Version', 'version'),
+    ('Translator', 'translator'),
     ('Source', 'source'),
     ('Copyright', 'copyright'),
 ]
