@@ -4,7 +4,7 @@ Table Styles and Alignment
 
 :Date: 2020-08-13 22:54
 :Category: Features
-:Tags: reStructuredText, classes, styles
+:Tags: reStructuredText, classes, styles, tables
 :Summary:
     kbits-theme's support for Docutils table styles and table alignment
     specifiers

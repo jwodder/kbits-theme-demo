@@ -5,7 +5,8 @@ Der Jammerwoch
 :Date: 1872-02-01
 :Author: Lewis Carroll
 :Translator: Robert Scott
-:Category: Translated Articles
+:Category: Examples
+:Tags: translated
 :Source: <http://www76.pair.com/keithlim/jabberwocky/translations/german1.html>
 :lang: de
 

@@ -4,7 +4,9 @@ Jabberwocky
 
 :Date: 1871-12-27
 :Author: Lewis Carroll
-:Category: Translated Articles
+:Category: Examples
+:Tags: translated
+:Summary: An example translated article
 :Source: :t:`Through the Looking-Glass, and What Alice Found There`
 
 | 'Twas brillig, and the slithy toves

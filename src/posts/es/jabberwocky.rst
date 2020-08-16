@@ -5,7 +5,8 @@ Chacaloco
 :Date: 2020-08-15
 :Author: Lewis Carroll
 :Translator: Erwin Brea
-:Category: Translated Articles
+:Category: Examples
+:Tags: translated
 :Source: <http://www76.pair.com/keithlim/jabberwocky/translations/spanish1.html>
 :lang: es
 

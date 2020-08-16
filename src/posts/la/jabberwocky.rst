@@ -5,7 +5,8 @@ Gaberbocchus
 :Date: 2020-08-15
 :Author: Lewis Carroll
 :Translator: Hassard H. Dodgson
-:Category: Translated Articles
+:Category: Examples
+:Tags: translated
 :Source: <http://www76.pair.com/keithlim/jabberwocky/translations/latin1.html>
 :lang: la
 

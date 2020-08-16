@@ -47,6 +47,9 @@
     constructs and many advanced constructs.
 
 :Modified: 2020-08-15 22:51
+:Category: Examples
+:Tags: styles, admonitions, topics, sidebars, tables, reStructuredText,
+    blockquotes
 :Summary:
     The reStructuredText demo document, included here to show off kbits-theme's
     styles
