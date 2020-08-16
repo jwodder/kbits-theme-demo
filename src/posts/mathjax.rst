@@ -4,7 +4,7 @@ MathJax Support
 
 :Date: 2020-08-15 17:50
 :Category: Features
-:Tags: MathJax, reStructuredText, Markdown
+:Tags: MathJax, reStructuredText, Markdown, theme settings
 :Summary:
     Rendering things like :math:`\sum_{i=1}^n i = \frac{n^2+n}{2}` on your site
 

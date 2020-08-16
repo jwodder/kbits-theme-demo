@@ -78,7 +78,7 @@ PAGE_ORDER_BY = 'title'
 DEFAULT_CATEGORY = 'Miscellanea'
 DEFAULT_DATE_FORMAT = '%Y-%m-%d %H:%M %z'
 
-FORMATTED_FIELDS = ['summary', 'source']
+FORMATTED_FIELDS = ['summary', 'source', 'formatted field']
 
 
 # Plugins
@@ -146,6 +146,8 @@ EXTRA_METADATA_FIELDS = [
     ('Translator', 'translator'),
     ('Source', 'source'),
     ('Copyright', 'copyright'),
+    ('Formatted Field', 'formatted field'),
+    ('Unformatted Field', 'unformatted field'),
 ]
 
 
