@@ -107,6 +107,7 @@ Made with <a href="https://getpelican.com/">Pelican</a> and the <a
 href="https://github.com/jwodder/kbits-theme">kbits-theme</a>
 '''
 
+DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 
 MENU_NAME = 'Site Menu'
