@@ -110,12 +110,32 @@ href="https://github.com/jwodder/kbits-theme">kbits-theme</a>
 
 DISPLAY_CATEGORIES_ON_MENU = False
 
+MENU_NAME = 'Site Menu'
+
 MENUITEMS = [
     ('Archives', 'posts/'),
     ('Authors', 'authors/'),
     ('Categories', 'categories/'),
     ('Tags', 'tags/'),
     ('Site Repository', 'https://github.com/jwodder/kbits-theme-demo'),
+]
+
+PAGES_MENU = True
+PAGES_MENU_NAME = 'Site Pages'
+CATEGORIES_MENU = True
+CATEGORIES_MENU_NAME = 'Site Categories'
+
+EXTRA_MENUS = [
+    ('Site Building Blocks', [
+        ('GitHub Pages', 'https://pages.github.com'),
+        ('Pelican', 'https://getpelican.com'),
+        ('kbits-theme', 'https://github.com/jwodder/kbits-theme'),
+        ('Python', 'https://www.python.org'),
+        ('Jinja', 'http://jinja.palletsprojects.com'),
+        ('HTML', 'https://en.wikipedia.org/wiki/HTML'),
+        ('CSS', 'https://www.w3.org/Style/CSS/'),
+        ('reStructuredText', 'https://docutils.sourceforge.io/rst.html'),
+    ]),
 ]
 
 EXTRA_METADATA_FIELDS = [
