@@ -78,8 +78,7 @@ PAGE_ORDER_BY = 'title'
 DEFAULT_CATEGORY = 'Miscellanea'
 DEFAULT_DATE_FORMAT = '%Y-%m-%d %H:%M %z'
 
-# <https://github.com/getpelican/pelican/pull/2785>
-FORMATTED_FIELDS = ['summary', 'Summary', 'Source']
+FORMATTED_FIELDS = ['summary', 'source']
 
 
 # Plugins
