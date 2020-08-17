@@ -1,0 +1,14 @@
+====================
+404 — Page Not Found
+====================
+
+:Status: hidden
+:SAVE_AS: 404.html
+
+This isn't supposed to happen.  If you got here by following a link on this
+site, `please report it as a bug
+<https://github.com/jwodder/kbits-theme-demo/issues>`_.  On the other hand, if
+you were just messing around with URLs, don't do that.
+
+(No, this 404 page is not a feature of kbits-theme; I had to create it
+manually.)
