@@ -82,7 +82,7 @@ FORMATTED_FIELDS = ['summary', 'source', 'formatted field']
 
 
 # Plugins
-#PLUGINS = ['plugins.autopages']
+PLUGINS = ['plugins.autopages']
 
 # autopages
 AUTHOR_PAGE_PATH = f'{PATH}/authors'
