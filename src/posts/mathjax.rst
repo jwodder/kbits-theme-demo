@@ -91,6 +91,12 @@ adding the following configuration to your Pelican site's ``MARKDOWN`` setting:
         ...
     }
 
+If this is the first time you're modifying the value of ``MARKDOWN``, you
+should copy the default value shown in `the Pelican documentation`__ and modify
+that.
+
+__ https://docs.getpelican.com/en/stable/settings.html
+
 An alternative worth mentioning is the pelican-render-math_ plugin for Pelican,
 which enables writing math in Markdown and adds a ``<script>`` tag for
 activating MathJax to the end of any rendered reStructuredText or Markdown
