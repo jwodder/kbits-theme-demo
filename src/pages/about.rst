@@ -12,9 +12,6 @@ of the theme.  Thus, this site was created to demonstrate the theme in full.
 .. _kbits-theme: https://github.com/jwodder/kbits-theme
 .. _"Knowledge Bits": https://jwodder.github.io/kbits/
 
-Some articles of interest here include:
-
-- `Using MathJax with kbits-theme <{filename}/posts/mathjax.rst>`_
-- `Table styles and alignment <{filename}/posts/table-styles.rst>`_
-- `A demonstration of reStructuredText constructs (and thus also of the styles
-  that kbits-theme applies to them) <{filename}/posts/demo/demo.rst>`_
+Check out the `"Features" category <{category}features>`_ for articles on the
+various unique features of the theme, and check out `"Examples"
+<{category}examples>`_ for samples of styles and standard Pelican features.
