@@ -1,6 +1,6 @@
-==========================
-Table Styles and Alignment
-==========================
+==============================================
+Table Styles and Alignment in reStructuredText
+==============================================
 
 :Date: 2020-08-13 22:54
 :Category: Features
