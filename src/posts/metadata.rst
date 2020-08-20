@@ -75,25 +75,6 @@ The metadata table can be configured via the following theme settings:
        processes the document).  Including them in ``FORMATTED_FIELDS`` can
        thus cause kbits-theme to do the wrong thing.
 
-   .. note::
-
-       As of Pelican 4.2, when writing in reStructuredText, field names are
-       compared case sensitively against the elements of ``FORMATTED_FIELDS``.
-       This means that, if you want to write :rst:`:Some Field Name: *value*`
-       in your documents and have :rst:`*value*` be formatted in the metadata
-       table, you need to include both ``"Some Field Name"`` (so that Pelican
-       will format the field) and ``"some field name"`` (so that kbits-theme
-       will know that the field is formatted) in your site's
-       ``FORMATTED_FIELDS`` value.
-
-       This does not apply to Markdown, where the elements of
-       ``FORMATTED_FIELDS`` are expected to be all-lowercase and field names in
-       source documents are lowercased before comparison.
-
-       `PR #2785`_ changed the handling of ``FORMATTED_FIELDS`` for
-       reStructuredText documents to match that of Markdown documents, but at
-       time of writing a Pelican release with this patch has not yet been made.
-
 .. _bibliographic fields:
    https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
    #bibliographic-fields

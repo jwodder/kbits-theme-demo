@@ -103,9 +103,7 @@ activating MathJax to the end of any rendered reStructuredText or Markdown
 content that includes math markup.  This ``<script>`` conflicts with the
 MathJax loaded by kbits-theme, so if you're using pelican-render-math, it's
 recommended to leave ``USE_MATHJAX`` at ``False`` and configure MathJax through
-pelican-render-math's facilities instead.  Also note that the plugin requires
-the next version of Pelican after 4.2, which at time of writing has not yet
-been released.
+pelican-render-math's facilities instead.
 
 Another alternative, mentioned here for completeness' sake, is the
 python-markdown-math_ package.  The output it produces is by default only
