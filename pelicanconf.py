@@ -151,6 +151,9 @@ EXTRA_METADATA_FIELDS = [
     ('Unformatted Field', 'unformatted field'),
 ]
 
+FAVICON_URL = 'static/favicon.png'
+FAVICON_TYPE = 'image/png'
+
 
 # Variables to leave unset during development:
 SITEURL = ''
