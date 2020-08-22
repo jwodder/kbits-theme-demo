@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>kbits-theme-demo - articles</title><link>https://jwodder.github.io/kbits-theme-demo/</link><description>Demonstration of kbits-theme for Pelican</description><lastBuildDate>Sat, 22 Aug 2020 13:42:00 -0400</lastBuildDate><item><title>Showing Article Authors</title><link>https://jwodder.github.io/kbits-theme-demo/posts/2020/08/showing-authors/</link><description>&lt;p&gt;kbits-theme has two settings for controlling whether to show articles’ authors.
+They are useful if your site only has one author and you don’t want to slap
+your name all over everything.&lt;/p&gt;
+&lt;p&gt;The settings are:&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;SHOW_AUTHOR = True&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Whether to show articles’ authors in article metadata tables&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;SHOW_AUTHOR_IN_LISTINGS = True&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Whether …&lt;/dd&gt;&lt;/dl&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John T. Wodder II</dc:creator><pubDate>Sat, 22 Aug 2020 13:42:00 -0400</pubDate><guid isPermaLink="false">tag:jwodder.github.io,2020-08-22:/kbits-theme-demo/posts/2020/08/showing-authors/</guid><category>Features</category><category>articles</category><category>metadata</category><category>theme settings</category></item><item><title>Article Metadata Tables</title><link>https://jwodder.github.io/kbits-theme-demo/posts/2020/08/metadata/</link><description>&lt;p&gt;At the top of each article in a kbits-theme site, just underneath the article
+title, kbits-theme displays a table of the article’s metadata.  (Look right
+above this paragraph for an example.)  By default, the following fields are
+shown:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Date (labelled “Posted”)&lt;/li&gt;
+&lt;li&gt;Modified (if set; labelled “Last Updated”)&lt;/li&gt;
+&lt;li&gt;Author(s …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John T. Wodder II</dc:creator><pubDate>Sun, 16 Aug 2020 16:28:00 -0400</pubDate><guid isPermaLink="false">tag:jwodder.github.io,2020-08-16:/kbits-theme-demo/posts/2020/08/metadata/</guid><category>Features</category><category>articles</category><category>metadata</category><category>theme settings</category></item></channel></rss>

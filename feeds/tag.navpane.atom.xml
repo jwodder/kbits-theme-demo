@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>kbits-theme-demo - navpane</title><link href="https://jwodder.github.io/kbits-theme-demo/" rel="alternate"></link><link href="https://jwodder.github.io/kbits-theme-demo/feeds/tag.navpane.atom.xml" rel="self"></link><id>https://jwodder.github.io/kbits-theme-demo/</id><updated>2020-08-17T17:34:00-04:00</updated><subtitle>Demonstration of kbits-theme for Pelican</subtitle><entry><title>The Navigation Pane</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/navpane/" rel="alternate"></link><published>2020-08-17T17:34:00-04:00</published><updated>2020-08-17T17:34:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-17:/kbits-theme-demo/posts/2020/08/navpane/</id><summary type="html">&lt;p class="first last"&gt;See the list of links to the left?  This is all about that.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;On the left side of every page of a kbits-theme site is the &lt;em&gt;navigation pane&lt;/em&gt;,
+a set of lists of links.  The contents of the pane are as follows:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The main menu — Lists the items in &lt;tt class="docutils literal"&gt;MENUITEMS&lt;/tt&gt;, followed by the site’s
+non-hidden pages if &lt;tt class="docutils literal"&gt;DISPLAY_PAGES_ON_MENU&lt;/tt&gt; is true, followed by the site’s
+categories if &lt;tt class="docutils literal"&gt;DISPLAY_CATEGORIES_ON_MENU&lt;/tt&gt; is true&lt;ul&gt;
+&lt;li&gt;By default, the main menu is unlabelled, but a custom label can be
+displayed before the menu by setting the &lt;tt class="docutils literal"&gt;MENU_NAME&lt;/tt&gt; setting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;If &lt;tt class="docutils literal"&gt;PAGES_MENU&lt;/tt&gt; is true and the site has any non-hidden pages, next is a
+list of the site’s non-hidden pages.  This menu is labelled with the value of
+&lt;tt class="docutils literal"&gt;PAGES_MENU_NAME&lt;/tt&gt; (“Pages” by default).&lt;/li&gt;
+&lt;li&gt;If &lt;tt class="docutils literal"&gt;CATEGORIES_MENU&lt;/tt&gt; is true and the site has any categories, next is a
+list of the site’s categories.  This menu is labelled with the value of
+&lt;tt class="docutils literal"&gt;CATEGORIES_MENU_NAME&lt;/tt&gt; (“Categories” by default).&lt;/li&gt;
+&lt;li&gt;Next comes each of the lists defined by &lt;tt class="docutils literal"&gt;EXTRA_MENUS&lt;/tt&gt; (&lt;a class="reference internal" href="#extra-menus"&gt;see below&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Finally, if &lt;tt class="docutils literal"&gt;FEED_ALL_ATOM&lt;/tt&gt;, &lt;tt class="docutils literal"&gt;FEED_ALL_RSS&lt;/tt&gt;, &lt;tt class="docutils literal"&gt;FEED_ATOM&lt;/tt&gt;, or
+&lt;tt class="docutils literal"&gt;FEED_RSS&lt;/tt&gt; is set, links to the site’s Atom and/or RSS feed are given.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="section" id="settings"&gt;
+&lt;h2&gt;Settings&lt;/h2&gt;
+&lt;p&gt;The theme-specific settings that control the contents of the navigation pane
+are as follows:&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;MENU_NAME&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;The name to display above the main menu on the navigation pane.  Defaults to
+no name.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;MENUITEMS&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;A list of (Title, URL) pairs for additional menu items to appear at the
+beginning of the main menu in the navigation pane.  If a given URL is
+relative (does not begin with either &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;http://&lt;/span&gt;&lt;/tt&gt; or &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;https://&lt;/span&gt;&lt;/tt&gt;), then
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;{{SITEURL}}/&lt;/span&gt;&lt;/tt&gt; is prepended to it.  This allows you to link to locations
+on your site without having to give the full URL.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;PAGES_MENU = False&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;If true, pages will be given their own menu in the navigation pane,
+after the main menu but before the categories menu and any menus defined
+with &lt;tt class="docutils literal"&gt;EXTRA_MENUS&lt;/tt&gt;.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;PAGES_MENU_NAME = &amp;quot;Pages&amp;quot;&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;The name to display above the pages menu (if there is one) on the
+navigation pane&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;CATEGORIES_MENU = False&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;If true, categories will be given their own menu in the navigation pane,
+after the main menu and pages menu but before any menus defined with
+&lt;tt class="docutils literal"&gt;EXTRA_MENUS&lt;/tt&gt;.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;CATEGORIES_MENU_NAME = &amp;quot;Categories&amp;quot;&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;The name to display above the categories menu (if there is one) on the
+navigation pane&lt;/dd&gt;
+&lt;dt id="extra-menus"&gt;&lt;tt class="docutils literal"&gt;EXTRA_MENUS&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p class="first"&gt;A list of (Menu Name, Link List) pairs defining extra lists of links to add
+to the navigation pane beneath all other menus.  Each “Link List” is a
+sublist of (Link Name, Link URL) pairs.&lt;/p&gt;
+&lt;p&gt;If a given link URL is relative (does not begin with either &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;http://&lt;/span&gt;&lt;/tt&gt; or
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;https://&lt;/span&gt;&lt;/tt&gt;), then &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;{{SITEURL}}/&lt;/span&gt;&lt;/tt&gt; is prepended to it.  This allows you to
+link to locations on your site without having to give the full URL.&lt;/p&gt;
+&lt;p&gt;For example, the following setting:&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="n"&gt;EXTRA_MENUS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Social'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'My Twitter'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'https://twitter.com/…'&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'My Mastodon'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'https://…'&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'My GitHub'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'https://github.com/…'&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+    &lt;span class="p"&gt;]),&lt;/span&gt;
+    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Favorite Tags'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Python'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'tags/python.html'&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Pelican'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'tags/pelican.html'&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+    &lt;span class="p"&gt;]),&lt;/span&gt;
+&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;causes the following to be added to the navigation pane on the left of the
+page:&lt;/p&gt;
+&lt;pre class="last literal-block"&gt;
+Social
+* My Twitter
+* My Mastodon
+* My GitHub
+
+Favorite Tags
+* Python
+* Pelican
+&lt;/pre&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+</content><category term="Features"></category><category term="navpane"></category><category term="theme settings"></category></entry></feed>

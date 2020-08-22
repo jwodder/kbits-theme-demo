@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>kbits-theme-demo - favicon</title><link>https://jwodder.github.io/kbits-theme-demo/</link><description>Demonstration of kbits-theme for Pelican</description><lastBuildDate>Fri, 21 Aug 2020 17:10:00 -0400</lastBuildDate><item><title>Setting a Favicon</title><link>https://jwodder.github.io/kbits-theme-demo/posts/2020/08/favicon/</link><description>&lt;p&gt;kbits-theme lets you configure a custom &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Favicon"&gt;favicon&lt;/a&gt; for your site via the
+following theme settings:&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;FAVICON_URL&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;A URL pointing to an image to use as the site’s favicon.  If the URL is
+relative (does not begin with either &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;http://&lt;/span&gt;&lt;/tt&gt; or &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;https://&lt;/span&gt;&lt;/tt&gt;), then
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;{{SITEURL}}/&lt;/span&gt;&lt;/tt&gt; is prepended to it.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;FAVICON_TYPE&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;The …&lt;/dd&gt;&lt;/dl&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">John T. Wodder II</dc:creator><pubDate>Fri, 21 Aug 2020 17:10:00 -0400</pubDate><guid isPermaLink="false">tag:jwodder.github.io,2020-08-21:/kbits-theme-demo/posts/2020/08/favicon/</guid><category>Features</category><category>theme settings</category><category>favicon</category></item></channel></rss>

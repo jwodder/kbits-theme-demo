@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>kbits-theme-demo - reStructuredText</title><link href="https://jwodder.github.io/kbits-theme-demo/" rel="alternate"></link><link href="https://jwodder.github.io/kbits-theme-demo/feeds/tag.restructuredtext.atom.xml" rel="self"></link><id>https://jwodder.github.io/kbits-theme-demo/</id><updated>2020-08-20T18:03:00-04:00</updated><subtitle>Demonstration of kbits-theme for Pelican</subtitle><entry><title>Syntax Highlighting with reStructuredText</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/highlight-sample-rst/" rel="alternate"></link><published>2020-08-20T18:03:00-04:00</published><updated>2020-08-20T18:03:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-20:/kbits-theme-demo/posts/2020/08/highlight-sample-rst/</id><summary type="html">&lt;p&gt;kbits-theme uses Pygments’ “default” style for code syntax highlighting.  Let’s
+see some examples!&lt;/p&gt;
+&lt;p&gt;reStructuredText has a built-in directive for syntax highlighting, the &lt;a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#code"&gt;“code”
+directive&lt;/a&gt;.  Here’s what the output of that directive looks like in
+kbits-theme:&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;compress&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;subsets&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;nonempty&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;proper&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;
+    Returns an …&lt;/span&gt;&lt;/pre&gt;</summary><content type="html">&lt;p&gt;kbits-theme uses Pygments’ “default” style for code syntax highlighting.  Let’s
+see some examples!&lt;/p&gt;
+&lt;p&gt;reStructuredText has a built-in directive for syntax highlighting, the &lt;a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#code"&gt;“code”
+directive&lt;/a&gt;.  Here’s what the output of that directive looks like in
+kbits-theme:&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;compress&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;subsets&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;nonempty&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;proper&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;
+    Returns an iterator over all subsets of the iterable ``xs`` as tuples.
+    If ``nonempty`` is true, only nonempty subsets are returned.  If
+    ``proper`` is true, only proper subsets are returned.
+    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="n"&gt;xs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;selectors&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
+            &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;nonempty&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="nb"&gt;any&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="ow"&gt;or&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;proper&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="nb"&gt;all&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="p"&gt;):&lt;/span&gt;
+            &lt;span class="k"&gt;yield&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;compress&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;xrange&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;)):&lt;/span&gt;
+            &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt;
+                &lt;span class="k"&gt;break&lt;/span&gt;
+        &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;break&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;… and here’s what it looks like with the &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;:number-lines:&lt;/span&gt;&lt;/tt&gt; option:&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="ln"&gt; 1 &lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;compress&lt;/span&gt;
+&lt;span class="ln"&gt; 2 &lt;/span&gt;
+&lt;span class="ln"&gt; 3 &lt;/span&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;subsets&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;nonempty&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;proper&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;span class="ln"&gt; 4 &lt;/span&gt;    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;
+&lt;/span&gt;&lt;span class="ln"&gt; 5 &lt;/span&gt;&lt;span class="sd"&gt;    Returns an iterator over all subsets of the iterable ``xs`` as tuples.
+&lt;/span&gt;&lt;span class="ln"&gt; 6 &lt;/span&gt;&lt;span class="sd"&gt;    If ``nonempty`` is true, only nonempty subsets are returned.  If
+&lt;/span&gt;&lt;span class="ln"&gt; 7 &lt;/span&gt;&lt;span class="sd"&gt;    ``proper`` is true, only proper subsets are returned.
+&lt;/span&gt;&lt;span class="ln"&gt; 8 &lt;/span&gt;&lt;span class="sd"&gt;    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;span class="ln"&gt; 9 &lt;/span&gt;    &lt;span class="n"&gt;xs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="ln"&gt;10 &lt;/span&gt;    &lt;span class="n"&gt;selectors&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="ln"&gt;11 &lt;/span&gt;    &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;span class="ln"&gt;12 &lt;/span&gt;        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
+&lt;span class="ln"&gt;13 &lt;/span&gt;            &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;nonempty&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="nb"&gt;any&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="ow"&gt;or&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;proper&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="nb"&gt;all&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="ln"&gt;14 &lt;/span&gt;        &lt;span class="p"&gt;):&lt;/span&gt;
+&lt;span class="ln"&gt;15 &lt;/span&gt;            &lt;span class="k"&gt;yield&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;compress&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="ln"&gt;16 &lt;/span&gt;        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;xrange&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;)):&lt;/span&gt;
+&lt;span class="ln"&gt;17 &lt;/span&gt;            &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="ln"&gt;18 &lt;/span&gt;            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt;
+&lt;span class="ln"&gt;19 &lt;/span&gt;                &lt;span class="k"&gt;break&lt;/span&gt;
+&lt;span class="ln"&gt;20 &lt;/span&gt;        &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;span class="ln"&gt;21 &lt;/span&gt;            &lt;span class="k"&gt;break&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;Pelican provides a more featureful alternative to “code”, the &lt;a class="reference external" href="https://docs.getpelican.com/en/stable/content.html#syntax-highlighting"&gt;“code-block”
+directive&lt;/a&gt;.  The default output is pretty much the same as that of “code”, but
+if we enable table-style line numbers with the &lt;tt class="docutils literal"&gt;:linenos:&lt;/tt&gt; option, we see a
+difference:&lt;/p&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;compress&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;subsets&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;nonempty&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;proper&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;span class="sd"&gt;    Returns an iterator over all subsets of the iterable ``xs`` as tuples.&lt;/span&gt;
+&lt;span class="sd"&gt;    If ``nonempty`` is true, only nonempty subsets are returned.  If&lt;/span&gt;
+&lt;span class="sd"&gt;    ``proper`` is true, only proper subsets are returned.&lt;/span&gt;
+&lt;span class="sd"&gt;    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="n"&gt;xs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;selectors&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
+            &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;nonempty&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="nb"&gt;any&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="ow"&gt;or&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;proper&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="nb"&gt;all&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="p"&gt;):&lt;/span&gt;
+            &lt;span class="k"&gt;yield&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;compress&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;xrange&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;)):&lt;/span&gt;
+            &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt;
+                &lt;span class="k"&gt;break&lt;/span&gt;
+        &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;break&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The “code-block” directive also lets us highlight individual lines with the
+&lt;tt class="docutils literal"&gt;:hl_lines:&lt;/tt&gt; option:&lt;/p&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;compress&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;subsets&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;nonempty&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;proper&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;span class="sd"&gt;    Returns an iterator over all subsets of the iterable ``xs`` as tuples.&lt;/span&gt;
+&lt;span class="sd"&gt;    If ``nonempty`` is true, only nonempty subsets are returned.  If&lt;/span&gt;
+&lt;span class="sd"&gt;    ``proper`` is true, only proper subsets are returned.&lt;/span&gt;
+&lt;span class="sd"&gt;    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="n"&gt;xs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;selectors&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;span class="hll"&gt;        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;span class="hll"&gt;            &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;nonempty&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="nb"&gt;any&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="ow"&gt;or&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;proper&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="nb"&gt;all&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;span class="hll"&gt;        &lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;span class="hll"&gt;            &lt;span class="k"&gt;yield&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;compress&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/span&gt;        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;xrange&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;)):&lt;/span&gt;
+            &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt;
+                &lt;span class="k"&gt;break&lt;/span&gt;
+        &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;break&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;… or make every &lt;em&gt;n&lt;/em&gt;-th line number stand out:&lt;/p&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
+ 2
+ 3
+ 4
+&lt;span class="special"&gt; 5&lt;/span&gt;
+ 6
+ 7
+ 8
+ 9
+&lt;span class="special"&gt;10&lt;/span&gt;
+11
+12
+13
+14
+&lt;span class="special"&gt;15&lt;/span&gt;
+16
+17
+18
+19
+&lt;span class="special"&gt;20&lt;/span&gt;
+21&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;compress&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;subsets&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;nonempty&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;proper&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;span class="sd"&gt;    Returns an iterator over all subsets of the iterable ``xs`` as tuples.&lt;/span&gt;
+&lt;span class="sd"&gt;    If ``nonempty`` is true, only nonempty subsets are returned.  If&lt;/span&gt;
+&lt;span class="sd"&gt;    ``proper`` is true, only proper subsets are returned.&lt;/span&gt;
+&lt;span class="sd"&gt;    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="n"&gt;xs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;selectors&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
+            &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;nonempty&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="nb"&gt;any&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="ow"&gt;or&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;proper&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="nb"&gt;all&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="p"&gt;):&lt;/span&gt;
+            &lt;span class="k"&gt;yield&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;compress&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;xrange&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;)):&lt;/span&gt;
+            &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt;
+                &lt;span class="k"&gt;break&lt;/span&gt;
+        &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;break&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;!-- TODO: "code" role --&gt;
+&lt;p&gt;reStructuredText also provides a &lt;a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/roles.html#code"&gt;&lt;tt class="docutils literal"&gt;:code:&lt;/tt&gt; role&lt;/a&gt; that can be used for highlighting
+inline code samples.  To use it, first create a “subrole” with the name of the
+highlighted language supplied to the &lt;tt class="docutils literal"&gt;:language:&lt;/tt&gt; option:&lt;/p&gt;
+&lt;pre class="code rst literal-block"&gt;
+&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="ow"&gt;role&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt; py(code)
+    &lt;span class="nc"&gt;:language:&lt;/span&gt; python
+&lt;/pre&gt;
+&lt;p&gt;… and then you can write this:&lt;/p&gt;
+&lt;pre class="code rst literal-block"&gt;
+Put &lt;span class="na"&gt;:py:&lt;/span&gt;&lt;span class="nv"&gt;`&amp;quot;2&amp;quot; * 2`&lt;/span&gt; in the REPL to get &lt;span class="na"&gt;:py:&lt;/span&gt;&lt;span class="nv"&gt;`&amp;quot;22&amp;quot;`&lt;/span&gt;.
+&lt;/pre&gt;
+&lt;p&gt;… to get this:&lt;/p&gt;
+&lt;blockquote&gt;
+Put &lt;code class="py python"&gt;&lt;span class="s2"&gt;&amp;quot;2&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;/code&gt; in the REPL to get &lt;code class="py python"&gt;&lt;span class="s2"&gt;&amp;quot;22&amp;quot;&lt;/span&gt;&lt;/code&gt;.&lt;/blockquote&gt;
+</content><category term="Examples"></category><category term="reStructuredText"></category><category term="styles"></category><category term="syntax highlighting"></category></entry><entry><title>MathJax Support</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/mathjax/" rel="alternate"></link><published>2020-08-15T17:50:00-04:00</published><updated>2020-08-15T17:50:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-15:/kbits-theme-demo/posts/2020/08/mathjax/</id><summary type="html">&lt;p class="first last"&gt;Rendering things like &lt;span class="math"&gt;\(\sum_{i=1}^n i = \frac{n^2+n}{2}\)&lt;/span&gt; on your site&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;kbits-theme has built-in support for &lt;a class="reference external" href="https://www.mathjax.org"&gt;MathJax&lt;/a&gt;; with a single setting, the theme
+will enable it on every page of the themed site.  That’s just the first step in
+getting MathJax to work, though, and the remainder of the required steps depend
+on what markup format you’re working with.&lt;/p&gt;
+&lt;div class="section" id="mathjax-settings"&gt;
+&lt;h2&gt;MathJax Settings&lt;/h2&gt;
+&lt;p&gt;kbits-theme’s MathJax support can be controlled with the following Pelican
+settings:&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;USE_MATHJAX = False&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Set to &lt;tt class="docutils literal"&gt;True&lt;/tt&gt; to enable MathJax on every page of the site&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;MATHJAX_SCRIPT = &lt;span class="pre"&gt;&amp;quot;https://cdn.jsdelivr.net/npm/mathjax&amp;#64;3/es5/tex-chtml.js&amp;quot;&lt;/span&gt;&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Set the MathJax script to load.  The default setting loads the &lt;a class="reference external" href="http://docs.mathjax.org/en/latest/web/components/combined.html#tex-chtml"&gt;tex-chtml&lt;/a&gt;
+component from the latest revision of MathJax version 3.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;MATHJAX_CONFIG = {}&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Set configuration settings for MathJax.  Configuration is applied assuming
+version 3 of MathJax is in use.  Only JSON-serializable values are supported
+in &lt;tt class="docutils literal"&gt;MATHJAX_CONFIG&lt;/tt&gt;.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mathjax-with-restructuredtext"&gt;
+&lt;h2&gt;MathJax with reStructuredText&lt;/h2&gt;
+&lt;p&gt;To be able to produce mathematical output with MathJax while writing in
+reStructuredText, you need to set the &lt;tt class="docutils literal"&gt;&amp;quot;math_output&amp;quot;&lt;/tt&gt; key of your Pelican
+site’s &lt;tt class="docutils literal"&gt;DOCUTILS_SETTINGS&lt;/tt&gt; setting to &lt;tt class="docutils literal"&gt;&amp;quot;mathjax &lt;span class="pre"&gt;irrelevant-value&amp;quot;&lt;/span&gt;&lt;/tt&gt;.  The
+“mathjax” part is case insensitive.  The second word in the string doesn’t
+matter, but it needs to be there to prevent Docutils from emitting a warning
+that makes Pelican halt.  After you’ve made this change, any use of the &lt;code class="rst"&gt;&lt;span class="nc"&gt;:math:&lt;/span&gt;&lt;/code&gt; role or &lt;a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#math"&gt;“math” directive&lt;/a&gt; in your documents will produce output that MathJax
+will then render into mathematical notation.&lt;/p&gt;
+&lt;div class="admonition note"&gt;
+&lt;p class="first admonition-title"&gt;Note&lt;/p&gt;
+&lt;p class="last"&gt;When using the “math” directive, Docutils will wrap your math markup in a
+&lt;code class="tx tex"&gt;&lt;span class="k"&gt;\begin&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;align*&lt;span class="nb"&gt;}&lt;/span&gt;&lt;/code&gt; … &lt;code class="tx tex"&gt;&lt;span class="k"&gt;\end&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;align*&lt;span class="nb"&gt;}&lt;/span&gt;&lt;/code&gt; environment if it contains any
+&lt;code class="tx tex"&gt;&lt;span class="k"&gt;\\&lt;/span&gt;&lt;/code&gt; commands outside of an environment, and in a
+&lt;code class="tx tex"&gt;&lt;span class="k"&gt;\begin&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;equation*&lt;span class="nb"&gt;}&lt;/span&gt;&lt;/code&gt; … &lt;code class="tx tex"&gt;&lt;span class="k"&gt;\end&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;equation*&lt;span class="nb"&gt;}&lt;/span&gt;&lt;/code&gt; environment otherwise.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mathjax-with-markdown"&gt;
+&lt;h2&gt;MathJax with Markdown&lt;/h2&gt;
+&lt;p&gt;For writing math in Markdown with kbits-theme, the best option appears to be
+the &lt;a class="reference external" href="https://github.com/facelessuser/pymdown-extensions"&gt;pymdown-extensions&lt;/a&gt; package and its Markdown extension &lt;a class="reference external" href="https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/"&gt;Arithmatex&lt;/a&gt;, which
+can convert math markup in Markdown input into MathJaxable output.  In order to
+use this extension with kbits-theme, you must install pymdown-extensions into
+your Pelican environment and set Arithmatex’s “generic” option to true by
+adding the following configuration to your Pelican site’s &lt;tt class="docutils literal"&gt;MARKDOWN&lt;/tt&gt; setting:&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="n"&gt;MARKDOWN&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="o"&gt;...&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;extension_configs&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="o"&gt;...&lt;/span&gt;
+        &lt;span class="s2"&gt;&amp;quot;pymdownx.arithmatex&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;generic&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;},&lt;/span&gt;
+        &lt;span class="o"&gt;...&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="o"&gt;...&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;If this is the first time you’re modifying the value of &lt;tt class="docutils literal"&gt;MARKDOWN&lt;/tt&gt;, you
+should copy the default value shown in &lt;a class="reference external" href="https://docs.getpelican.com/en/stable/settings.html"&gt;the Pelican documentation&lt;/a&gt; and modify
+that.&lt;/p&gt;
+&lt;p&gt;An alternative worth mentioning is the &lt;a class="reference external" href="https://github.com/pelican-plugins/render-math"&gt;pelican-render-math&lt;/a&gt; plugin for Pelican,
+which enables writing math in Markdown and adds a &lt;tt class="docutils literal"&gt;&amp;lt;script&amp;gt;&lt;/tt&gt; tag for
+activating MathJax to the end of any rendered reStructuredText or Markdown
+content that includes math markup.  This &lt;tt class="docutils literal"&gt;&amp;lt;script&amp;gt;&lt;/tt&gt; conflicts with the
+MathJax loaded by kbits-theme, so if you’re using pelican-render-math, it’s
+recommended to leave &lt;tt class="docutils literal"&gt;USE_MATHJAX&lt;/tt&gt; at &lt;tt class="docutils literal"&gt;False&lt;/tt&gt; and configure MathJax through
+pelican-render-math’s facilities instead.&lt;/p&gt;
+&lt;p&gt;Another alternative, mentioned here for completeness’ sake, is the
+&lt;a class="reference external" href="https://github.com/mitya57/python-markdown-math"&gt;python-markdown-math&lt;/a&gt; package.  The output it produces is by default only
+compatible with version 2 of MathJax, so if you use it with kbits-theme, you
+will need to set &lt;tt class="docutils literal"&gt;MATHJAX_SCRIPT&lt;/tt&gt; to a version 2 URL, and &lt;tt class="docutils literal"&gt;MATHJAX_CONFIG&lt;/tt&gt;
+will be unusable.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="other-considerations"&gt;
+&lt;h2&gt;Other Considerations&lt;/h2&gt;
+&lt;p&gt;If you’re using MathJax and Typogrify is enabled for your site, and if you’re
+not using pelican-render-math (which takes care of this automatically), you
+need to configure Typogrify to ignore math tags.  Add &lt;tt class="docutils literal"&gt;&amp;quot;.math&amp;quot;&lt;/tt&gt; to your
+site’s &lt;tt class="docutils literal"&gt;TYPOGRIFY_IGNORE_TAGS&lt;/tt&gt; setting if you’re writing math in
+reStructuredText, add &lt;tt class="docutils literal"&gt;&amp;quot;.arithmatex&amp;quot;&lt;/tt&gt; if you’re writing in Markdown with
+pymdown-extensions’ Arithmatex, and add &lt;tt class="docutils literal"&gt;&amp;quot;script&amp;quot;&lt;/tt&gt; if you’re writing in
+Markdown with python-markdown-math.  Typogrify v2.0.7 or higher is required for
+such settings.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="some-mathjax-output"&gt;
+&lt;h2&gt;Some MathJax Output&lt;/h2&gt;
+&lt;p&gt;But enough about all that.  You came here to see some math, didn’t you?
+Behold!&lt;/p&gt;
+&lt;div class="topic"&gt;
+&lt;p class="topic-title"&gt;Theorem&lt;/p&gt;
+&lt;p&gt;For all positive integers &lt;span class="math"&gt;\(n\)&lt;/span&gt;, &lt;span class="math"&gt;\(\sum_{i=1}^n i =
+\frac{n^2+n}{2}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Proof:&lt;/strong&gt; When &lt;span class="math"&gt;\(n = 1\)&lt;/span&gt;, then:&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{align*}
+\sum_{i=1}^n i &amp;amp; = \sum_{i=1}^1 i \\
+               &amp;amp; = 1 \\
+               &amp;amp; = \frac{1^2+1}{2} \\
+               &amp;amp; = \frac{n^2+n}{2}
+\end{align*}
+&lt;/div&gt;
+&lt;p&gt;If &lt;span class="math"&gt;\(\sum_{i=1}^n i = \frac{n^2+n}{2}\)&lt;/span&gt; for some positive integer
+&lt;span class="math"&gt;\(n\)&lt;/span&gt;, then:&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{align*}
+\sum_{i=1}^n i &amp;amp; = \frac{n^2+n}{2} \\
+\left(\sum_{i=1}^n i\right) + (n+1) &amp;amp; = \frac{n^2+n}{2} + (n+1) \\
+\sum_{i=1}^{n+1} i &amp;amp; = \frac{n^2+n + 2n + 2}{2} \\
+                   &amp;amp; = \frac{(n^2+2n+1) + (n+1)}{2} \\
+                   &amp;amp; = \frac{(n+1)^2 + (n+1)}{2}
+\end{align*}
+&lt;/div&gt;
+&lt;p&gt;and so the statement holds for &lt;span class="math"&gt;\(n+1\)&lt;/span&gt; as well.&lt;/p&gt;
+&lt;p&gt;Therefore, by the Principle of Mathematical Induction, &lt;span class="math"&gt;\(\sum_{i=1}^n
+i = \frac{n^2+n}{2}\)&lt;/span&gt; for all positive integers &lt;span class="math"&gt;\(n\)&lt;/span&gt;.  ∎&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="Features"></category><category term="MathJax"></category><category term="reStructuredText"></category><category term="Markdown"></category><category term="theme settings"></category></entry><entry><title>Table Styles and Alignment in reStructuredText</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/table-styles/" rel="alternate"></link><published>2020-08-13T22:54:00-04:00</published><updated>2020-08-13T22:54:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-13:/kbits-theme-demo/posts/2020/08/table-styles/</id><summary type="html">&lt;p class="first last"&gt;kbits-theme’s support for Docutils table styles and table alignment
+specifiers&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Did you know?  The default stylesheet bundled with Docutils (the standard
+renderer for reStructuredText) supports two special class values for tables,
+“&lt;tt class="docutils literal"&gt;booktabs&lt;/tt&gt;” and “&lt;tt class="docutils literal"&gt;borderless&lt;/tt&gt;”, and kbits-theme supports them as well.
+kbits-theme also includes support for alignment of tables in the center or at
+the right edge of a page.&lt;/p&gt;
+&lt;p&gt;When writing in reStructuredText, one can set the class for a table using the
+&lt;a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#class"&gt;“class” directive&lt;/a&gt; or the &lt;tt class="docutils literal"&gt;:class:&lt;/tt&gt; option of the &lt;a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#table"&gt;“table” directive&lt;/a&gt;.
+Alternatively, a table can be expressed using the &lt;a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#id4"&gt;“csv-table” directive&lt;/a&gt; or
+&lt;a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#list-table"&gt;“list-table” directive&lt;/a&gt;, both of which support the &lt;tt class="docutils literal"&gt;:class:&lt;/tt&gt; option.&lt;/p&gt;
+&lt;p&gt;If a table is given the “&lt;tt class="docutils literal"&gt;booktabs&lt;/tt&gt;” class, the only rules in the table will
+be two slightly thick rules at the top &amp;amp; bottom of the table and a thin rule
+after the head, like so:&lt;/p&gt;
+&lt;table border="1" class="booktabs docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="46%" /&gt;
+&lt;col width="54%" /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign="bottom"&gt;
+&lt;tr&gt;&lt;th class="head"&gt;Color&lt;/th&gt;
+&lt;th class="head"&gt;Element&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;Blue&lt;/td&gt;
+&lt;td&gt;Water&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Green&lt;/td&gt;
+&lt;td&gt;Earth&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Red&lt;/td&gt;
+&lt;td&gt;Fire&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Yellow&lt;/td&gt;
+&lt;td&gt;Air&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;If the table is instead given the “&lt;tt class="docutils literal"&gt;borderless&lt;/tt&gt;” class, it will not have any
+rules at all, like so:&lt;/p&gt;
+&lt;table border="1" class="borderless docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="46%" /&gt;
+&lt;col width="54%" /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign="bottom"&gt;
+&lt;tr&gt;&lt;th class="head"&gt;Color&lt;/th&gt;
+&lt;th class="head"&gt;Element&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;Blue&lt;/td&gt;
+&lt;td&gt;Water&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Green&lt;/td&gt;
+&lt;td&gt;Earth&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Red&lt;/td&gt;
+&lt;td&gt;Fire&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Yellow&lt;/td&gt;
+&lt;td&gt;Air&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The three table directives also support an &lt;tt class="docutils literal"&gt;:align:&lt;/tt&gt; option, which can be set
+to “&lt;tt class="docutils literal"&gt;left&lt;/tt&gt;”, “&lt;tt class="docutils literal"&gt;center&lt;/tt&gt;”, or “&lt;tt class="docutils literal"&gt;right&lt;/tt&gt;” to cause the table to be
+left-aligned, centered, or right-aligned.  For example, a centered table:&lt;/p&gt;
+&lt;table border="1" class="docutils align-center"&gt;
+&lt;colgroup&gt;
+&lt;col width="46%" /&gt;
+&lt;col width="54%" /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign="bottom"&gt;
+&lt;tr&gt;&lt;th class="head"&gt;Color&lt;/th&gt;
+&lt;th class="head"&gt;Element&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;Blue&lt;/td&gt;
+&lt;td&gt;Water&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Green&lt;/td&gt;
+&lt;td&gt;Earth&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Red&lt;/td&gt;
+&lt;td&gt;Fire&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Yellow&lt;/td&gt;
+&lt;td&gt;Air&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;and a right-aligned table:&lt;/p&gt;
+&lt;table border="1" class="docutils align-right"&gt;
+&lt;colgroup&gt;
+&lt;col width="46%" /&gt;
+&lt;col width="54%" /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign="bottom"&gt;
+&lt;tr&gt;&lt;th class="head"&gt;Color&lt;/th&gt;
+&lt;th class="head"&gt;Element&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;Blue&lt;/td&gt;
+&lt;td&gt;Water&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Green&lt;/td&gt;
+&lt;td&gt;Earth&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Red&lt;/td&gt;
+&lt;td&gt;Fire&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Yellow&lt;/td&gt;
+&lt;td&gt;Air&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Note that, unlike in HTML documents styled with Docutils’ default stylesheet,
+the text inside aligned tables is always left-aligned (or centered, for
+headers) rather than matching the alignment of the table.  This is a deliberate
+design choice by kbits-theme.&lt;/p&gt;
+</content><category term="Features"></category><category term="reStructuredText"></category><category term="styles"></category><category term="tables"></category></entry><entry><title>reStructuredText Demonstration</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2012/01/demo/" rel="alternate"></link><published>2012-01-03T00:00:00-05:00</published><updated>2020-08-15T22:51:00-04:00</updated><author><name>David Goodger</name></author><id>tag:jwodder.github.io,2012-01-03:/kbits-theme-demo/posts/2012/01/demo/</id><summary type="html">&lt;p class="first last"&gt;The reStructuredText demo document, included here to show off kbits-theme’s
+styles&lt;/p&gt;
+</summary><content type="html">&lt;div class="dedication topic"&gt;
+&lt;p class="topic-title"&gt;Dedication&lt;/p&gt;
+&lt;p&gt;For Docutils users &amp;amp; co-developers.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="abstract topic"&gt;
+&lt;p class="topic-title"&gt;Abstract&lt;/p&gt;
+&lt;p&gt;This document is a demonstration of the reStructuredText markup
+language, containing examples of all basic reStructuredText
+constructs and many advanced constructs.&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- This is a comment. Note how any initial comments are moved by
+transforms to after the document title, subtitle, and docinfo. --&gt;
+&lt;!-- Above is the document title, and below is the subtitle.
+They are transformed from section titles after parsing. --&gt;
+&lt;!-- bibliographic fields (which also require a transform): --&gt;
+&lt;div class="contents topic" id="table-of-contents"&gt;
+&lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
+&lt;ul class="auto-toc simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#structural-elements" id="id21"&gt;1&amp;nbsp;&amp;nbsp;&amp;nbsp;Structural Elements&lt;/a&gt;&lt;ul class="auto-toc"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#section-title" id="id22"&gt;1.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Section Title&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#transitions" id="id23"&gt;1.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Transitions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#body-elements" id="id24"&gt;2&amp;nbsp;&amp;nbsp;&amp;nbsp;Body Elements&lt;/a&gt;&lt;ul class="auto-toc"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#paragraphs" id="id25"&gt;2.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Paragraphs&lt;/a&gt;&lt;ul class="auto-toc"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#inline-markup" id="id26"&gt;2.1.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Inline Markup&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#bullet-lists" id="id27"&gt;2.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Bullet Lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#enumerated-lists" id="id28"&gt;2.3&amp;nbsp;&amp;nbsp;&amp;nbsp;Enumerated Lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#definition-lists" id="id29"&gt;2.4&amp;nbsp;&amp;nbsp;&amp;nbsp;Definition Lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#field-lists" id="id30"&gt;2.5&amp;nbsp;&amp;nbsp;&amp;nbsp;Field Lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#option-lists" id="id31"&gt;2.6&amp;nbsp;&amp;nbsp;&amp;nbsp;Option Lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#literal-blocks" id="id32"&gt;2.7&amp;nbsp;&amp;nbsp;&amp;nbsp;Literal Blocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#line-blocks" id="id33"&gt;2.8&amp;nbsp;&amp;nbsp;&amp;nbsp;Line Blocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#block-quotes" id="id34"&gt;2.9&amp;nbsp;&amp;nbsp;&amp;nbsp;Block Quotes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#doctest-blocks" id="id35"&gt;2.10&amp;nbsp;&amp;nbsp;&amp;nbsp;Doctest Blocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#tables" id="id36"&gt;2.11&amp;nbsp;&amp;nbsp;&amp;nbsp;Tables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#footnotes" id="id37"&gt;2.12&amp;nbsp;&amp;nbsp;&amp;nbsp;Footnotes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#citations" id="id38"&gt;2.13&amp;nbsp;&amp;nbsp;&amp;nbsp;Citations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#targets" id="id39"&gt;2.14&amp;nbsp;&amp;nbsp;&amp;nbsp;Targets&lt;/a&gt;&lt;ul class="auto-toc"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#duplicate-target-names" id="id40"&gt;2.14.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Duplicate Target Names&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#id16" id="id41"&gt;2.14.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Duplicate Target Names&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#directives" id="id42"&gt;2.15&amp;nbsp;&amp;nbsp;&amp;nbsp;Directives&lt;/a&gt;&lt;ul class="auto-toc"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#document-parts" id="id43"&gt;2.15.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Document Parts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#images" id="id44"&gt;2.15.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#admonitions" id="id45"&gt;2.15.3&amp;nbsp;&amp;nbsp;&amp;nbsp;Admonitions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#topics-sidebars-and-rubrics" id="id46"&gt;2.15.4&amp;nbsp;&amp;nbsp;&amp;nbsp;Topics, Sidebars, and Rubrics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#target-footnotes" id="id47"&gt;2.15.5&amp;nbsp;&amp;nbsp;&amp;nbsp;Target Footnotes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#replacement-text" id="id48"&gt;2.15.6&amp;nbsp;&amp;nbsp;&amp;nbsp;Replacement Text&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#compound-paragraph" id="id49"&gt;2.15.7&amp;nbsp;&amp;nbsp;&amp;nbsp;Compound Paragraph&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#substitution-definitions" id="id50"&gt;2.16&amp;nbsp;&amp;nbsp;&amp;nbsp;Substitution Definitions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#comments" id="id51"&gt;2.17&amp;nbsp;&amp;nbsp;&amp;nbsp;Comments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#error-handling" id="id52"&gt;3&amp;nbsp;&amp;nbsp;&amp;nbsp;Error Handling&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="structural-elements"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id21"&gt;1&amp;nbsp;&amp;nbsp;&amp;nbsp;Structural Elements&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="section" id="section-title"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id22"&gt;1.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Section Title&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;That’s it, the text just above this line.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="transitions"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id23"&gt;1.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Transitions&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Here’s a transition:&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;It divides the section.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="body-elements"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id24"&gt;2&amp;nbsp;&amp;nbsp;&amp;nbsp;Body Elements&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="section" id="paragraphs"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id25"&gt;2.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Paragraphs&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;A paragraph.&lt;/p&gt;
+&lt;div class="section" id="inline-markup"&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#id26"&gt;2.1.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Inline Markup&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Paragraphs contain text and may contain inline markup: &lt;em&gt;emphasis&lt;/em&gt;,
+&lt;strong&gt;strong emphasis&lt;/strong&gt;, &lt;tt class="docutils literal"&gt;inline literals&lt;/tt&gt;, standalone hyperlinks
+(&lt;a class="reference external" href="http://www.python.org"&gt;http://www.python.org&lt;/a&gt;), external hyperlinks (&lt;a class="reference external" href="http://www.python.org/"&gt;Python&lt;/a&gt; &lt;a class="footnote-reference" href="#id17" id="id18"&gt;[5]&lt;/a&gt;), internal
+cross-references (&lt;a class="reference internal" href="#example"&gt;example&lt;/a&gt;), external hyperlinks with embedded URIs
+(&lt;a class="reference external" href="http://www.python.org"&gt;Python web site&lt;/a&gt;), footnote references
+(manually numbered &lt;a class="footnote-reference" href="#id6" id="id1"&gt;[1]&lt;/a&gt;, anonymous auto-numbered &lt;a class="footnote-reference" href="#id9" id="id2"&gt;[3]&lt;/a&gt;, labeled
+auto-numbered &lt;a class="footnote-reference" href="#label" id="id3"&gt;[2]&lt;/a&gt;, or symbolic &lt;a class="footnote-reference" href="#id10" id="id4"&gt;[*]&lt;/a&gt;), citation references
+(&lt;a class="citation-reference" href="#cit2002" id="id5"&gt;[CIT2002]&lt;/a&gt;), substitution references (&lt;img alt="EXAMPLE" src="https://jwodder.github.io/kbits-theme-demo/posts/2012/01/demo/biohazard.png" /&gt;), and &lt;span class="target" id="inline-hyperlink-targets"&gt;inline
+hyperlink targets&lt;/span&gt; (see &lt;a class="reference internal" href="#targets"&gt;Targets&lt;/a&gt; below for a reference back to here).
+Character-level inline markup is also possible (although exceedingly
+ugly!) in &lt;em&gt;re&lt;/em&gt;&lt;tt class="docutils literal"&gt;Structured&lt;/tt&gt;&lt;em&gt;Text&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The default role for interpreted text is &lt;cite&gt;Title Reference&lt;/cite&gt;.  Here are
+some explicit interpreted text roles: a PEP reference (&lt;a class="reference external" href="http://www.python.org/dev/peps/pep-0287"&gt;PEP 287&lt;/a&gt;); an
+RFC reference (&lt;a class="reference external" href="http://tools.ietf.org/html/rfc2822.html"&gt;RFC 2822&lt;/a&gt;); a &lt;sub&gt;subscript&lt;/sub&gt;; a &lt;sup&gt;superscript&lt;/sup&gt;;
+and explicit roles for &lt;em&gt;standard&lt;/em&gt; &lt;strong&gt;inline&lt;/strong&gt;
+&lt;tt class="docutils literal"&gt;markup&lt;/tt&gt;.&lt;/p&gt;
+&lt;!-- DO NOT RE-WRAP THE FOLLOWING PARAGRAPH! --&gt;
+&lt;p&gt;Let’s test wrapping and whitespace significance in inline literals:
+&lt;tt class="docutils literal"&gt;This is an example of &lt;span class="pre"&gt;--inline-literal&lt;/span&gt; &lt;span class="pre"&gt;--text,&lt;/span&gt; &lt;span class="pre"&gt;--including&lt;/span&gt; &lt;span class="pre"&gt;some--&lt;/span&gt;
+&lt;span class="pre"&gt;strangely--hyphenated-words.&lt;/span&gt;&amp;nbsp; &lt;span class="pre"&gt;Adjust-the-width-of-your-browser-window&lt;/span&gt;
+to see how the text is wrapped.&amp;nbsp; &lt;span class="pre"&gt;--&lt;/span&gt; &lt;span class="pre"&gt;----&lt;/span&gt; &lt;span class="pre"&gt;--------&lt;/span&gt;&amp;nbsp; Now note&amp;nbsp;&amp;nbsp;&amp;nbsp; the
+spacing&amp;nbsp;&amp;nbsp;&amp;nbsp; between the&amp;nbsp;&amp;nbsp;&amp;nbsp; words of&amp;nbsp;&amp;nbsp;&amp;nbsp; this sentence&amp;nbsp;&amp;nbsp;&amp;nbsp; (words
+should&amp;nbsp;&amp;nbsp;&amp;nbsp; be grouped&amp;nbsp;&amp;nbsp;&amp;nbsp; in pairs).&lt;/tt&gt;&lt;/p&gt;
+&lt;p&gt;If the &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;--pep-references&lt;/span&gt;&lt;/tt&gt; option was supplied, there should be a
+live link to PEP 258 here.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="bullet-lists"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id27"&gt;2.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Bullet Lists&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;A bullet list&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Nested bullet list.&lt;/li&gt;
+&lt;li&gt;Nested item 2.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Item 2.&lt;/p&gt;
+&lt;p&gt;Paragraph 2 of item 2.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Nested bullet list.&lt;/li&gt;
+&lt;li&gt;Nested item 2.&lt;ul&gt;
+&lt;li&gt;Third level.&lt;/li&gt;
+&lt;li&gt;Item 2.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Nested item 3.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="enumerated-lists"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id28"&gt;2.3&amp;nbsp;&amp;nbsp;&amp;nbsp;Enumerated Lists&lt;/a&gt;&lt;/h3&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;&lt;p class="first"&gt;Arabic numerals.&lt;/p&gt;
+&lt;ol class="loweralpha simple"&gt;
+&lt;li&gt;lower alpha)&lt;ol class="lowerroman"&gt;
+&lt;li&gt;(lower roman)&lt;ol class="upperalpha"&gt;
+&lt;li&gt;upper alpha.&lt;ol class="upperroman"&gt;
+&lt;li&gt;upper roman)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Lists that don’t start at 1:&lt;/p&gt;
+&lt;ol class="arabic simple" start="3"&gt;
+&lt;li&gt;Three&lt;/li&gt;
+&lt;li&gt;Four&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="upperalpha simple" start="3"&gt;
+&lt;li&gt;C&lt;/li&gt;
+&lt;li&gt;D&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol class="lowerroman simple" start="3"&gt;
+&lt;li&gt;iii&lt;/li&gt;
+&lt;li&gt;iv&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;List items may also be auto-enumerated.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="section" id="definition-lists"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id29"&gt;2.4&amp;nbsp;&amp;nbsp;&amp;nbsp;Definition Lists&lt;/a&gt;&lt;/h3&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;Term&lt;/dt&gt;
+&lt;dd&gt;Definition&lt;/dd&gt;
+&lt;dt&gt;Term &lt;span class="classifier-delimiter"&gt;:&lt;/span&gt; &lt;span class="classifier"&gt;classifier&lt;/span&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p class="first"&gt;Definition paragraph 1.&lt;/p&gt;
+&lt;p class="last"&gt;Definition paragraph 2.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Term&lt;/dt&gt;
+&lt;dd&gt;Definition&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class="section" id="field-lists"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id30"&gt;2.5&amp;nbsp;&amp;nbsp;&amp;nbsp;Field Lists&lt;/a&gt;&lt;/h3&gt;
+&lt;table class="docutils field-list" frame="void" rules="none"&gt;
+&lt;col class="field-name" /&gt;
+&lt;col class="field-body" /&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr class="field"&gt;&lt;th class="field-name"&gt;what:&lt;/th&gt;&lt;td class="field-body"&gt;&lt;p class="first"&gt;Field lists map field names to field bodies, like database
+records.  They are often part of an extension syntax.  They are
+an unambiguous variant of RFC 2822 fields.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="field"&gt;&lt;th class="field-name"&gt;how arg1 arg2:&lt;/th&gt;&lt;td class="field-body"&gt;&lt;p class="first"&gt;The field marker is a colon, the field name, and a colon.&lt;/p&gt;
+&lt;p class="last"&gt;The field body may contain one or more body elements, indented
+relative to the field marker.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class="section" id="option-lists"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id31"&gt;2.6&amp;nbsp;&amp;nbsp;&amp;nbsp;Option Lists&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;For listing command-line options:&lt;/p&gt;
+&lt;table class="docutils option-list" frame="void" rules="none"&gt;
+&lt;col class="option" /&gt;
+&lt;col class="description" /&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="option-group"&gt;
+&lt;kbd&gt;&lt;span class="option"&gt;-a&lt;/span&gt;&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;command-line option “a”&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="option-group"&gt;
+&lt;kbd&gt;&lt;span class="option"&gt;-b &lt;var&gt;file&lt;/var&gt;&lt;/span&gt;&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;options can have arguments
+and long descriptions&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="option-group"&gt;
+&lt;kbd&gt;&lt;span class="option"&gt;--long&lt;/span&gt;&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;options can be long also&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="option-group"&gt;
+&lt;kbd&gt;&lt;span class="option"&gt;--input=&lt;var&gt;file&lt;/var&gt;&lt;/span&gt;&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;long options can also have
+arguments&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="option-group" colspan="2"&gt;
+&lt;kbd&gt;&lt;span class="option"&gt;--very-long-option&lt;/span&gt;&lt;/kbd&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;p class="first"&gt;The description can also start on the next line.&lt;/p&gt;
+&lt;p class="last"&gt;The description may contain multiple body elements,
+regardless of where it starts.&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="option-group"&gt;
+&lt;kbd&gt;&lt;span class="option"&gt;-x&lt;/span&gt;, &lt;span class="option"&gt;-y&lt;/span&gt;, &lt;span class="option"&gt;-z&lt;/span&gt;&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Multiple options are an “option group”.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="option-group"&gt;
+&lt;kbd&gt;&lt;span class="option"&gt;-v&lt;/span&gt;, &lt;span class="option"&gt;--verbose&lt;/span&gt;&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Commonly-seen: short &amp;amp; long options.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="option-group" colspan="2"&gt;
+&lt;kbd&gt;&lt;span class="option"&gt;-1 &lt;var&gt;file&lt;/var&gt;&lt;/span&gt;, &lt;span class="option"&gt;--one=&lt;var&gt;file&lt;/var&gt;&lt;/span&gt;, &lt;span class="option"&gt;--two &lt;var&gt;file&lt;/var&gt;&lt;/span&gt;&lt;/kbd&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;Multiple options with arguments.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="option-group"&gt;
+&lt;kbd&gt;&lt;span class="option"&gt;/V&lt;/span&gt;&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;DOS/VMS-style options too&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;There must be at least two spaces between the option and the
+description.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="literal-blocks"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id32"&gt;2.7&amp;nbsp;&amp;nbsp;&amp;nbsp;Literal Blocks&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Literal blocks are indicated with a double-colon (“::”) at the end of
+the preceding paragraph (over there &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;--&amp;gt;&lt;/span&gt;&lt;/tt&gt;).  They can be indented:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+if literal_block:
+    text = 'is left as-is'
+    spaces_and_linebreaks = 'are preserved'
+    markup_processing = None
+&lt;/pre&gt;
+&lt;p&gt;Or they can be quoted without indentation:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+&amp;gt;&amp;gt; Great idea!
+&amp;gt;
+&amp;gt; Why didn't I think of that?
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="line-blocks"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id33"&gt;2.8&amp;nbsp;&amp;nbsp;&amp;nbsp;Line Blocks&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;This is a line block.  It ends with a blank line.&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Each new line begins with a vertical bar (“|”).&lt;/div&gt;
+&lt;div class="line"&gt;Line breaks and initial indents are preserved.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line"&gt;Continuation lines are wrapped portions of long lines;
+they begin with a space in place of the vertical bar.&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;The left edge of a continuation line need not be aligned with
+the left edge of the text above it.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;This is a second line block.&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Blank lines are permitted internally, but they must begin with a “|”.&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Take it away, Eric the Orchestra Leader!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;A one, two, a one two three four&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Half a bee, philosophically,&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;must, &lt;em&gt;ipso facto&lt;/em&gt;, half not be.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line"&gt;But half the bee has got to be,&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;em&gt;vis a vis&lt;/em&gt; its entity.  D’you see?&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line"&gt;But can a bee be said to be&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;or not to be an entire bee,&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;when half the bee is not a bee,&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;due to some ancient injury?&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line"&gt;Singing…&lt;/div&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div class="section" id="block-quotes"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id34"&gt;2.9&amp;nbsp;&amp;nbsp;&amp;nbsp;Block Quotes&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Block quotes consist of indented body elements:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;My theory by A. Elk.  Brackets Miss, brackets.  This theory goes
+as follows and begins now.  All brontosauruses are thin at one
+end, much much thicker in the middle and then thin again at the
+far end.  That is my theory, it is mine, and belongs to me and I
+own it, and what it is too.&lt;/p&gt;
+&lt;p class="attribution"&gt;&amp;mdash;Anne Elk (Miss)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div class="section" id="doctest-blocks"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id35"&gt;2.10&amp;nbsp;&amp;nbsp;&amp;nbsp;Doctest Blocks&lt;/a&gt;&lt;/h3&gt;
+&lt;pre class="doctest-block"&gt;
+&amp;gt;&amp;gt;&amp;gt; print 'Python-specific usage examples; begun with &amp;quot;&amp;gt;&amp;gt;&amp;gt;&amp;quot;'
+Python-specific usage examples; begun with &amp;quot;&amp;gt;&amp;gt;&amp;gt;&amp;quot;
+&amp;gt;&amp;gt;&amp;gt; print '(cut and pasted from interactive Python sessions)'
+(cut and pasted from interactive Python sessions)
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="tables"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id36"&gt;2.11&amp;nbsp;&amp;nbsp;&amp;nbsp;Tables&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Here’s a grid table followed by a simple table:&lt;/p&gt;
+&lt;table border="1" class="docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="43%" /&gt;
+&lt;col width="21%" /&gt;
+&lt;col width="18%" /&gt;
+&lt;col width="18%" /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign="bottom"&gt;
+&lt;tr&gt;&lt;th class="head"&gt;Header row, column 1
+(header rows optional)&lt;/th&gt;
+&lt;th class="head"&gt;Header 2&lt;/th&gt;
+&lt;th class="head"&gt;Header 3&lt;/th&gt;
+&lt;th class="head"&gt;Header 4&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;body row 1, column 1&lt;/td&gt;
+&lt;td&gt;column 2&lt;/td&gt;
+&lt;td&gt;column 3&lt;/td&gt;
+&lt;td&gt;column 4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;body row 2&lt;/td&gt;
+&lt;td colspan="3"&gt;Cells may span columns.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;body row 3&lt;/td&gt;
+&lt;td rowspan="2"&gt;Cells may
+span rows.&lt;/td&gt;
+&lt;td colspan="2" rowspan="2"&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;Table cells&lt;/li&gt;
+&lt;li&gt;contain&lt;/li&gt;
+&lt;li&gt;body elements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;body row 4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;body row 5&lt;/td&gt;
+&lt;td colspan="2"&gt;Cells may also be
+empty: &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;--&amp;gt;&lt;/span&gt;&lt;/tt&gt;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table border="1" class="docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="31%" /&gt;
+&lt;col width="31%" /&gt;
+&lt;col width="38%" /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign="bottom"&gt;
+&lt;tr&gt;&lt;th class="head" colspan="2"&gt;Inputs&lt;/th&gt;
+&lt;th class="head"&gt;Output&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;th class="head"&gt;A&lt;/th&gt;
+&lt;th class="head"&gt;B&lt;/th&gt;
+&lt;th class="head"&gt;A or B&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;False&lt;/td&gt;
+&lt;td&gt;False&lt;/td&gt;
+&lt;td&gt;False&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;True&lt;/td&gt;
+&lt;td&gt;False&lt;/td&gt;
+&lt;td&gt;True&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;False&lt;/td&gt;
+&lt;td&gt;True&lt;/td&gt;
+&lt;td&gt;True&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;True&lt;/td&gt;
+&lt;td&gt;True&lt;/td&gt;
+&lt;td&gt;True&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class="section" id="footnotes"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id37"&gt;2.12&amp;nbsp;&amp;nbsp;&amp;nbsp;Footnotes&lt;/a&gt;&lt;/h3&gt;
+&lt;table class="docutils footnote" frame="void" id="id6" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;[1]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#id1"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#id7"&gt;2&lt;/a&gt;)&lt;/em&gt; &lt;p&gt;A footnote contains body elements, consistently indented by at
+least 3 spaces.&lt;/p&gt;
+&lt;p class="last"&gt;This is the footnote’s second paragraph.&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="label" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;[2]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#id3"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#id8"&gt;2&lt;/a&gt;)&lt;/em&gt; Footnotes may be numbered, either manually (as in &lt;a class="footnote-reference" href="#id6" id="id7"&gt;[1]&lt;/a&gt;) or
+automatically using a “#”-prefixed label.  This footnote has a
+label so it can be referred to from multiple places, both as a
+footnote reference (&lt;a class="footnote-reference" href="#label" id="id8"&gt;[2]&lt;/a&gt;) and as a hyperlink reference
+(&lt;a class="reference internal" href="#label"&gt;label&lt;/a&gt;).&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="id9" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id2"&gt;[3]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;This footnote is numbered automatically and anonymously using a
+label of “#” only.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="id10" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id4"&gt;[*]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Footnotes may also use symbols, specified with a “*” label.
+Here’s a reference to the next footnote: &lt;a class="footnote-reference" href="#id12" id="id11"&gt;[†]&lt;/a&gt;.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="id12" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id11"&gt;[†]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;This footnote shows the next symbol in the sequence.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="id13" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;[4]&lt;/td&gt;&lt;td&gt;Here’s an unreferenced footnote.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class="section" id="citations"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id38"&gt;2.13&amp;nbsp;&amp;nbsp;&amp;nbsp;Citations&lt;/a&gt;&lt;/h3&gt;
+&lt;table class="docutils citation" frame="void" id="cit2002" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;[CIT2002]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#id5"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#id14"&gt;2&lt;/a&gt;)&lt;/em&gt; Citations are text-labeled footnotes. They may be
+rendered separately and differently from footnotes.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Here’s a reference to the above, &lt;a class="citation-reference" href="#cit2002" id="id14"&gt;[CIT2002]&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="targets"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id39"&gt;2.14&amp;nbsp;&amp;nbsp;&amp;nbsp;Targets&lt;/a&gt;&lt;/h3&gt;
+&lt;p id="example"&gt;This paragraph is pointed to by the explicit “example” target. A
+reference can be found under &lt;a class="reference internal" href="#inline-markup"&gt;Inline Markup&lt;/a&gt;, above. &lt;a class="reference internal" href="#inline-hyperlink-targets"&gt;Inline
+hyperlink targets&lt;/a&gt; are also possible.&lt;/p&gt;
+&lt;p&gt;Section headers are implicit targets, referred to by name. See
+&lt;a class="reference internal" href="#targets"&gt;Targets&lt;/a&gt;, which is a subsection of &lt;a class="reference internal" href="#body-elements"&gt;Body Elements&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Explicit external targets are interpolated into references such as
+“&lt;a class="reference external" href="http://www.python.org/"&gt;Python&lt;/a&gt; &lt;a class="footnote-reference" href="#id17" id="id19"&gt;[5]&lt;/a&gt;”.&lt;/p&gt;
+&lt;p&gt;Targets may be indirect and anonymous.  Thus &lt;a class="reference internal" href="#targets"&gt;this phrase&lt;/a&gt; may also
+refer to the &lt;a class="reference internal" href="#targets"&gt;Targets&lt;/a&gt; section.&lt;/p&gt;
+&lt;div class="section" id="duplicate-target-names"&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#id40"&gt;2.14.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Duplicate Target Names&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Duplicate names in section headers or other implicit targets will
+generate “info” (level-1) system messages.  Duplicate names in
+explicit targets will generate “warning” (level-2) system messages.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id16"&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#id41"&gt;2.14.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Duplicate Target Names&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Since there are two “Duplicate Target Names” section headers, we
+cannot uniquely refer to either of them by name.  If we try to, an
+error is generated.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="directives"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id42"&gt;2.15&amp;nbsp;&amp;nbsp;&amp;nbsp;Directives&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="contents local topic" id="contents"&gt;
+&lt;ul class="auto-toc simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#document-parts" id="id53"&gt;2.15.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Document Parts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#images" id="id54"&gt;2.15.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#admonitions" id="id55"&gt;2.15.3&amp;nbsp;&amp;nbsp;&amp;nbsp;Admonitions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#topics-sidebars-and-rubrics" id="id56"&gt;2.15.4&amp;nbsp;&amp;nbsp;&amp;nbsp;Topics, Sidebars, and Rubrics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#target-footnotes" id="id57"&gt;2.15.5&amp;nbsp;&amp;nbsp;&amp;nbsp;Target Footnotes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#replacement-text" id="id58"&gt;2.15.6&amp;nbsp;&amp;nbsp;&amp;nbsp;Replacement Text&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#compound-paragraph" id="id59"&gt;2.15.7&amp;nbsp;&amp;nbsp;&amp;nbsp;Compound Paragraph&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;These are just a sample of the many reStructuredText Directives.  For
+others, please see
+&lt;a class="reference external" href="http://docutils.sourceforge.net/docs/ref/rst/directives.html"&gt;http://docutils.sourceforge.net/docs/ref/rst/directives.html&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="document-parts"&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#id53"&gt;2.15.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Document Parts&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;An example of the “contents” directive can be seen above this section
+(a local, untitled table of &lt;a class="reference internal" href="#contents"&gt;contents&lt;/a&gt;) and at the beginning of the
+document (a document-wide &lt;a class="reference internal" href="#table-of-contents"&gt;table of contents&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="images"&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#id54"&gt;2.15.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Images&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;An image directive (also clickable – a hyperlink reference):&lt;/p&gt;
+&lt;a class="reference internal image-reference" href="#directives"&gt;&lt;img alt="" src="https://jwodder.github.io/kbits-theme-demo/posts/2012/01/demo/title.png" /&gt;&lt;/a&gt;
+&lt;p&gt;A figure directive:&lt;/p&gt;
+&lt;div class="figure"&gt;
+&lt;img alt="reStructuredText, the markup syntax" src="https://jwodder.github.io/kbits-theme-demo/posts/2012/01/demo/title.png" /&gt;
+&lt;p class="caption"&gt;A figure is an image with a caption and/or a legend:&lt;/p&gt;
+&lt;div class="legend"&gt;
+&lt;table border="1" class="docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="20%" /&gt;
+&lt;col width="80%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;re&lt;/td&gt;
+&lt;td&gt;Revised, revisited, based on ‘re’ module.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Structured&lt;/td&gt;
+&lt;td&gt;Structure-enhanced text, structuredtext.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Text&lt;/td&gt;
+&lt;td&gt;Well it is, isn’t it?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;This paragraph is also part of the legend.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="admonitions"&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#id55"&gt;2.15.3&amp;nbsp;&amp;nbsp;&amp;nbsp;Admonitions&lt;/a&gt;&lt;/h4&gt;
+&lt;div class="admonition attention"&gt;
+&lt;p class="first admonition-title"&gt;Attention!&lt;/p&gt;
+&lt;p class="last"&gt;Directives at large.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition caution"&gt;
+&lt;p class="first admonition-title"&gt;Caution!&lt;/p&gt;
+&lt;p class="last"&gt;Don’t take any wooden nickels.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition danger"&gt;
+&lt;p class="first admonition-title"&gt;!DANGER!&lt;/p&gt;
+&lt;p class="last"&gt;Mad scientist at work!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition error"&gt;
+&lt;p class="first admonition-title"&gt;Error&lt;/p&gt;
+&lt;p class="last"&gt;Does not compute.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition hint"&gt;
+&lt;p class="first admonition-title"&gt;Hint&lt;/p&gt;
+&lt;p class="last"&gt;It’s bigger than a bread box.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition important"&gt;
+&lt;p class="first admonition-title"&gt;Important&lt;/p&gt;
+&lt;ul class="last simple"&gt;
+&lt;li&gt;Wash behind your ears.&lt;/li&gt;
+&lt;li&gt;Clean up your room.&lt;/li&gt;
+&lt;li&gt;Call your mother.&lt;/li&gt;
+&lt;li&gt;Back up your data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="admonition note"&gt;
+&lt;p class="first admonition-title"&gt;Note&lt;/p&gt;
+&lt;p class="last"&gt;This is a note.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition tip"&gt;
+&lt;p class="first admonition-title"&gt;Tip&lt;/p&gt;
+&lt;p class="last"&gt;15% if the service is good.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition warning"&gt;
+&lt;p class="first admonition-title"&gt;Warning&lt;/p&gt;
+&lt;p class="last"&gt;Strong prose may provoke extreme mental exertion.
+Reader discretion is strongly advised.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition admonition-and-by-the-way"&gt;
+&lt;p class="first admonition-title"&gt;And, by the way…&lt;/p&gt;
+&lt;p class="last"&gt;You can make up your own admonition too.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="topics-sidebars-and-rubrics"&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#id56"&gt;2.15.4&amp;nbsp;&amp;nbsp;&amp;nbsp;Topics, Sidebars, and Rubrics&lt;/a&gt;&lt;/h4&gt;
+&lt;div class="sidebar"&gt;
+&lt;p class="first sidebar-title"&gt;Sidebar Title&lt;/p&gt;
+&lt;p class="sidebar-subtitle"&gt;Optional Subtitle&lt;/p&gt;
+&lt;p&gt;This is a sidebar.  It is for text outside the flow of the main
+text.&lt;/p&gt;
+&lt;p class="rubric"&gt;This is a rubric inside a sidebar&lt;/p&gt;
+&lt;p class="last"&gt;Sidebars often appears beside the main text with a border and
+background color.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="topic"&gt;
+&lt;p class="topic-title"&gt;Topic Title&lt;/p&gt;
+&lt;p&gt;This is a topic.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p class="rubric"&gt;This is a rubric&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="target-footnotes"&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#id57"&gt;2.15.5&amp;nbsp;&amp;nbsp;&amp;nbsp;Target Footnotes&lt;/a&gt;&lt;/h4&gt;
+&lt;table class="docutils footnote" frame="void" id="id17" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;[5]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#id18"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#id19"&gt;2&lt;/a&gt;, &lt;a class="fn-backref" href="#id20"&gt;3&lt;/a&gt;)&lt;/em&gt; &lt;a class="reference external" href="http://www.python.org/"&gt;http://www.python.org/&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class="section" id="replacement-text"&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#id58"&gt;2.15.6&amp;nbsp;&amp;nbsp;&amp;nbsp;Replacement Text&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;I recommend you try &lt;a class="reference external" href="http://www.python.org/"&gt;Python, &lt;em&gt;the&lt;/em&gt; best language around&lt;/a&gt; &lt;a class="footnote-reference" href="#id17" id="id20"&gt;[5]&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="compound-paragraph"&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#id59"&gt;2.15.7&amp;nbsp;&amp;nbsp;&amp;nbsp;Compound Paragraph&lt;/a&gt;&lt;/h4&gt;
+&lt;div class="compound"&gt;
+&lt;p class="compound-first"&gt;This paragraph contains a literal block:&lt;/p&gt;
+&lt;pre class="compound-middle literal-block"&gt;
+Connecting... OK
+Transmitting data... OK
+Disconnecting... OK
+&lt;/pre&gt;
+&lt;p class="compound-last"&gt;and thus consists of a simple paragraph, a literal block, and
+another simple paragraph.  Nonetheless it is semantically &lt;em&gt;one&lt;/em&gt;
+paragraph.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;This construct is called a &lt;em&gt;compound paragraph&lt;/em&gt; and can be produced
+with the “compound” directive.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="substitution-definitions"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id50"&gt;2.16&amp;nbsp;&amp;nbsp;&amp;nbsp;Substitution Definitions&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;An inline image (&lt;img alt="EXAMPLE" src="https://jwodder.github.io/kbits-theme-demo/posts/2012/01/demo/biohazard.png" /&gt;) example:&lt;/p&gt;
+&lt;p&gt;(Substitution definitions are not visible in the HTML source.)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="comments"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id51"&gt;2.17&amp;nbsp;&amp;nbsp;&amp;nbsp;Comments&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Here’s one:&lt;/p&gt;
+&lt;!-- Comments begin with two dots and a space. Anything may
+follow, except for the syntax of footnotes, hyperlink
+targets, directives, or substitution definitions.
+
+Double-dashes - - "- -" - - must be escaped somehow in HTML output. --&gt;
+&lt;p&gt;(View the HTML source to see the comment.)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="error-handling"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id52"&gt;3&amp;nbsp;&amp;nbsp;&amp;nbsp;Error Handling&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Any errors caught during processing will generate system messages.  However,
+Pelican fails to build a site when its pages produce any errors or warnings, so
+the six errors in this document had to be edited out before the document could
+be added to this site.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="Examples"></category><category term="styles"></category><category term="admonitions"></category><category term="topics"></category><category term="sidebars"></category><category term="tables"></category><category term="reStructuredText"></category><category term="blockquotes"></category></entry></feed>

@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>kbits-theme-demo - John T. Wodder II</title><link href="https://jwodder.github.io/kbits-theme-demo/" rel="alternate"></link><link href="https://jwodder.github.io/kbits-theme-demo/feeds/author.john-t-wodder-ii.atom.xml" rel="self"></link><id>https://jwodder.github.io/kbits-theme-demo/</id><updated>2020-08-22T13:42:00-04:00</updated><subtitle>Demonstration of kbits-theme for Pelican</subtitle><entry><title>Showing Article Authors</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/showing-authors/" rel="alternate"></link><published>2020-08-22T13:42:00-04:00</published><updated>2020-08-22T13:42:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-22:/kbits-theme-demo/posts/2020/08/showing-authors/</id><summary type="html">&lt;p&gt;kbits-theme has two settings for controlling whether to show articles’ authors.
+They are useful if your site only has one author and you don’t want to slap
+your name all over everything.&lt;/p&gt;
+&lt;p&gt;The settings are:&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;SHOW_AUTHOR = True&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Whether to show articles’ authors in article metadata tables&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;SHOW_AUTHOR_IN_LISTINGS = True&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Whether …&lt;/dd&gt;&lt;/dl&gt;</summary><content type="html">&lt;p&gt;kbits-theme has two settings for controlling whether to show articles’ authors.
+They are useful if your site only has one author and you don’t want to slap
+your name all over everything.&lt;/p&gt;
+&lt;p&gt;The settings are:&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;SHOW_AUTHOR = True&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Whether to show articles’ authors in article metadata tables&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;SHOW_AUTHOR_IN_LISTINGS = True&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Whether to show articles’ authors in article listings (&lt;tt class="docutils literal"&gt;index.html&lt;/tt&gt; etc.)&lt;/dd&gt;
+&lt;/dl&gt;
+</content><category term="Features"></category><category term="articles"></category><category term="metadata"></category><category term="theme settings"></category></entry><entry><title>Setting a Favicon</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/favicon/" rel="alternate"></link><published>2020-08-21T17:10:00-04:00</published><updated>2020-08-21T17:10:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-21:/kbits-theme-demo/posts/2020/08/favicon/</id><summary type="html">&lt;p&gt;kbits-theme lets you configure a custom &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Favicon"&gt;favicon&lt;/a&gt; for your site via the
+following theme settings:&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;FAVICON_URL&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;A URL pointing to an image to use as the site’s favicon.  If the URL is
+relative (does not begin with either &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;http://&lt;/span&gt;&lt;/tt&gt; or &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;https://&lt;/span&gt;&lt;/tt&gt;), then
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;{{SITEURL}}/&lt;/span&gt;&lt;/tt&gt; is prepended to it.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;FAVICON_TYPE&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;The …&lt;/dd&gt;&lt;/dl&gt;</summary><content type="html">&lt;p&gt;kbits-theme lets you configure a custom &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Favicon"&gt;favicon&lt;/a&gt; for your site via the
+following theme settings:&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;FAVICON_URL&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;A URL pointing to an image to use as the site’s favicon.  If the URL is
+relative (does not begin with either &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;http://&lt;/span&gt;&lt;/tt&gt; or &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;https://&lt;/span&gt;&lt;/tt&gt;), then
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;{{SITEURL}}/&lt;/span&gt;&lt;/tt&gt; is prepended to it.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;FAVICON_TYPE&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;The MIME type of the favicon image (&lt;tt class="docutils literal"&gt;image/gif&lt;/tt&gt; for a GIF, &lt;tt class="docutils literal"&gt;image/png&lt;/tt&gt;
+for a PNG, etc.).  Setting this is optional.&lt;/dd&gt;
+&lt;/dl&gt;
+</content><category term="Features"></category><category term="theme settings"></category><category term="favicon"></category></entry><entry><title>Table Styles and Alignment in Markdown</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/table-styles-md/" rel="alternate"></link><published>2020-08-20T18:33:00-04:00</published><updated>2020-08-20T18:33:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-20:/kbits-theme-demo/posts/2020/08/table-styles-md/</id><summary type="html">&lt;p&gt;Using the Docutils styles for table styling &amp;amp; alignment in Markdown&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/table-styles/"&gt;The table styles that kbits-theme supports for reStructuredText
+tables&lt;/a&gt; can also be applied to tables in Markdown
+documents, but it takes some extra work.  You might expect to be able to attach
+classes to tables with the &lt;a href="https://python-markdown.github.io/extensions/attr_list/"&gt;attribute list
+extension&lt;/a&gt;, but
+unfortunately, the syntax does not work with tables, and the author of the
+Python Markdown package has no interest in fixing this (&lt;a href="https://github.com/Python-Markdown/markdown/issues/312"&gt;see this
+issue&lt;/a&gt;).  Instead, if
+you want to create a table with a class in Markdown, you have to write out the
+table in HTML.&lt;/p&gt;
+&lt;p&gt;So, if you want to create a table with the "booktabs" class, you have to write
+out:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;table&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;booktabs&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;thead&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="c"&gt;&amp;lt;!-- The header row needs to be placed in a thead so that the body rows&lt;/span&gt;
+&lt;span class="c"&gt;        are shaded appropriately. --&amp;gt;&lt;/span&gt;
+        &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;tr&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;th&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Color&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;th&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;th&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Element&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;th&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;tr&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;thead&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;tbody&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;tr&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;td&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Blue&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;td&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;td&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Water&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;td&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;tr&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;tr&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;td&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Green&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;td&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;td&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Earth&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;td&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;tr&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;tr&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;td&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Red&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;td&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;td&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Fire&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;td&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;tr&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;tr&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;td&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Yellow&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;td&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;td&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Air&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;td&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;tr&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;tbody&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;table&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;and that gets you:&lt;/p&gt;
+&lt;table class="booktabs"&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Color&lt;/th&gt;
+            &lt;th&gt;Element&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Blue&lt;/td&gt;
+            &lt;td&gt;Water&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Green&lt;/td&gt;
+            &lt;td&gt;Earth&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Red&lt;/td&gt;
+            &lt;td&gt;Fire&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Yellow&lt;/td&gt;
+            &lt;td&gt;Air&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Changing the class to "borderless" gives you:&lt;/p&gt;
+&lt;table class="borderless"&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Color&lt;/th&gt;
+            &lt;th&gt;Element&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Blue&lt;/td&gt;
+            &lt;td&gt;Water&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Green&lt;/td&gt;
+            &lt;td&gt;Earth&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Red&lt;/td&gt;
+            &lt;td&gt;Fire&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Yellow&lt;/td&gt;
+            &lt;td&gt;Air&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;There are also classes for aligning tables: &lt;code&gt;align-left&lt;/code&gt;, &lt;code&gt;align-center&lt;/code&gt;
+and &lt;code&gt;align-right&lt;/code&gt;.  Let's see &lt;code&gt;align-center&lt;/code&gt;:&lt;/p&gt;
+&lt;table class="align-center"&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Color&lt;/th&gt;
+            &lt;th&gt;Element&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Blue&lt;/td&gt;
+            &lt;td&gt;Water&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Green&lt;/td&gt;
+            &lt;td&gt;Earth&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Red&lt;/td&gt;
+            &lt;td&gt;Fire&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Yellow&lt;/td&gt;
+            &lt;td&gt;Air&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Let's combine a border style with an alignment — &lt;code&gt;class="booktabs align-left"&lt;/code&gt;:&lt;/p&gt;
+&lt;table class="booktabs align-left"&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Color&lt;/th&gt;
+            &lt;th&gt;Element&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Blue&lt;/td&gt;
+            &lt;td&gt;Water&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Green&lt;/td&gt;
+            &lt;td&gt;Earth&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Red&lt;/td&gt;
+            &lt;td&gt;Fire&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Yellow&lt;/td&gt;
+            &lt;td&gt;Air&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;I think you can take it from here.&lt;/p&gt;</content><category term="Features"></category><category term="Markdown"></category><category term="styles"></category><category term="tables"></category></entry><entry><title>Syntax Highlighting with reStructuredText</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/highlight-sample-rst/" rel="alternate"></link><published>2020-08-20T18:03:00-04:00</published><updated>2020-08-20T18:03:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-20:/kbits-theme-demo/posts/2020/08/highlight-sample-rst/</id><summary type="html">&lt;p&gt;kbits-theme uses Pygments’ “default” style for code syntax highlighting.  Let’s
+see some examples!&lt;/p&gt;
+&lt;p&gt;reStructuredText has a built-in directive for syntax highlighting, the &lt;a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#code"&gt;“code”
+directive&lt;/a&gt;.  Here’s what the output of that directive looks like in
+kbits-theme:&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;compress&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;subsets&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;nonempty&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;proper&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;
+    Returns an …&lt;/span&gt;&lt;/pre&gt;</summary><content type="html">&lt;p&gt;kbits-theme uses Pygments’ “default” style for code syntax highlighting.  Let’s
+see some examples!&lt;/p&gt;
+&lt;p&gt;reStructuredText has a built-in directive for syntax highlighting, the &lt;a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#code"&gt;“code”
+directive&lt;/a&gt;.  Here’s what the output of that directive looks like in
+kbits-theme:&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;compress&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;subsets&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;nonempty&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;proper&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;
+    Returns an iterator over all subsets of the iterable ``xs`` as tuples.
+    If ``nonempty`` is true, only nonempty subsets are returned.  If
+    ``proper`` is true, only proper subsets are returned.
+    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="n"&gt;xs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;selectors&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
+            &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;nonempty&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="nb"&gt;any&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="ow"&gt;or&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;proper&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="nb"&gt;all&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="p"&gt;):&lt;/span&gt;
+            &lt;span class="k"&gt;yield&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;compress&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;xrange&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;)):&lt;/span&gt;
+            &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt;
+                &lt;span class="k"&gt;break&lt;/span&gt;
+        &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;break&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;… and here’s what it looks like with the &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;:number-lines:&lt;/span&gt;&lt;/tt&gt; option:&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="ln"&gt; 1 &lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;compress&lt;/span&gt;
+&lt;span class="ln"&gt; 2 &lt;/span&gt;
+&lt;span class="ln"&gt; 3 &lt;/span&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;subsets&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;nonempty&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;proper&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;span class="ln"&gt; 4 &lt;/span&gt;    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;
+&lt;/span&gt;&lt;span class="ln"&gt; 5 &lt;/span&gt;&lt;span class="sd"&gt;    Returns an iterator over all subsets of the iterable ``xs`` as tuples.
+&lt;/span&gt;&lt;span class="ln"&gt; 6 &lt;/span&gt;&lt;span class="sd"&gt;    If ``nonempty`` is true, only nonempty subsets are returned.  If
+&lt;/span&gt;&lt;span class="ln"&gt; 7 &lt;/span&gt;&lt;span class="sd"&gt;    ``proper`` is true, only proper subsets are returned.
+&lt;/span&gt;&lt;span class="ln"&gt; 8 &lt;/span&gt;&lt;span class="sd"&gt;    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;span class="ln"&gt; 9 &lt;/span&gt;    &lt;span class="n"&gt;xs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="ln"&gt;10 &lt;/span&gt;    &lt;span class="n"&gt;selectors&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="ln"&gt;11 &lt;/span&gt;    &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;span class="ln"&gt;12 &lt;/span&gt;        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
+&lt;span class="ln"&gt;13 &lt;/span&gt;            &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;nonempty&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="nb"&gt;any&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="ow"&gt;or&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;proper&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="nb"&gt;all&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="ln"&gt;14 &lt;/span&gt;        &lt;span class="p"&gt;):&lt;/span&gt;
+&lt;span class="ln"&gt;15 &lt;/span&gt;            &lt;span class="k"&gt;yield&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;compress&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="ln"&gt;16 &lt;/span&gt;        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;xrange&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;)):&lt;/span&gt;
+&lt;span class="ln"&gt;17 &lt;/span&gt;            &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="ln"&gt;18 &lt;/span&gt;            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt;
+&lt;span class="ln"&gt;19 &lt;/span&gt;                &lt;span class="k"&gt;break&lt;/span&gt;
+&lt;span class="ln"&gt;20 &lt;/span&gt;        &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;span class="ln"&gt;21 &lt;/span&gt;            &lt;span class="k"&gt;break&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;Pelican provides a more featureful alternative to “code”, the &lt;a class="reference external" href="https://docs.getpelican.com/en/stable/content.html#syntax-highlighting"&gt;“code-block”
+directive&lt;/a&gt;.  The default output is pretty much the same as that of “code”, but
+if we enable table-style line numbers with the &lt;tt class="docutils literal"&gt;:linenos:&lt;/tt&gt; option, we see a
+difference:&lt;/p&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;compress&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;subsets&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;nonempty&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;proper&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;span class="sd"&gt;    Returns an iterator over all subsets of the iterable ``xs`` as tuples.&lt;/span&gt;
+&lt;span class="sd"&gt;    If ``nonempty`` is true, only nonempty subsets are returned.  If&lt;/span&gt;
+&lt;span class="sd"&gt;    ``proper`` is true, only proper subsets are returned.&lt;/span&gt;
+&lt;span class="sd"&gt;    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="n"&gt;xs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;selectors&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
+            &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;nonempty&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="nb"&gt;any&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="ow"&gt;or&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;proper&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="nb"&gt;all&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="p"&gt;):&lt;/span&gt;
+            &lt;span class="k"&gt;yield&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;compress&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;xrange&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;)):&lt;/span&gt;
+            &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt;
+                &lt;span class="k"&gt;break&lt;/span&gt;
+        &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;break&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;The “code-block” directive also lets us highlight individual lines with the
+&lt;tt class="docutils literal"&gt;:hl_lines:&lt;/tt&gt; option:&lt;/p&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;compress&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;subsets&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;nonempty&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;proper&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;span class="sd"&gt;    Returns an iterator over all subsets of the iterable ``xs`` as tuples.&lt;/span&gt;
+&lt;span class="sd"&gt;    If ``nonempty`` is true, only nonempty subsets are returned.  If&lt;/span&gt;
+&lt;span class="sd"&gt;    ``proper`` is true, only proper subsets are returned.&lt;/span&gt;
+&lt;span class="sd"&gt;    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="n"&gt;xs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;selectors&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;span class="hll"&gt;        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;span class="hll"&gt;            &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;nonempty&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="nb"&gt;any&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="ow"&gt;or&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;proper&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="nb"&gt;all&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;span class="hll"&gt;        &lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;span class="hll"&gt;            &lt;span class="k"&gt;yield&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;compress&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/span&gt;        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;xrange&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;)):&lt;/span&gt;
+            &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt;
+                &lt;span class="k"&gt;break&lt;/span&gt;
+        &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;break&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;… or make every &lt;em&gt;n&lt;/em&gt;-th line number stand out:&lt;/p&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
+ 2
+ 3
+ 4
+&lt;span class="special"&gt; 5&lt;/span&gt;
+ 6
+ 7
+ 8
+ 9
+&lt;span class="special"&gt;10&lt;/span&gt;
+11
+12
+13
+14
+&lt;span class="special"&gt;15&lt;/span&gt;
+16
+17
+18
+19
+&lt;span class="special"&gt;20&lt;/span&gt;
+21&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;compress&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;subsets&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;nonempty&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;proper&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;span class="sd"&gt;    Returns an iterator over all subsets of the iterable ``xs`` as tuples.&lt;/span&gt;
+&lt;span class="sd"&gt;    If ``nonempty`` is true, only nonempty subsets are returned.  If&lt;/span&gt;
+&lt;span class="sd"&gt;    ``proper`` is true, only proper subsets are returned.&lt;/span&gt;
+&lt;span class="sd"&gt;    &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="n"&gt;xs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;selectors&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
+            &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;nonempty&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="nb"&gt;any&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="ow"&gt;or&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;proper&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="nb"&gt;all&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="p"&gt;):&lt;/span&gt;
+            &lt;span class="k"&gt;yield&lt;/span&gt; &lt;span class="nb"&gt;tuple&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;compress&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;xrange&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;)):&lt;/span&gt;
+            &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;selectors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt;
+                &lt;span class="k"&gt;break&lt;/span&gt;
+        &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;break&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;!-- TODO: "code" role --&gt;
+&lt;p&gt;reStructuredText also provides a &lt;a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/roles.html#code"&gt;&lt;tt class="docutils literal"&gt;:code:&lt;/tt&gt; role&lt;/a&gt; that can be used for highlighting
+inline code samples.  To use it, first create a “subrole” with the name of the
+highlighted language supplied to the &lt;tt class="docutils literal"&gt;:language:&lt;/tt&gt; option:&lt;/p&gt;
+&lt;pre class="code rst literal-block"&gt;
+&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="ow"&gt;role&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt; py(code)
+    &lt;span class="nc"&gt;:language:&lt;/span&gt; python
+&lt;/pre&gt;
+&lt;p&gt;… and then you can write this:&lt;/p&gt;
+&lt;pre class="code rst literal-block"&gt;
+Put &lt;span class="na"&gt;:py:&lt;/span&gt;&lt;span class="nv"&gt;`&amp;quot;2&amp;quot; * 2`&lt;/span&gt; in the REPL to get &lt;span class="na"&gt;:py:&lt;/span&gt;&lt;span class="nv"&gt;`&amp;quot;22&amp;quot;`&lt;/span&gt;.
+&lt;/pre&gt;
+&lt;p&gt;… to get this:&lt;/p&gt;
+&lt;blockquote&gt;
+Put &lt;code class="py python"&gt;&lt;span class="s2"&gt;&amp;quot;2&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;/code&gt; in the REPL to get &lt;code class="py python"&gt;&lt;span class="s2"&gt;&amp;quot;22&amp;quot;&lt;/span&gt;&lt;/code&gt;.&lt;/blockquote&gt;
+</content><category term="Examples"></category><category term="reStructuredText"></category><category term="styles"></category><category term="syntax highlighting"></category></entry><entry><title>Footer Text</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/footer/" rel="alternate"></link><published>2020-08-19T14:28:00-04:00</published><updated>2020-08-19T14:28:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-19:/kbits-theme-demo/posts/2020/08/footer/</id><content type="html">&lt;p&gt;You may have noticed the small, centered text at the bottom of every page on
+this site.  This is the site’s &lt;em&gt;footer&lt;/em&gt;.  It can be set by assigning a string
+of HTML to the &lt;tt class="docutils literal"&gt;FOOTER_HTML&lt;/tt&gt; Pelican setting; if &lt;tt class="docutils literal"&gt;FOOTER_HTML&lt;/tt&gt; is not set,
+no footer is shown.&lt;/p&gt;
+</content><category term="Features"></category><category term="theme settings"></category><category term="footer"></category></entry><entry><title>Autopages Support</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/autopages/" rel="alternate"></link><published>2020-08-18T23:11:00-04:00</published><updated>2020-08-18T23:11:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-18:/kbits-theme-demo/posts/2020/08/autopages/</id><summary type="html">&lt;p&gt;kbits-theme has built-in support for the &lt;a class="reference external" href="https://github.com/getpelican/pelican-plugins/tree/master/autopages"&gt;autopages&lt;/a&gt; plugin.  If you use this
+plugin to create a page for a category, tag, or author, the page’s contents
+will be shown at the top of the article listing for that category/tag/author.
+If you do not use the autopages plugin …&lt;/p&gt;</summary><content type="html">&lt;p&gt;kbits-theme has built-in support for the &lt;a class="reference external" href="https://github.com/getpelican/pelican-plugins/tree/master/autopages"&gt;autopages&lt;/a&gt; plugin.  If you use this
+plugin to create a page for a category, tag, or author, the page’s contents
+will be shown at the top of the article listing for that category/tag/author.
+If you do not use the autopages plugin, or if you do not create a page for a
+given category, tag, or author, the respective article listing(s) will remain
+unadorned.&lt;/p&gt;
+&lt;p&gt;For an example of an article listing with an autopage, see this site’s
+&lt;a class="reference external" href="https://jwodder.github.io/kbits-theme-demo/categories/features/"&gt;“Features” category&lt;/a&gt;.  For an example of an article
+listing &lt;em&gt;without&lt;/em&gt; an autopage, see this site’s &lt;a class="reference external" href="https://jwodder.github.io/kbits-theme-demo/tags/article-listings/"&gt;“article listings” tag&lt;/a&gt;.&lt;/p&gt;
+</content><category term="Features"></category><category term="plugins"></category><category term="autopages"></category><category term="article listings"></category></entry><entry><title>The Navigation Pane</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/navpane/" rel="alternate"></link><published>2020-08-17T17:34:00-04:00</published><updated>2020-08-17T17:34:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-17:/kbits-theme-demo/posts/2020/08/navpane/</id><summary type="html">&lt;p class="first last"&gt;See the list of links to the left?  This is all about that.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;On the left side of every page of a kbits-theme site is the &lt;em&gt;navigation pane&lt;/em&gt;,
+a set of lists of links.  The contents of the pane are as follows:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The main menu — Lists the items in &lt;tt class="docutils literal"&gt;MENUITEMS&lt;/tt&gt;, followed by the site’s
+non-hidden pages if &lt;tt class="docutils literal"&gt;DISPLAY_PAGES_ON_MENU&lt;/tt&gt; is true, followed by the site’s
+categories if &lt;tt class="docutils literal"&gt;DISPLAY_CATEGORIES_ON_MENU&lt;/tt&gt; is true&lt;ul&gt;
+&lt;li&gt;By default, the main menu is unlabelled, but a custom label can be
+displayed before the menu by setting the &lt;tt class="docutils literal"&gt;MENU_NAME&lt;/tt&gt; setting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;If &lt;tt class="docutils literal"&gt;PAGES_MENU&lt;/tt&gt; is true and the site has any non-hidden pages, next is a
+list of the site’s non-hidden pages.  This menu is labelled with the value of
+&lt;tt class="docutils literal"&gt;PAGES_MENU_NAME&lt;/tt&gt; (“Pages” by default).&lt;/li&gt;
+&lt;li&gt;If &lt;tt class="docutils literal"&gt;CATEGORIES_MENU&lt;/tt&gt; is true and the site has any categories, next is a
+list of the site’s categories.  This menu is labelled with the value of
+&lt;tt class="docutils literal"&gt;CATEGORIES_MENU_NAME&lt;/tt&gt; (“Categories” by default).&lt;/li&gt;
+&lt;li&gt;Next comes each of the lists defined by &lt;tt class="docutils literal"&gt;EXTRA_MENUS&lt;/tt&gt; (&lt;a class="reference internal" href="#extra-menus"&gt;see below&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Finally, if &lt;tt class="docutils literal"&gt;FEED_ALL_ATOM&lt;/tt&gt;, &lt;tt class="docutils literal"&gt;FEED_ALL_RSS&lt;/tt&gt;, &lt;tt class="docutils literal"&gt;FEED_ATOM&lt;/tt&gt;, or
+&lt;tt class="docutils literal"&gt;FEED_RSS&lt;/tt&gt; is set, links to the site’s Atom and/or RSS feed are given.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="section" id="settings"&gt;
+&lt;h2&gt;Settings&lt;/h2&gt;
+&lt;p&gt;The theme-specific settings that control the contents of the navigation pane
+are as follows:&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;MENU_NAME&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;The name to display above the main menu on the navigation pane.  Defaults to
+no name.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;MENUITEMS&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;A list of (Title, URL) pairs for additional menu items to appear at the
+beginning of the main menu in the navigation pane.  If a given URL is
+relative (does not begin with either &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;http://&lt;/span&gt;&lt;/tt&gt; or &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;https://&lt;/span&gt;&lt;/tt&gt;), then
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;{{SITEURL}}/&lt;/span&gt;&lt;/tt&gt; is prepended to it.  This allows you to link to locations
+on your site without having to give the full URL.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;PAGES_MENU = False&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;If true, pages will be given their own menu in the navigation pane,
+after the main menu but before the categories menu and any menus defined
+with &lt;tt class="docutils literal"&gt;EXTRA_MENUS&lt;/tt&gt;.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;PAGES_MENU_NAME = &amp;quot;Pages&amp;quot;&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;The name to display above the pages menu (if there is one) on the
+navigation pane&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;CATEGORIES_MENU = False&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;If true, categories will be given their own menu in the navigation pane,
+after the main menu and pages menu but before any menus defined with
+&lt;tt class="docutils literal"&gt;EXTRA_MENUS&lt;/tt&gt;.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;CATEGORIES_MENU_NAME = &amp;quot;Categories&amp;quot;&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;The name to display above the categories menu (if there is one) on the
+navigation pane&lt;/dd&gt;
+&lt;dt id="extra-menus"&gt;&lt;tt class="docutils literal"&gt;EXTRA_MENUS&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p class="first"&gt;A list of (Menu Name, Link List) pairs defining extra lists of links to add
+to the navigation pane beneath all other menus.  Each “Link List” is a
+sublist of (Link Name, Link URL) pairs.&lt;/p&gt;
+&lt;p&gt;If a given link URL is relative (does not begin with either &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;http://&lt;/span&gt;&lt;/tt&gt; or
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;https://&lt;/span&gt;&lt;/tt&gt;), then &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;{{SITEURL}}/&lt;/span&gt;&lt;/tt&gt; is prepended to it.  This allows you to
+link to locations on your site without having to give the full URL.&lt;/p&gt;
+&lt;p&gt;For example, the following setting:&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="n"&gt;EXTRA_MENUS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Social'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'My Twitter'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'https://twitter.com/…'&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'My Mastodon'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'https://…'&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'My GitHub'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'https://github.com/…'&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+    &lt;span class="p"&gt;]),&lt;/span&gt;
+    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Favorite Tags'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Python'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'tags/python.html'&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Pelican'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'tags/pelican.html'&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+    &lt;span class="p"&gt;]),&lt;/span&gt;
+&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;causes the following to be added to the navigation pane on the left of the
+page:&lt;/p&gt;
+&lt;pre class="last literal-block"&gt;
+Social
+* My Twitter
+* My Mastodon
+* My GitHub
+
+Favorite Tags
+* Python
+* Pelican
+&lt;/pre&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+</content><category term="Features"></category><category term="navpane"></category><category term="theme settings"></category></entry><entry><title>Article Metadata Tables</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/metadata/" rel="alternate"></link><published>2020-08-16T16:28:00-04:00</published><updated>2020-08-16T16:28:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-16:/kbits-theme-demo/posts/2020/08/metadata/</id><summary type="html">&lt;p&gt;At the top of each article in a kbits-theme site, just underneath the article
+title, kbits-theme displays a table of the article’s metadata.  (Look right
+above this paragraph for an example.)  By default, the following fields are
+shown:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Date (labelled “Posted”)&lt;/li&gt;
+&lt;li&gt;Modified (if set; labelled “Last Updated”)&lt;/li&gt;
+&lt;li&gt;Author(s …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;At the top of each article in a kbits-theme site, just underneath the article
+title, kbits-theme displays a table of the article’s metadata.  (Look right
+above this paragraph for an example.)  By default, the following fields are
+shown:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Date (labelled “Posted”)&lt;/li&gt;
+&lt;li&gt;Modified (if set; labelled “Last Updated”)&lt;/li&gt;
+&lt;li&gt;Author(s)&lt;/li&gt;
+&lt;li&gt;Category&lt;/li&gt;
+&lt;li&gt;Tags (If there are no tags, “—” is shown)&lt;/li&gt;
+&lt;li&gt;Translations (if there are any)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The metadata table can be configured via the following theme settings:&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;SHOW_AUTHOR&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;If this is set to &lt;tt class="docutils literal"&gt;False&lt;/tt&gt; (default value: &lt;tt class="docutils literal"&gt;True&lt;/tt&gt;), the author(s) field
+will be omitted from articles’ metadata tables.  This is useful if your site
+only has one author and you don’t want to slap your name all over
+everything.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;GITHUB_SOURCE_URL&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;If your site’s repository is hosted on GitHub, setting this variable to
+the repository’s URL (in the form &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;&amp;quot;https://github.com/$OWNER/$REPO&amp;quot;&lt;/span&gt;&lt;/tt&gt;,
+without trailing &lt;tt class="docutils literal"&gt;.git&lt;/tt&gt;) will add a “Page Source” entry to each article’s
+metadata table pointing to the article source file on GitHub.  Setting this
+value also requires setting &lt;tt class="docutils literal"&gt;PATH_IN_REPO&lt;/tt&gt;.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;GITHUB_SOURCE_BRANCH = &amp;quot;master&amp;quot;&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;The branch of the &lt;tt class="docutils literal"&gt;GITHUB_SOURCE_URL&lt;/tt&gt; repository on which the site’s
+source is located.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;PATH_IN_REPO&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;The &lt;tt class="docutils literal"&gt;/&lt;/tt&gt;-separated path to your content directory, relative to the root of
+your repository.  This will usually be equal to &lt;tt class="docutils literal"&gt;PATH&lt;/tt&gt;.  This needs to be
+set whenever &lt;tt class="docutils literal"&gt;GITHUB_SOURCE_URL&lt;/tt&gt; is set.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;EXTRA_METADATA_FIELDS&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p class="first"&gt;A list of (Field Name, Article Attribute) pairs specifying additional
+metadata fields to list in articles’ metadata tables.  The “Field Name” is
+the text to label the field with in the table (minus the colon which will be
+automatically appended), and the “Article Attribute” is the name of the
+field as available as an attribute of an &lt;tt class="docutils literal"&gt;Article&lt;/tt&gt; object (i.e., the name
+of the field as written in your document metadata, but converted to
+all-lowercase).  If a given field is empty or not set on an article, it is
+not listed in that article’s metadata table.&lt;/p&gt;
+&lt;p&gt;For example, if you include an “&lt;tt class="docutils literal"&gt;:ORCID:&lt;/tt&gt;” field in the docinfo of your
+articles, you can include &lt;tt class="docutils literal"&gt;(&amp;quot;Author ORCID&amp;quot;, &amp;quot;orcid&amp;quot;)&lt;/tt&gt; in
+&lt;tt class="docutils literal"&gt;EXTRA_METADATA_FIELDS&lt;/tt&gt; to cause the field to be listed in the metadata
+table with a label of “Author ORCID:”.&lt;/p&gt;
+&lt;p&gt;Field values will be HTML-escaped unless the “Article Attribute” is listed
+in &lt;tt class="docutils literal"&gt;FORMATTED_FIELDS&lt;/tt&gt;.  An example of a formatted field and an unformatted
+field can be seen above in this article’s metadata table; the value for both
+fields is written as &lt;code class="rst"&gt;The &amp;lt;tag&amp;gt; in &lt;span class="gs"&gt;**bold**&lt;/span&gt;&lt;/code&gt; in the document source.&lt;/p&gt;
+&lt;div class="admonition note last"&gt;
+&lt;p class="first admonition-title"&gt;Note&lt;/p&gt;
+&lt;p class="last"&gt;When writing in reStructuredText, Pelican always treats the built-in
+&lt;a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#bibliographic-fields"&gt;bibliographic fields&lt;/a&gt; as unformatted (aside from “abstract” and
+“dedication”, which are removed from the fields list by the time Pelican
+processes the document).  Including them in &lt;tt class="docutils literal"&gt;FORMATTED_FIELDS&lt;/tt&gt; can
+thus cause kbits-theme to do the wrong thing.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+</content><category term="Features"></category><category term="articles"></category><category term="metadata"></category><category term="theme settings"></category></entry><entry><title>MathJax Support</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/mathjax/" rel="alternate"></link><published>2020-08-15T17:50:00-04:00</published><updated>2020-08-15T17:50:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-15:/kbits-theme-demo/posts/2020/08/mathjax/</id><summary type="html">&lt;p class="first last"&gt;Rendering things like &lt;span class="math"&gt;\(\sum_{i=1}^n i = \frac{n^2+n}{2}\)&lt;/span&gt; on your site&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;kbits-theme has built-in support for &lt;a class="reference external" href="https://www.mathjax.org"&gt;MathJax&lt;/a&gt;; with a single setting, the theme
+will enable it on every page of the themed site.  That’s just the first step in
+getting MathJax to work, though, and the remainder of the required steps depend
+on what markup format you’re working with.&lt;/p&gt;
+&lt;div class="section" id="mathjax-settings"&gt;
+&lt;h2&gt;MathJax Settings&lt;/h2&gt;
+&lt;p&gt;kbits-theme’s MathJax support can be controlled with the following Pelican
+settings:&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;USE_MATHJAX = False&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Set to &lt;tt class="docutils literal"&gt;True&lt;/tt&gt; to enable MathJax on every page of the site&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;MATHJAX_SCRIPT = &lt;span class="pre"&gt;&amp;quot;https://cdn.jsdelivr.net/npm/mathjax&amp;#64;3/es5/tex-chtml.js&amp;quot;&lt;/span&gt;&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Set the MathJax script to load.  The default setting loads the &lt;a class="reference external" href="http://docs.mathjax.org/en/latest/web/components/combined.html#tex-chtml"&gt;tex-chtml&lt;/a&gt;
+component from the latest revision of MathJax version 3.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;MATHJAX_CONFIG = {}&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Set configuration settings for MathJax.  Configuration is applied assuming
+version 3 of MathJax is in use.  Only JSON-serializable values are supported
+in &lt;tt class="docutils literal"&gt;MATHJAX_CONFIG&lt;/tt&gt;.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mathjax-with-restructuredtext"&gt;
+&lt;h2&gt;MathJax with reStructuredText&lt;/h2&gt;
+&lt;p&gt;To be able to produce mathematical output with MathJax while writing in
+reStructuredText, you need to set the &lt;tt class="docutils literal"&gt;&amp;quot;math_output&amp;quot;&lt;/tt&gt; key of your Pelican
+site’s &lt;tt class="docutils literal"&gt;DOCUTILS_SETTINGS&lt;/tt&gt; setting to &lt;tt class="docutils literal"&gt;&amp;quot;mathjax &lt;span class="pre"&gt;irrelevant-value&amp;quot;&lt;/span&gt;&lt;/tt&gt;.  The
+“mathjax” part is case insensitive.  The second word in the string doesn’t
+matter, but it needs to be there to prevent Docutils from emitting a warning
+that makes Pelican halt.  After you’ve made this change, any use of the &lt;code class="rst"&gt;&lt;span class="nc"&gt;:math:&lt;/span&gt;&lt;/code&gt; role or &lt;a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#math"&gt;“math” directive&lt;/a&gt; in your documents will produce output that MathJax
+will then render into mathematical notation.&lt;/p&gt;
+&lt;div class="admonition note"&gt;
+&lt;p class="first admonition-title"&gt;Note&lt;/p&gt;
+&lt;p class="last"&gt;When using the “math” directive, Docutils will wrap your math markup in a
+&lt;code class="tx tex"&gt;&lt;span class="k"&gt;\begin&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;align*&lt;span class="nb"&gt;}&lt;/span&gt;&lt;/code&gt; … &lt;code class="tx tex"&gt;&lt;span class="k"&gt;\end&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;align*&lt;span class="nb"&gt;}&lt;/span&gt;&lt;/code&gt; environment if it contains any
+&lt;code class="tx tex"&gt;&lt;span class="k"&gt;\\&lt;/span&gt;&lt;/code&gt; commands outside of an environment, and in a
+&lt;code class="tx tex"&gt;&lt;span class="k"&gt;\begin&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;equation*&lt;span class="nb"&gt;}&lt;/span&gt;&lt;/code&gt; … &lt;code class="tx tex"&gt;&lt;span class="k"&gt;\end&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;equation*&lt;span class="nb"&gt;}&lt;/span&gt;&lt;/code&gt; environment otherwise.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mathjax-with-markdown"&gt;
+&lt;h2&gt;MathJax with Markdown&lt;/h2&gt;
+&lt;p&gt;For writing math in Markdown with kbits-theme, the best option appears to be
+the &lt;a class="reference external" href="https://github.com/facelessuser/pymdown-extensions"&gt;pymdown-extensions&lt;/a&gt; package and its Markdown extension &lt;a class="reference external" href="https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/"&gt;Arithmatex&lt;/a&gt;, which
+can convert math markup in Markdown input into MathJaxable output.  In order to
+use this extension with kbits-theme, you must install pymdown-extensions into
+your Pelican environment and set Arithmatex’s “generic” option to true by
+adding the following configuration to your Pelican site’s &lt;tt class="docutils literal"&gt;MARKDOWN&lt;/tt&gt; setting:&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="n"&gt;MARKDOWN&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="o"&gt;...&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;extension_configs&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="o"&gt;...&lt;/span&gt;
+        &lt;span class="s2"&gt;&amp;quot;pymdownx.arithmatex&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;generic&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;},&lt;/span&gt;
+        &lt;span class="o"&gt;...&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="o"&gt;...&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;If this is the first time you’re modifying the value of &lt;tt class="docutils literal"&gt;MARKDOWN&lt;/tt&gt;, you
+should copy the default value shown in &lt;a class="reference external" href="https://docs.getpelican.com/en/stable/settings.html"&gt;the Pelican documentation&lt;/a&gt; and modify
+that.&lt;/p&gt;
+&lt;p&gt;An alternative worth mentioning is the &lt;a class="reference external" href="https://github.com/pelican-plugins/render-math"&gt;pelican-render-math&lt;/a&gt; plugin for Pelican,
+which enables writing math in Markdown and adds a &lt;tt class="docutils literal"&gt;&amp;lt;script&amp;gt;&lt;/tt&gt; tag for
+activating MathJax to the end of any rendered reStructuredText or Markdown
+content that includes math markup.  This &lt;tt class="docutils literal"&gt;&amp;lt;script&amp;gt;&lt;/tt&gt; conflicts with the
+MathJax loaded by kbits-theme, so if you’re using pelican-render-math, it’s
+recommended to leave &lt;tt class="docutils literal"&gt;USE_MATHJAX&lt;/tt&gt; at &lt;tt class="docutils literal"&gt;False&lt;/tt&gt; and configure MathJax through
+pelican-render-math’s facilities instead.&lt;/p&gt;
+&lt;p&gt;Another alternative, mentioned here for completeness’ sake, is the
+&lt;a class="reference external" href="https://github.com/mitya57/python-markdown-math"&gt;python-markdown-math&lt;/a&gt; package.  The output it produces is by default only
+compatible with version 2 of MathJax, so if you use it with kbits-theme, you
+will need to set &lt;tt class="docutils literal"&gt;MATHJAX_SCRIPT&lt;/tt&gt; to a version 2 URL, and &lt;tt class="docutils literal"&gt;MATHJAX_CONFIG&lt;/tt&gt;
+will be unusable.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="other-considerations"&gt;
+&lt;h2&gt;Other Considerations&lt;/h2&gt;
+&lt;p&gt;If you’re using MathJax and Typogrify is enabled for your site, and if you’re
+not using pelican-render-math (which takes care of this automatically), you
+need to configure Typogrify to ignore math tags.  Add &lt;tt class="docutils literal"&gt;&amp;quot;.math&amp;quot;&lt;/tt&gt; to your
+site’s &lt;tt class="docutils literal"&gt;TYPOGRIFY_IGNORE_TAGS&lt;/tt&gt; setting if you’re writing math in
+reStructuredText, add &lt;tt class="docutils literal"&gt;&amp;quot;.arithmatex&amp;quot;&lt;/tt&gt; if you’re writing in Markdown with
+pymdown-extensions’ Arithmatex, and add &lt;tt class="docutils literal"&gt;&amp;quot;script&amp;quot;&lt;/tt&gt; if you’re writing in
+Markdown with python-markdown-math.  Typogrify v2.0.7 or higher is required for
+such settings.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="some-mathjax-output"&gt;
+&lt;h2&gt;Some MathJax Output&lt;/h2&gt;
+&lt;p&gt;But enough about all that.  You came here to see some math, didn’t you?
+Behold!&lt;/p&gt;
+&lt;div class="topic"&gt;
+&lt;p class="topic-title"&gt;Theorem&lt;/p&gt;
+&lt;p&gt;For all positive integers &lt;span class="math"&gt;\(n\)&lt;/span&gt;, &lt;span class="math"&gt;\(\sum_{i=1}^n i =
+\frac{n^2+n}{2}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Proof:&lt;/strong&gt; When &lt;span class="math"&gt;\(n = 1\)&lt;/span&gt;, then:&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{align*}
+\sum_{i=1}^n i &amp;amp; = \sum_{i=1}^1 i \\
+               &amp;amp; = 1 \\
+               &amp;amp; = \frac{1^2+1}{2} \\
+               &amp;amp; = \frac{n^2+n}{2}
+\end{align*}
+&lt;/div&gt;
+&lt;p&gt;If &lt;span class="math"&gt;\(\sum_{i=1}^n i = \frac{n^2+n}{2}\)&lt;/span&gt; for some positive integer
+&lt;span class="math"&gt;\(n\)&lt;/span&gt;, then:&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{align*}
+\sum_{i=1}^n i &amp;amp; = \frac{n^2+n}{2} \\
+\left(\sum_{i=1}^n i\right) + (n+1) &amp;amp; = \frac{n^2+n}{2} + (n+1) \\
+\sum_{i=1}^{n+1} i &amp;amp; = \frac{n^2+n + 2n + 2}{2} \\
+                   &amp;amp; = \frac{(n^2+2n+1) + (n+1)}{2} \\
+                   &amp;amp; = \frac{(n+1)^2 + (n+1)}{2}
+\end{align*}
+&lt;/div&gt;
+&lt;p&gt;and so the statement holds for &lt;span class="math"&gt;\(n+1\)&lt;/span&gt; as well.&lt;/p&gt;
+&lt;p&gt;Therefore, by the Principle of Mathematical Induction, &lt;span class="math"&gt;\(\sum_{i=1}^n
+i = \frac{n^2+n}{2}\)&lt;/span&gt; for all positive integers &lt;span class="math"&gt;\(n\)&lt;/span&gt;.  ∎&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="Features"></category><category term="MathJax"></category><category term="reStructuredText"></category><category term="Markdown"></category><category term="theme settings"></category></entry><entry><title>Table Styles and Alignment in reStructuredText</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/table-styles/" rel="alternate"></link><published>2020-08-13T22:54:00-04:00</published><updated>2020-08-13T22:54:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-13:/kbits-theme-demo/posts/2020/08/table-styles/</id><summary type="html">&lt;p class="first last"&gt;kbits-theme’s support for Docutils table styles and table alignment
+specifiers&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Did you know?  The default stylesheet bundled with Docutils (the standard
+renderer for reStructuredText) supports two special class values for tables,
+“&lt;tt class="docutils literal"&gt;booktabs&lt;/tt&gt;” and “&lt;tt class="docutils literal"&gt;borderless&lt;/tt&gt;”, and kbits-theme supports them as well.
+kbits-theme also includes support for alignment of tables in the center or at
+the right edge of a page.&lt;/p&gt;
+&lt;p&gt;When writing in reStructuredText, one can set the class for a table using the
+&lt;a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#class"&gt;“class” directive&lt;/a&gt; or the &lt;tt class="docutils literal"&gt;:class:&lt;/tt&gt; option of the &lt;a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#table"&gt;“table” directive&lt;/a&gt;.
+Alternatively, a table can be expressed using the &lt;a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#id4"&gt;“csv-table” directive&lt;/a&gt; or
+&lt;a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#list-table"&gt;“list-table” directive&lt;/a&gt;, both of which support the &lt;tt class="docutils literal"&gt;:class:&lt;/tt&gt; option.&lt;/p&gt;
+&lt;p&gt;If a table is given the “&lt;tt class="docutils literal"&gt;booktabs&lt;/tt&gt;” class, the only rules in the table will
+be two slightly thick rules at the top &amp;amp; bottom of the table and a thin rule
+after the head, like so:&lt;/p&gt;
+&lt;table border="1" class="booktabs docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="46%" /&gt;
+&lt;col width="54%" /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign="bottom"&gt;
+&lt;tr&gt;&lt;th class="head"&gt;Color&lt;/th&gt;
+&lt;th class="head"&gt;Element&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;Blue&lt;/td&gt;
+&lt;td&gt;Water&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Green&lt;/td&gt;
+&lt;td&gt;Earth&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Red&lt;/td&gt;
+&lt;td&gt;Fire&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Yellow&lt;/td&gt;
+&lt;td&gt;Air&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;If the table is instead given the “&lt;tt class="docutils literal"&gt;borderless&lt;/tt&gt;” class, it will not have any
+rules at all, like so:&lt;/p&gt;
+&lt;table border="1" class="borderless docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="46%" /&gt;
+&lt;col width="54%" /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign="bottom"&gt;
+&lt;tr&gt;&lt;th class="head"&gt;Color&lt;/th&gt;
+&lt;th class="head"&gt;Element&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;Blue&lt;/td&gt;
+&lt;td&gt;Water&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Green&lt;/td&gt;
+&lt;td&gt;Earth&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Red&lt;/td&gt;
+&lt;td&gt;Fire&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Yellow&lt;/td&gt;
+&lt;td&gt;Air&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The three table directives also support an &lt;tt class="docutils literal"&gt;:align:&lt;/tt&gt; option, which can be set
+to “&lt;tt class="docutils literal"&gt;left&lt;/tt&gt;”, “&lt;tt class="docutils literal"&gt;center&lt;/tt&gt;”, or “&lt;tt class="docutils literal"&gt;right&lt;/tt&gt;” to cause the table to be
+left-aligned, centered, or right-aligned.  For example, a centered table:&lt;/p&gt;
+&lt;table border="1" class="docutils align-center"&gt;
+&lt;colgroup&gt;
+&lt;col width="46%" /&gt;
+&lt;col width="54%" /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign="bottom"&gt;
+&lt;tr&gt;&lt;th class="head"&gt;Color&lt;/th&gt;
+&lt;th class="head"&gt;Element&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;Blue&lt;/td&gt;
+&lt;td&gt;Water&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Green&lt;/td&gt;
+&lt;td&gt;Earth&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Red&lt;/td&gt;
+&lt;td&gt;Fire&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Yellow&lt;/td&gt;
+&lt;td&gt;Air&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;and a right-aligned table:&lt;/p&gt;
+&lt;table border="1" class="docutils align-right"&gt;
+&lt;colgroup&gt;
+&lt;col width="46%" /&gt;
+&lt;col width="54%" /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign="bottom"&gt;
+&lt;tr&gt;&lt;th class="head"&gt;Color&lt;/th&gt;
+&lt;th class="head"&gt;Element&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;Blue&lt;/td&gt;
+&lt;td&gt;Water&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Green&lt;/td&gt;
+&lt;td&gt;Earth&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Red&lt;/td&gt;
+&lt;td&gt;Fire&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Yellow&lt;/td&gt;
+&lt;td&gt;Air&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Note that, unlike in HTML documents styled with Docutils’ default stylesheet,
+the text inside aligned tables is always left-aligned (or centered, for
+headers) rather than matching the alignment of the table.  This is a deliberate
+design choice by kbits-theme.&lt;/p&gt;
+</content><category term="Features"></category><category term="reStructuredText"></category><category term="styles"></category><category term="tables"></category></entry><entry><title>An &lt;article&gt; with &lt;tags&gt;</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/brackety/" rel="alternate"></link><published>2020-08-09T22:50:00-04:00</published><updated>2020-08-19T13:35:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-09:/kbits-theme-demo/posts/2020/08/brackety/</id><summary type="html">&lt;p class="first last"&gt;Chocolate &amp;lt;3 Peanut Butter&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;This article exists to show that kbits-theme properly handles angle brackets,
+be they in titles, category names, tag names, or summaries.&lt;/p&gt;
+</content><category term="HTML &lt;tag&gt;s"></category><category term="a&lt;b"></category></entry><entry><title>Filler Page #10</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2009/10/filler10/" rel="alternate"></link><published>2009-10-10T00:00:00-04:00</published><updated>2009-10-10T00:00:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2009-10-10:/kbits-theme-demo/posts/2009/10/filler10/</id><content type="html">&lt;p&gt;This is a filler page, just here so that there are enough pages to force
+pagination.&lt;/p&gt;
+</content><category term="Filler"></category></entry><entry><title>Filler Page #9</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2008/09/filler09/" rel="alternate"></link><published>2008-09-09T00:00:00-04:00</published><updated>2008-09-09T00:00:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2008-09-09:/kbits-theme-demo/posts/2008/09/filler09/</id><content type="html">&lt;p&gt;This is a filler page, just here so that there are enough pages to force
+pagination.&lt;/p&gt;
+</content><category term="Filler"></category></entry><entry><title>Filler Page #8</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2007/08/filler08/" rel="alternate"></link><published>2007-08-08T00:00:00-04:00</published><updated>2007-08-08T00:00:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2007-08-08:/kbits-theme-demo/posts/2007/08/filler08/</id><content type="html">&lt;p&gt;This is a filler page, just here so that there are enough pages to force
+pagination.&lt;/p&gt;
+</content><category term="Filler"></category></entry><entry><title>Filler Page #7</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2006/07/filler07/" rel="alternate"></link><published>2006-07-07T00:00:00-04:00</published><updated>2006-07-07T00:00:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2006-07-07:/kbits-theme-demo/posts/2006/07/filler07/</id><content type="html">&lt;p&gt;This is a filler page, just here so that there are enough pages to force
+pagination.&lt;/p&gt;
+</content><category term="Filler"></category></entry><entry><title>Filler Page #6</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2005/06/filler06/" rel="alternate"></link><published>2005-06-06T00:00:00-04:00</published><updated>2005-06-06T00:00:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2005-06-06:/kbits-theme-demo/posts/2005/06/filler06/</id><content type="html">&lt;p&gt;This is a filler page, just here so that there are enough pages to force
+pagination.&lt;/p&gt;
+</content><category term="Filler"></category></entry><entry><title>Filler Page #5</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2004/05/filler05/" rel="alternate"></link><published>2004-05-05T00:00:00-04:00</published><updated>2004-05-05T00:00:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2004-05-05:/kbits-theme-demo/posts/2004/05/filler05/</id><content type="html">&lt;p&gt;This is a filler page, just here so that there are enough pages to force
+pagination.&lt;/p&gt;
+</content><category term="Filler"></category></entry><entry><title>Filler Page #4</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2003/04/filler04/" rel="alternate"></link><published>2003-04-04T00:00:00-05:00</published><updated>2003-04-04T00:00:00-05:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2003-04-04:/kbits-theme-demo/posts/2003/04/filler04/</id><content type="html">&lt;p&gt;This is a filler page, just here so that there are enough pages to force
+pagination.&lt;/p&gt;
+</content><category term="Filler"></category></entry><entry><title>Filler Page #3</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2002/03/filler03/" rel="alternate"></link><published>2002-03-03T00:00:00-05:00</published><updated>2002-03-03T00:00:00-05:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2002-03-03:/kbits-theme-demo/posts/2002/03/filler03/</id><content type="html">&lt;p&gt;This is a filler page, just here so that there are enough pages to force
+pagination.&lt;/p&gt;
+</content><category term="Filler"></category></entry><entry><title>Filler Page #2</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2001/02/filler02/" rel="alternate"></link><published>2001-02-02T00:00:00-05:00</published><updated>2001-02-02T00:00:00-05:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2001-02-02:/kbits-theme-demo/posts/2001/02/filler02/</id><content type="html">&lt;p&gt;This is a filler page, just here so that there are enough pages to force
+pagination.&lt;/p&gt;
+</content><category term="Filler"></category></entry><entry><title>Filler Page #1</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2000/01/filler01/" rel="alternate"></link><published>2000-01-01T00:00:00-05:00</published><updated>2000-01-01T00:00:00-05:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2000-01-01:/kbits-theme-demo/posts/2000/01/filler01/</id><content type="html">&lt;p&gt;This is a filler page, just here so that there are enough pages to force
+pagination.&lt;/p&gt;
+</content><category term="Filler"></category></entry></feed>

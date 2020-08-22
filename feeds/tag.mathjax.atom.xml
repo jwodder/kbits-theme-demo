@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>kbits-theme-demo - MathJax</title><link href="https://jwodder.github.io/kbits-theme-demo/" rel="alternate"></link><link href="https://jwodder.github.io/kbits-theme-demo/feeds/tag.mathjax.atom.xml" rel="self"></link><id>https://jwodder.github.io/kbits-theme-demo/</id><updated>2020-08-15T17:50:00-04:00</updated><subtitle>Demonstration of kbits-theme for Pelican</subtitle><entry><title>MathJax Support</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/mathjax/" rel="alternate"></link><published>2020-08-15T17:50:00-04:00</published><updated>2020-08-15T17:50:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-15:/kbits-theme-demo/posts/2020/08/mathjax/</id><summary type="html">&lt;p class="first last"&gt;Rendering things like &lt;span class="math"&gt;\(\sum_{i=1}^n i = \frac{n^2+n}{2}\)&lt;/span&gt; on your site&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;kbits-theme has built-in support for &lt;a class="reference external" href="https://www.mathjax.org"&gt;MathJax&lt;/a&gt;; with a single setting, the theme
+will enable it on every page of the themed site.  That’s just the first step in
+getting MathJax to work, though, and the remainder of the required steps depend
+on what markup format you’re working with.&lt;/p&gt;
+&lt;div class="section" id="mathjax-settings"&gt;
+&lt;h2&gt;MathJax Settings&lt;/h2&gt;
+&lt;p&gt;kbits-theme’s MathJax support can be controlled with the following Pelican
+settings:&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;USE_MATHJAX = False&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Set to &lt;tt class="docutils literal"&gt;True&lt;/tt&gt; to enable MathJax on every page of the site&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;MATHJAX_SCRIPT = &lt;span class="pre"&gt;&amp;quot;https://cdn.jsdelivr.net/npm/mathjax&amp;#64;3/es5/tex-chtml.js&amp;quot;&lt;/span&gt;&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Set the MathJax script to load.  The default setting loads the &lt;a class="reference external" href="http://docs.mathjax.org/en/latest/web/components/combined.html#tex-chtml"&gt;tex-chtml&lt;/a&gt;
+component from the latest revision of MathJax version 3.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;MATHJAX_CONFIG = {}&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;Set configuration settings for MathJax.  Configuration is applied assuming
+version 3 of MathJax is in use.  Only JSON-serializable values are supported
+in &lt;tt class="docutils literal"&gt;MATHJAX_CONFIG&lt;/tt&gt;.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mathjax-with-restructuredtext"&gt;
+&lt;h2&gt;MathJax with reStructuredText&lt;/h2&gt;
+&lt;p&gt;To be able to produce mathematical output with MathJax while writing in
+reStructuredText, you need to set the &lt;tt class="docutils literal"&gt;&amp;quot;math_output&amp;quot;&lt;/tt&gt; key of your Pelican
+site’s &lt;tt class="docutils literal"&gt;DOCUTILS_SETTINGS&lt;/tt&gt; setting to &lt;tt class="docutils literal"&gt;&amp;quot;mathjax &lt;span class="pre"&gt;irrelevant-value&amp;quot;&lt;/span&gt;&lt;/tt&gt;.  The
+“mathjax” part is case insensitive.  The second word in the string doesn’t
+matter, but it needs to be there to prevent Docutils from emitting a warning
+that makes Pelican halt.  After you’ve made this change, any use of the &lt;code class="rst"&gt;&lt;span class="nc"&gt;:math:&lt;/span&gt;&lt;/code&gt; role or &lt;a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#math"&gt;“math” directive&lt;/a&gt; in your documents will produce output that MathJax
+will then render into mathematical notation.&lt;/p&gt;
+&lt;div class="admonition note"&gt;
+&lt;p class="first admonition-title"&gt;Note&lt;/p&gt;
+&lt;p class="last"&gt;When using the “math” directive, Docutils will wrap your math markup in a
+&lt;code class="tx tex"&gt;&lt;span class="k"&gt;\begin&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;align*&lt;span class="nb"&gt;}&lt;/span&gt;&lt;/code&gt; … &lt;code class="tx tex"&gt;&lt;span class="k"&gt;\end&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;align*&lt;span class="nb"&gt;}&lt;/span&gt;&lt;/code&gt; environment if it contains any
+&lt;code class="tx tex"&gt;&lt;span class="k"&gt;\\&lt;/span&gt;&lt;/code&gt; commands outside of an environment, and in a
+&lt;code class="tx tex"&gt;&lt;span class="k"&gt;\begin&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;equation*&lt;span class="nb"&gt;}&lt;/span&gt;&lt;/code&gt; … &lt;code class="tx tex"&gt;&lt;span class="k"&gt;\end&lt;/span&gt;&lt;span class="nb"&gt;{&lt;/span&gt;equation*&lt;span class="nb"&gt;}&lt;/span&gt;&lt;/code&gt; environment otherwise.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mathjax-with-markdown"&gt;
+&lt;h2&gt;MathJax with Markdown&lt;/h2&gt;
+&lt;p&gt;For writing math in Markdown with kbits-theme, the best option appears to be
+the &lt;a class="reference external" href="https://github.com/facelessuser/pymdown-extensions"&gt;pymdown-extensions&lt;/a&gt; package and its Markdown extension &lt;a class="reference external" href="https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/"&gt;Arithmatex&lt;/a&gt;, which
+can convert math markup in Markdown input into MathJaxable output.  In order to
+use this extension with kbits-theme, you must install pymdown-extensions into
+your Pelican environment and set Arithmatex’s “generic” option to true by
+adding the following configuration to your Pelican site’s &lt;tt class="docutils literal"&gt;MARKDOWN&lt;/tt&gt; setting:&lt;/p&gt;
+&lt;pre class="code python literal-block"&gt;
+&lt;span class="n"&gt;MARKDOWN&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="o"&gt;...&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;extension_configs&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="o"&gt;...&lt;/span&gt;
+        &lt;span class="s2"&gt;&amp;quot;pymdownx.arithmatex&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;generic&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;},&lt;/span&gt;
+        &lt;span class="o"&gt;...&lt;/span&gt;
+    &lt;span class="p"&gt;},&lt;/span&gt;
+    &lt;span class="o"&gt;...&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;If this is the first time you’re modifying the value of &lt;tt class="docutils literal"&gt;MARKDOWN&lt;/tt&gt;, you
+should copy the default value shown in &lt;a class="reference external" href="https://docs.getpelican.com/en/stable/settings.html"&gt;the Pelican documentation&lt;/a&gt; and modify
+that.&lt;/p&gt;
+&lt;p&gt;An alternative worth mentioning is the &lt;a class="reference external" href="https://github.com/pelican-plugins/render-math"&gt;pelican-render-math&lt;/a&gt; plugin for Pelican,
+which enables writing math in Markdown and adds a &lt;tt class="docutils literal"&gt;&amp;lt;script&amp;gt;&lt;/tt&gt; tag for
+activating MathJax to the end of any rendered reStructuredText or Markdown
+content that includes math markup.  This &lt;tt class="docutils literal"&gt;&amp;lt;script&amp;gt;&lt;/tt&gt; conflicts with the
+MathJax loaded by kbits-theme, so if you’re using pelican-render-math, it’s
+recommended to leave &lt;tt class="docutils literal"&gt;USE_MATHJAX&lt;/tt&gt; at &lt;tt class="docutils literal"&gt;False&lt;/tt&gt; and configure MathJax through
+pelican-render-math’s facilities instead.&lt;/p&gt;
+&lt;p&gt;Another alternative, mentioned here for completeness’ sake, is the
+&lt;a class="reference external" href="https://github.com/mitya57/python-markdown-math"&gt;python-markdown-math&lt;/a&gt; package.  The output it produces is by default only
+compatible with version 2 of MathJax, so if you use it with kbits-theme, you
+will need to set &lt;tt class="docutils literal"&gt;MATHJAX_SCRIPT&lt;/tt&gt; to a version 2 URL, and &lt;tt class="docutils literal"&gt;MATHJAX_CONFIG&lt;/tt&gt;
+will be unusable.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="other-considerations"&gt;
+&lt;h2&gt;Other Considerations&lt;/h2&gt;
+&lt;p&gt;If you’re using MathJax and Typogrify is enabled for your site, and if you’re
+not using pelican-render-math (which takes care of this automatically), you
+need to configure Typogrify to ignore math tags.  Add &lt;tt class="docutils literal"&gt;&amp;quot;.math&amp;quot;&lt;/tt&gt; to your
+site’s &lt;tt class="docutils literal"&gt;TYPOGRIFY_IGNORE_TAGS&lt;/tt&gt; setting if you’re writing math in
+reStructuredText, add &lt;tt class="docutils literal"&gt;&amp;quot;.arithmatex&amp;quot;&lt;/tt&gt; if you’re writing in Markdown with
+pymdown-extensions’ Arithmatex, and add &lt;tt class="docutils literal"&gt;&amp;quot;script&amp;quot;&lt;/tt&gt; if you’re writing in
+Markdown with python-markdown-math.  Typogrify v2.0.7 or higher is required for
+such settings.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="some-mathjax-output"&gt;
+&lt;h2&gt;Some MathJax Output&lt;/h2&gt;
+&lt;p&gt;But enough about all that.  You came here to see some math, didn’t you?
+Behold!&lt;/p&gt;
+&lt;div class="topic"&gt;
+&lt;p class="topic-title"&gt;Theorem&lt;/p&gt;
+&lt;p&gt;For all positive integers &lt;span class="math"&gt;\(n\)&lt;/span&gt;, &lt;span class="math"&gt;\(\sum_{i=1}^n i =
+\frac{n^2+n}{2}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Proof:&lt;/strong&gt; When &lt;span class="math"&gt;\(n = 1\)&lt;/span&gt;, then:&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{align*}
+\sum_{i=1}^n i &amp;amp; = \sum_{i=1}^1 i \\
+               &amp;amp; = 1 \\
+               &amp;amp; = \frac{1^2+1}{2} \\
+               &amp;amp; = \frac{n^2+n}{2}
+\end{align*}
+&lt;/div&gt;
+&lt;p&gt;If &lt;span class="math"&gt;\(\sum_{i=1}^n i = \frac{n^2+n}{2}\)&lt;/span&gt; for some positive integer
+&lt;span class="math"&gt;\(n\)&lt;/span&gt;, then:&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{align*}
+\sum_{i=1}^n i &amp;amp; = \frac{n^2+n}{2} \\
+\left(\sum_{i=1}^n i\right) + (n+1) &amp;amp; = \frac{n^2+n}{2} + (n+1) \\
+\sum_{i=1}^{n+1} i &amp;amp; = \frac{n^2+n + 2n + 2}{2} \\
+                   &amp;amp; = \frac{(n^2+2n+1) + (n+1)}{2} \\
+                   &amp;amp; = \frac{(n+1)^2 + (n+1)}{2}
+\end{align*}
+&lt;/div&gt;
+&lt;p&gt;and so the statement holds for &lt;span class="math"&gt;\(n+1\)&lt;/span&gt; as well.&lt;/p&gt;
+&lt;p&gt;Therefore, by the Principle of Mathematical Induction, &lt;span class="math"&gt;\(\sum_{i=1}^n
+i = \frac{n^2+n}{2}\)&lt;/span&gt; for all positive integers &lt;span class="math"&gt;\(n\)&lt;/span&gt;.  ∎&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="Features"></category><category term="MathJax"></category><category term="reStructuredText"></category><category term="Markdown"></category><category term="theme settings"></category></entry></feed>

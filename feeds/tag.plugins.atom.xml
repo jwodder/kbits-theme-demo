@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>kbits-theme-demo - plugins</title><link href="https://jwodder.github.io/kbits-theme-demo/" rel="alternate"></link><link href="https://jwodder.github.io/kbits-theme-demo/feeds/tag.plugins.atom.xml" rel="self"></link><id>https://jwodder.github.io/kbits-theme-demo/</id><updated>2020-08-18T23:11:00-04:00</updated><subtitle>Demonstration of kbits-theme for Pelican</subtitle><entry><title>Autopages Support</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/autopages/" rel="alternate"></link><published>2020-08-18T23:11:00-04:00</published><updated>2020-08-18T23:11:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-18:/kbits-theme-demo/posts/2020/08/autopages/</id><summary type="html">&lt;p&gt;kbits-theme has built-in support for the &lt;a class="reference external" href="https://github.com/getpelican/pelican-plugins/tree/master/autopages"&gt;autopages&lt;/a&gt; plugin.  If you use this
+plugin to create a page for a category, tag, or author, the page’s contents
+will be shown at the top of the article listing for that category/tag/author.
+If you do not use the autopages plugin …&lt;/p&gt;</summary><content type="html">&lt;p&gt;kbits-theme has built-in support for the &lt;a class="reference external" href="https://github.com/getpelican/pelican-plugins/tree/master/autopages"&gt;autopages&lt;/a&gt; plugin.  If you use this
+plugin to create a page for a category, tag, or author, the page’s contents
+will be shown at the top of the article listing for that category/tag/author.
+If you do not use the autopages plugin, or if you do not create a page for a
+given category, tag, or author, the respective article listing(s) will remain
+unadorned.&lt;/p&gt;
+&lt;p&gt;For an example of an article listing with an autopage, see this site’s
+&lt;a class="reference external" href="https://jwodder.github.io/kbits-theme-demo/categories/features/"&gt;“Features” category&lt;/a&gt;.  For an example of an article
+listing &lt;em&gt;without&lt;/em&gt; an autopage, see this site’s &lt;a class="reference external" href="https://jwodder.github.io/kbits-theme-demo/tags/article-listings/"&gt;“article listings” tag&lt;/a&gt;.&lt;/p&gt;
+</content><category term="Features"></category><category term="plugins"></category><category term="autopages"></category><category term="article listings"></category></entry></feed>

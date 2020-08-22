@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>kbits-theme-demo - favicon</title><link href="https://jwodder.github.io/kbits-theme-demo/" rel="alternate"></link><link href="https://jwodder.github.io/kbits-theme-demo/feeds/tag.favicon.atom.xml" rel="self"></link><id>https://jwodder.github.io/kbits-theme-demo/</id><updated>2020-08-21T17:10:00-04:00</updated><subtitle>Demonstration of kbits-theme for Pelican</subtitle><entry><title>Setting a Favicon</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/favicon/" rel="alternate"></link><published>2020-08-21T17:10:00-04:00</published><updated>2020-08-21T17:10:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-21:/kbits-theme-demo/posts/2020/08/favicon/</id><summary type="html">&lt;p&gt;kbits-theme lets you configure a custom &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Favicon"&gt;favicon&lt;/a&gt; for your site via the
+following theme settings:&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;FAVICON_URL&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;A URL pointing to an image to use as the site’s favicon.  If the URL is
+relative (does not begin with either &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;http://&lt;/span&gt;&lt;/tt&gt; or &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;https://&lt;/span&gt;&lt;/tt&gt;), then
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;{{SITEURL}}/&lt;/span&gt;&lt;/tt&gt; is prepended to it.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;FAVICON_TYPE&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;The …&lt;/dd&gt;&lt;/dl&gt;</summary><content type="html">&lt;p&gt;kbits-theme lets you configure a custom &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Favicon"&gt;favicon&lt;/a&gt; for your site via the
+following theme settings:&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;FAVICON_URL&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;A URL pointing to an image to use as the site’s favicon.  If the URL is
+relative (does not begin with either &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;http://&lt;/span&gt;&lt;/tt&gt; or &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;https://&lt;/span&gt;&lt;/tt&gt;), then
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;{{SITEURL}}/&lt;/span&gt;&lt;/tt&gt; is prepended to it.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;FAVICON_TYPE&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;The MIME type of the favicon image (&lt;tt class="docutils literal"&gt;image/gif&lt;/tt&gt; for a GIF, &lt;tt class="docutils literal"&gt;image/png&lt;/tt&gt;
+for a PNG, etc.).  Setting this is optional.&lt;/dd&gt;
+&lt;/dl&gt;
+</content><category term="Features"></category><category term="theme settings"></category><category term="favicon"></category></entry></feed>
