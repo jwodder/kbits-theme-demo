@@ -3,6 +3,7 @@ Article Metadata Tables
 =======================
 
 :Date: 2020-08-16 16:28
+:Modified: 2020-08-23 13:00
 :Category: Features
 :Tags: articles, metadata, theme settings
 :Formatted Field: The <tag> in **bold**
@@ -17,7 +18,7 @@ above this paragraph for an example.)  By default, the following fields are
 shown:
 
 - Date (labelled "Posted")
-- Modified (if set; labelled "Last Updated")
+- Modified (if set)
 - Author(s)
 - Category
 - Tags (If there are no tags, "—" is shown)
