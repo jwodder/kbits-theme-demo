@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>kbits-theme-demo</title><link href="https://jwodder.github.io/kbits-theme-demo/" rel="alternate"></link><link href="https://jwodder.github.io/kbits-theme-demo/feeds/posts.atom.xml" rel="self"></link><id>https://jwodder.github.io/kbits-theme-demo/</id><updated>2020-08-22T13:42:00-04:00</updated><subtitle>Demonstration of kbits-theme for Pelican</subtitle><entry><title>Showing Article Authors</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/showing-authors/" rel="alternate"></link><published>2020-08-22T13:42:00-04:00</published><updated>2020-08-22T13:42:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-22:/kbits-theme-demo/posts/2020/08/showing-authors/</id><summary type="html">&lt;p&gt;kbits-theme has two settings for controlling whether to show articles’ authors.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>kbits-theme-demo</title><link href="https://jwodder.github.io/kbits-theme-demo/" rel="alternate"></link><link href="https://jwodder.github.io/kbits-theme-demo/feeds/posts.atom.xml" rel="self"></link><id>https://jwodder.github.io/kbits-theme-demo/</id><updated>2020-08-23T13:00:00-04:00</updated><subtitle>Demonstration of kbits-theme for Pelican</subtitle><entry><title>Showing Article Authors</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/showing-authors/" rel="alternate"></link><published>2020-08-22T13:42:00-04:00</published><updated>2020-08-22T13:42:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-22:/kbits-theme-demo/posts/2020/08/showing-authors/</id><summary type="html">&lt;p&gt;kbits-theme has two settings for controlling whether to show articles’ authors.
 They are useful if your site only has one author and you don’t want to slap
 your name all over everything.&lt;/p&gt;
 &lt;p&gt;The settings are:&lt;/p&gt;
@@ -503,20 +503,22 @@ Favorite Tags
 &lt;/dd&gt;
 &lt;/dl&gt;
 &lt;/div&gt;
-</content><category term="Features"></category><category term="navpane"></category><category term="theme settings"></category></entry><entry><title>Article Metadata Tables</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/metadata/" rel="alternate"></link><published>2020-08-16T16:28:00-04:00</published><updated>2020-08-16T16:28:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-16:/kbits-theme-demo/posts/2020/08/metadata/</id><summary type="html">&lt;p&gt;At the top of each article in a kbits-theme site, just underneath the article
+</content><category term="Features"></category><category term="navpane"></category><category term="theme settings"></category></entry><entry><title>Article Metadata Tables</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/metadata/" rel="alternate"></link><published>2020-08-16T16:28:00-04:00</published><updated>2020-08-23T13:00:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-16:/kbits-theme-demo/posts/2020/08/metadata/</id><summary type="html">&lt;p&gt;At the top of each article in a kbits-theme site, just underneath the article
 title, kbits-theme displays a table of the article’s metadata.  (Look right
 above this paragraph for an example.)  By default, the following fields are
 shown:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Date (labelled “Posted”)&lt;/li&gt;
-&lt;li&gt;Modified (if set; labelled “Last Updated”)&lt;/li&gt;
-&lt;li&gt;Author(s …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;At the top of each article in a kbits-theme site, just underneath the article
+&lt;li&gt;Modified (if set)&lt;/li&gt;
+&lt;li&gt;Author(s)&lt;/li&gt;
+&lt;li&gt;Category&lt;/li&gt;
+&lt;li&gt;Tags (If …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;At the top of each article in a kbits-theme site, just underneath the article
 title, kbits-theme displays a table of the article’s metadata.  (Look right
 above this paragraph for an example.)  By default, the following fields are
 shown:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Date (labelled “Posted”)&lt;/li&gt;
-&lt;li&gt;Modified (if set; labelled “Last Updated”)&lt;/li&gt;
+&lt;li&gt;Modified (if set)&lt;/li&gt;
 &lt;li&gt;Author(s)&lt;/li&gt;
 &lt;li&gt;Category&lt;/li&gt;
 &lt;li&gt;Tags (If there are no tags, “—” is shown)&lt;/li&gt;
@@ -686,54 +688,7 @@ Behold!&lt;/p&gt;
 i = \frac{n^2+n}{2}\)&lt;/span&gt; for all positive integers &lt;span class="math"&gt;\(n\)&lt;/span&gt;.  ∎&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="Features"></category><category term="MathJax"></category><category term="reStructuredText"></category><category term="Markdown"></category><category term="theme settings"></category></entry><entry><title>Chacaloco</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/jabberwocky/es/" rel="alternate"></link><published>2020-08-15T00:00:00-04:00</published><updated>2020-08-15T00:00:00-04:00</updated><author><name>Lewis Carroll</name></author><id>tag:jwodder.github.io,2020-08-15:/kbits-theme-demo/posts/2020/08/jabberwocky/es/</id><summary type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;‘Era brilligio, y los rebalosioso mocasos&lt;/div&gt;
-&lt;div class="line"&gt;Giraban y Girareon en las ondabolsciabo:&lt;/div&gt;
-&lt;div class="line"&gt;Todo debilirana estaban las ramianandos&lt;/div&gt;
-&lt;div class="line"&gt;Y los momiasera ratianeras fuerandabando.&lt;/div&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;“Tenga cuidadao del Chacaloco, mi hijo!&lt;/div&gt;
-&lt;div class="line"&gt;La quijadas que muerden, las garras que cojen!&lt;/div&gt;
-&lt;div class="line"&gt;Tenga cuidado del Jubojubo - ese monstro pajaro&lt;/div&gt;
-&lt;div class="line"&gt;y evite el furiaboso murcielageren!”&lt;/div&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;El cogio …&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;‘Era brilligio, y los rebalosioso mocasos&lt;/div&gt;
-&lt;div class="line"&gt;Giraban y Girareon en las ondabolsciabo:&lt;/div&gt;
-&lt;div class="line"&gt;Todo debilirana estaban las ramianandos&lt;/div&gt;
-&lt;div class="line"&gt;Y los momiasera ratianeras fuerandabando.&lt;/div&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;“Tenga cuidadao del Chacaloco, mi hijo!&lt;/div&gt;
-&lt;div class="line"&gt;La quijadas que muerden, las garras que cojen!&lt;/div&gt;
-&lt;div class="line"&gt;Tenga cuidado del Jubojubo - ese monstro pajaro&lt;/div&gt;
-&lt;div class="line"&gt;y evite el furiaboso murcielageren!”&lt;/div&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;El cogio su voraciabada espada en la mano:&lt;/div&gt;
-&lt;div class="line"&gt;Mucho tiempo el manfiamado adversario busco–&lt;/div&gt;
-&lt;div class="line"&gt;Asi descanzo por el arbol Tumtumano&lt;/div&gt;
-&lt;div class="line"&gt;Y se paro un tiempo en pensamiento.&lt;/div&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;Y, como en pensamiento estaba parado,&lt;/div&gt;
-&lt;div class="line"&gt;El Chacaloco, con ojos de llama,&lt;/div&gt;
-&lt;div class="line"&gt;vino pistandabondo por la selva disturbiamoso.&lt;/div&gt;
-&lt;div class="line"&gt;Y orrutabilaba como venia!&lt;/div&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;Uno dos! Uno dos! Y a traves, a traves&lt;/div&gt;
-&lt;div class="line"&gt;la voraciabada espada fue ‘snecke-snak!’&lt;/div&gt;
-&lt;div class="line"&gt;El lo dejo muerto, y con la cabeza&lt;/div&gt;
-&lt;div class="line"&gt;El se fue gallardio para atras.&lt;/div&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;“Y has matado usted el Chacaloco?&lt;/div&gt;
-&lt;div class="line"&gt;Venga a mis brazos, mi bellariazon hijo!&lt;/div&gt;
-&lt;div class="line"&gt;O fantilimandeza dia! Callaya! Calluso!”&lt;/div&gt;
-&lt;div class="line"&gt;El sotociamanado en su alegria.&lt;/div&gt;
-&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
-&lt;div class="line"&gt;‘Era brilligio, y los rebalosioso mocasos&lt;/div&gt;
-&lt;div class="line"&gt;Giraban y Girareon en las ondabolsciabo:&lt;/div&gt;
-&lt;div class="line"&gt;Todo debilirana estaban las ramianandos&lt;/div&gt;
-&lt;div class="line"&gt;Y los momiasera ratianeras fuerandabando.&lt;/div&gt;
-&lt;/div&gt;
-</content><category term="Examples"></category><category term="translated"></category></entry><entry><title>Gaberbocchus</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/jabberwocky/la/" rel="alternate"></link><published>2020-08-15T00:00:00-04:00</published><updated>2020-08-15T00:00:00-04:00</updated><author><name>Lewis Carroll</name></author><id>tag:jwodder.github.io,2020-08-15:/kbits-theme-demo/posts/2020/08/jabberwocky/la/</id><summary type="html">&lt;div class="line-block"&gt;
+</content><category term="Features"></category><category term="MathJax"></category><category term="reStructuredText"></category><category term="Markdown"></category><category term="theme settings"></category></entry><entry><title>Gaberbocchus</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/jabberwocky/la/" rel="alternate"></link><published>2020-08-15T00:00:00-04:00</published><updated>2020-08-15T00:00:00-04:00</updated><author><name>Lewis Carroll</name></author><id>tag:jwodder.github.io,2020-08-15:/kbits-theme-demo/posts/2020/08/jabberwocky/la/</id><summary type="html">&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;Hora aderat briligi.  Nunc et Slythia Tova&lt;/div&gt;
 &lt;div class="line"&gt;Plurima gyrabant gymbolitare vabo;&lt;/div&gt;
 &lt;div class="line"&gt;Et Borogovorum mimzebant undique formae,&lt;/div&gt;
@@ -779,6 +734,53 @@ i = \frac{n^2+n}{2}\)&lt;/span&gt; for all positive integers &lt;span class="mat
 &lt;div class="line"&gt;Plurima gyrabant gymbolitare vabo;&lt;/div&gt;
 &lt;div class="line"&gt;Et Borogovorum mimzebant undique formae,&lt;/div&gt;
 &lt;div class="line"&gt;Momiferique omnes exgrabure Rathi.&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="Examples"></category><category term="translated"></category></entry><entry><title>Chacaloco</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/jabberwocky/es/" rel="alternate"></link><published>2020-08-15T00:00:00-04:00</published><updated>2020-08-15T00:00:00-04:00</updated><author><name>Lewis Carroll</name></author><id>tag:jwodder.github.io,2020-08-15:/kbits-theme-demo/posts/2020/08/jabberwocky/es/</id><summary type="html">&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;‘Era brilligio, y los rebalosioso mocasos&lt;/div&gt;
+&lt;div class="line"&gt;Giraban y Girareon en las ondabolsciabo:&lt;/div&gt;
+&lt;div class="line"&gt;Todo debilirana estaban las ramianandos&lt;/div&gt;
+&lt;div class="line"&gt;Y los momiasera ratianeras fuerandabando.&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;“Tenga cuidadao del Chacaloco, mi hijo!&lt;/div&gt;
+&lt;div class="line"&gt;La quijadas que muerden, las garras que cojen!&lt;/div&gt;
+&lt;div class="line"&gt;Tenga cuidado del Jubojubo - ese monstro pajaro&lt;/div&gt;
+&lt;div class="line"&gt;y evite el furiaboso murcielageren!”&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;El cogio …&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;‘Era brilligio, y los rebalosioso mocasos&lt;/div&gt;
+&lt;div class="line"&gt;Giraban y Girareon en las ondabolsciabo:&lt;/div&gt;
+&lt;div class="line"&gt;Todo debilirana estaban las ramianandos&lt;/div&gt;
+&lt;div class="line"&gt;Y los momiasera ratianeras fuerandabando.&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;“Tenga cuidadao del Chacaloco, mi hijo!&lt;/div&gt;
+&lt;div class="line"&gt;La quijadas que muerden, las garras que cojen!&lt;/div&gt;
+&lt;div class="line"&gt;Tenga cuidado del Jubojubo - ese monstro pajaro&lt;/div&gt;
+&lt;div class="line"&gt;y evite el furiaboso murcielageren!”&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;El cogio su voraciabada espada en la mano:&lt;/div&gt;
+&lt;div class="line"&gt;Mucho tiempo el manfiamado adversario busco–&lt;/div&gt;
+&lt;div class="line"&gt;Asi descanzo por el arbol Tumtumano&lt;/div&gt;
+&lt;div class="line"&gt;Y se paro un tiempo en pensamiento.&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Y, como en pensamiento estaba parado,&lt;/div&gt;
+&lt;div class="line"&gt;El Chacaloco, con ojos de llama,&lt;/div&gt;
+&lt;div class="line"&gt;vino pistandabondo por la selva disturbiamoso.&lt;/div&gt;
+&lt;div class="line"&gt;Y orrutabilaba como venia!&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Uno dos! Uno dos! Y a traves, a traves&lt;/div&gt;
+&lt;div class="line"&gt;la voraciabada espada fue ‘snecke-snak!’&lt;/div&gt;
+&lt;div class="line"&gt;El lo dejo muerto, y con la cabeza&lt;/div&gt;
+&lt;div class="line"&gt;El se fue gallardio para atras.&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;“Y has matado usted el Chacaloco?&lt;/div&gt;
+&lt;div class="line"&gt;Venga a mis brazos, mi bellariazon hijo!&lt;/div&gt;
+&lt;div class="line"&gt;O fantilimandeza dia! Callaya! Calluso!”&lt;/div&gt;
+&lt;div class="line"&gt;El sotociamanado en su alegria.&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;‘Era brilligio, y los rebalosioso mocasos&lt;/div&gt;
+&lt;div class="line"&gt;Giraban y Girareon en las ondabolsciabo:&lt;/div&gt;
+&lt;div class="line"&gt;Todo debilirana estaban las ramianandos&lt;/div&gt;
+&lt;div class="line"&gt;Y los momiasera ratianeras fuerandabando.&lt;/div&gt;
 &lt;/div&gt;
 </content><category term="Examples"></category><category term="translated"></category></entry><entry><title>Table Styles and Alignment in reStructuredText</title><link href="https://jwodder.github.io/kbits-theme-demo/posts/2020/08/table-styles/" rel="alternate"></link><published>2020-08-13T22:54:00-04:00</published><updated>2020-08-13T22:54:00-04:00</updated><author><name>John T. Wodder II</name></author><id>tag:jwodder.github.io,2020-08-13:/kbits-theme-demo/posts/2020/08/table-styles/</id><summary type="html">&lt;p class="first last"&gt;kbits-theme’s support for Docutils table styles and table alignment
 specifiers&lt;/p&gt;
