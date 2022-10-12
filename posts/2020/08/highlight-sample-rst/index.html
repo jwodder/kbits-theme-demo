@@ -161,27 +161,27 @@ kbits-theme:</p>
 directive</a>.  The default output is pretty much the same as that of “code”, but
 if we enable table-style line numbers with the <tt class="docutils literal">:linenos:</tt> option, we see a
 difference:</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">compress</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span></pre></div></td><td class="code"><div><pre><span></span><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">compress</span>
 
 <span class="k">def</span> <span class="nf">subsets</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">nonempty</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">proper</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
@@ -202,30 +202,30 @@ difference:</p>
                 <span class="k">break</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="k">break</span>
-</pre></div>
-</td></tr></table><p>The “code-block” directive also lets us highlight individual lines with the
+</pre></div></td></tr></table></div>
+<p>The “code-block” directive also lets us highlight individual lines with the
 <tt class="docutils literal">:hl_lines:</tt> option:</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">compress</span>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span></pre></div></td><td class="code"><div><pre><span></span><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">compress</span>
 
 <span class="k">def</span> <span class="nf">subsets</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">nonempty</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">proper</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
@@ -246,29 +246,29 @@ difference:</p>
                 <span class="k">break</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="k">break</span>
-</pre></div>
-</td></tr></table><p>… or make every <em>n</em>-th line number stand out:</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
- 2
- 3
- 4
+</pre></div></td></tr></table></div>
+<p>… or make every <em>n</em>-th line number stand out:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
 <span class="special"> 5</span>
- 6
- 7
- 8
- 9
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
 <span class="special">10</span>
-11
-12
-13
-14
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
 <span class="special">15</span>
-16
-17
-18
-19
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
 <span class="special">20</span>
-21</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">compress</span>
+<span class="normal">21</span></pre></div></td><td class="code"><div><pre><span></span><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">compress</span>
 
 <span class="k">def</span> <span class="nf">subsets</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">nonempty</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">proper</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
@@ -289,8 +289,8 @@ difference:</p>
                 <span class="k">break</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="k">break</span>
-</pre></div>
-</td></tr></table><!-- TODO: "code" role -->
+</pre></div></td></tr></table></div>
+<!-- TODO: "code" role -->
 <p>reStructuredText also provides a <a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/roles.html#code"><tt class="docutils literal">:code:</tt> role</a> that can be used for highlighting
 inline code samples.  To use it, first create a “subrole” with the name of the
 highlighted language supplied to the <tt class="docutils literal">:language:</tt> option:</p>

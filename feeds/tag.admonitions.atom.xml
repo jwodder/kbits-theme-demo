@@ -19,84 +19,84 @@ They are transformed from section titles after parsing. --&gt;
 &lt;div class="contents topic" id="table-of-contents"&gt;
 &lt;p class="topic-title"&gt;Table of Contents&lt;/p&gt;
 &lt;ul class="auto-toc simple"&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#structural-elements" id="id21"&gt;1&amp;nbsp;&amp;nbsp;&amp;nbsp;Structural Elements&lt;/a&gt;&lt;ul class="auto-toc"&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#section-title" id="id22"&gt;1.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Section Title&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#transitions" id="id23"&gt;1.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Transitions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#structural-elements" id="toc-entry-1"&gt;1&amp;nbsp;&amp;nbsp;&amp;nbsp;Structural Elements&lt;/a&gt;&lt;ul class="auto-toc"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#section-title" id="toc-entry-2"&gt;1.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Section Title&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#transitions" id="toc-entry-3"&gt;1.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Transitions&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#body-elements" id="id24"&gt;2&amp;nbsp;&amp;nbsp;&amp;nbsp;Body Elements&lt;/a&gt;&lt;ul class="auto-toc"&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#paragraphs" id="id25"&gt;2.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Paragraphs&lt;/a&gt;&lt;ul class="auto-toc"&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#inline-markup" id="id26"&gt;2.1.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Inline Markup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#body-elements" id="toc-entry-4"&gt;2&amp;nbsp;&amp;nbsp;&amp;nbsp;Body Elements&lt;/a&gt;&lt;ul class="auto-toc"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#paragraphs" id="toc-entry-5"&gt;2.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Paragraphs&lt;/a&gt;&lt;ul class="auto-toc"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#inline-markup" id="toc-entry-6"&gt;2.1.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Inline Markup&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#bullet-lists" id="id27"&gt;2.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Bullet Lists&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#enumerated-lists" id="id28"&gt;2.3&amp;nbsp;&amp;nbsp;&amp;nbsp;Enumerated Lists&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#definition-lists" id="id29"&gt;2.4&amp;nbsp;&amp;nbsp;&amp;nbsp;Definition Lists&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#field-lists" id="id30"&gt;2.5&amp;nbsp;&amp;nbsp;&amp;nbsp;Field Lists&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#option-lists" id="id31"&gt;2.6&amp;nbsp;&amp;nbsp;&amp;nbsp;Option Lists&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#literal-blocks" id="id32"&gt;2.7&amp;nbsp;&amp;nbsp;&amp;nbsp;Literal Blocks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#line-blocks" id="id33"&gt;2.8&amp;nbsp;&amp;nbsp;&amp;nbsp;Line Blocks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#block-quotes" id="id34"&gt;2.9&amp;nbsp;&amp;nbsp;&amp;nbsp;Block Quotes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#doctest-blocks" id="id35"&gt;2.10&amp;nbsp;&amp;nbsp;&amp;nbsp;Doctest Blocks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#tables" id="id36"&gt;2.11&amp;nbsp;&amp;nbsp;&amp;nbsp;Tables&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#footnotes" id="id37"&gt;2.12&amp;nbsp;&amp;nbsp;&amp;nbsp;Footnotes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#citations" id="id38"&gt;2.13&amp;nbsp;&amp;nbsp;&amp;nbsp;Citations&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#targets" id="id39"&gt;2.14&amp;nbsp;&amp;nbsp;&amp;nbsp;Targets&lt;/a&gt;&lt;ul class="auto-toc"&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#duplicate-target-names" id="id40"&gt;2.14.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Duplicate Target Names&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#id16" id="id41"&gt;2.14.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Duplicate Target Names&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#bullet-lists" id="toc-entry-7"&gt;2.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Bullet Lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#enumerated-lists" id="toc-entry-8"&gt;2.3&amp;nbsp;&amp;nbsp;&amp;nbsp;Enumerated Lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#definition-lists" id="toc-entry-9"&gt;2.4&amp;nbsp;&amp;nbsp;&amp;nbsp;Definition Lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#field-lists" id="toc-entry-10"&gt;2.5&amp;nbsp;&amp;nbsp;&amp;nbsp;Field Lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#option-lists" id="toc-entry-11"&gt;2.6&amp;nbsp;&amp;nbsp;&amp;nbsp;Option Lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#literal-blocks" id="toc-entry-12"&gt;2.7&amp;nbsp;&amp;nbsp;&amp;nbsp;Literal Blocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#line-blocks" id="toc-entry-13"&gt;2.8&amp;nbsp;&amp;nbsp;&amp;nbsp;Line Blocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#block-quotes" id="toc-entry-14"&gt;2.9&amp;nbsp;&amp;nbsp;&amp;nbsp;Block Quotes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#doctest-blocks" id="toc-entry-15"&gt;2.10&amp;nbsp;&amp;nbsp;&amp;nbsp;Doctest Blocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#tables" id="toc-entry-16"&gt;2.11&amp;nbsp;&amp;nbsp;&amp;nbsp;Tables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#footnotes" id="toc-entry-17"&gt;2.12&amp;nbsp;&amp;nbsp;&amp;nbsp;Footnotes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#citations" id="toc-entry-18"&gt;2.13&amp;nbsp;&amp;nbsp;&amp;nbsp;Citations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#targets" id="toc-entry-19"&gt;2.14&amp;nbsp;&amp;nbsp;&amp;nbsp;Targets&lt;/a&gt;&lt;ul class="auto-toc"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#duplicate-target-names" id="toc-entry-20"&gt;2.14.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Duplicate Target Names&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#duplicate-target-names-1" id="toc-entry-21"&gt;2.14.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Duplicate Target Names&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#directives" id="id42"&gt;2.15&amp;nbsp;&amp;nbsp;&amp;nbsp;Directives&lt;/a&gt;&lt;ul class="auto-toc"&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#document-parts" id="id43"&gt;2.15.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Document Parts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#images" id="id44"&gt;2.15.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Images&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#admonitions" id="id45"&gt;2.15.3&amp;nbsp;&amp;nbsp;&amp;nbsp;Admonitions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#topics-sidebars-and-rubrics" id="id46"&gt;2.15.4&amp;nbsp;&amp;nbsp;&amp;nbsp;Topics, Sidebars, and Rubrics&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#target-footnotes" id="id47"&gt;2.15.5&amp;nbsp;&amp;nbsp;&amp;nbsp;Target Footnotes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#replacement-text" id="id48"&gt;2.15.6&amp;nbsp;&amp;nbsp;&amp;nbsp;Replacement Text&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#compound-paragraph" id="id49"&gt;2.15.7&amp;nbsp;&amp;nbsp;&amp;nbsp;Compound Paragraph&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#directives" id="toc-entry-22"&gt;2.15&amp;nbsp;&amp;nbsp;&amp;nbsp;Directives&lt;/a&gt;&lt;ul class="auto-toc"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#document-parts" id="toc-entry-23"&gt;2.15.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Document Parts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#images" id="toc-entry-24"&gt;2.15.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#admonitions" id="toc-entry-25"&gt;2.15.3&amp;nbsp;&amp;nbsp;&amp;nbsp;Admonitions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#topics-sidebars-and-rubrics" id="toc-entry-26"&gt;2.15.4&amp;nbsp;&amp;nbsp;&amp;nbsp;Topics, Sidebars, and Rubrics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#target-footnotes" id="toc-entry-27"&gt;2.15.5&amp;nbsp;&amp;nbsp;&amp;nbsp;Target Footnotes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#replacement-text" id="toc-entry-28"&gt;2.15.6&amp;nbsp;&amp;nbsp;&amp;nbsp;Replacement Text&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#compound-paragraph" id="toc-entry-29"&gt;2.15.7&amp;nbsp;&amp;nbsp;&amp;nbsp;Compound Paragraph&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#substitution-definitions" id="id50"&gt;2.16&amp;nbsp;&amp;nbsp;&amp;nbsp;Substitution Definitions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#comments" id="id51"&gt;2.17&amp;nbsp;&amp;nbsp;&amp;nbsp;Comments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#substitution-definitions" id="toc-entry-30"&gt;2.16&amp;nbsp;&amp;nbsp;&amp;nbsp;Substitution Definitions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#comments" id="toc-entry-31"&gt;2.17&amp;nbsp;&amp;nbsp;&amp;nbsp;Comments&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#error-handling" id="id52"&gt;3&amp;nbsp;&amp;nbsp;&amp;nbsp;Error Handling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#error-handling" id="toc-entry-32"&gt;3&amp;nbsp;&amp;nbsp;&amp;nbsp;Error Handling&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="structural-elements"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id21"&gt;1&amp;nbsp;&amp;nbsp;&amp;nbsp;Structural Elements&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-1"&gt;1&amp;nbsp;&amp;nbsp;&amp;nbsp;Structural Elements&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="section" id="section-title"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id22"&gt;1.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Section Title&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-2"&gt;1.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Section Title&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;That’s it, the text just above this line.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="transitions"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id23"&gt;1.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Transitions&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-3"&gt;1.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Transitions&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Here’s a transition:&lt;/p&gt;
 &lt;hr class="docutils" /&gt;
 &lt;p&gt;It divides the section.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="body-elements"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id24"&gt;2&amp;nbsp;&amp;nbsp;&amp;nbsp;Body Elements&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-4"&gt;2&amp;nbsp;&amp;nbsp;&amp;nbsp;Body Elements&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="section" id="paragraphs"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id25"&gt;2.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Paragraphs&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-5"&gt;2.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Paragraphs&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;A paragraph.&lt;/p&gt;
 &lt;div class="section" id="inline-markup"&gt;
-&lt;h4&gt;&lt;a class="toc-backref" href="#id26"&gt;2.1.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Inline Markup&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#toc-entry-6"&gt;2.1.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Inline Markup&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Paragraphs contain text and may contain inline markup: &lt;em&gt;emphasis&lt;/em&gt;,
 &lt;strong&gt;strong emphasis&lt;/strong&gt;, &lt;tt class="docutils literal"&gt;inline literals&lt;/tt&gt;, standalone hyperlinks
-(&lt;a class="reference external" href="http://www.python.org"&gt;http://www.python.org&lt;/a&gt;), external hyperlinks (&lt;a class="reference external" href="http://www.python.org/"&gt;Python&lt;/a&gt; &lt;a class="footnote-reference" href="#id17" id="id18"&gt;[5]&lt;/a&gt;), internal
+(&lt;a class="reference external" href="http://www.python.org"&gt;http://www.python.org&lt;/a&gt;), external hyperlinks (&lt;a class="reference external" href="http://www.python.org/"&gt;Python&lt;/a&gt; &lt;a class="footnote-reference" href="#footnote-6" id="footnote-reference-8"&gt;[5]&lt;/a&gt;), internal
 cross-references (&lt;a class="reference internal" href="#example"&gt;example&lt;/a&gt;), external hyperlinks with embedded URIs
 (&lt;a class="reference external" href="http://www.python.org"&gt;Python web site&lt;/a&gt;), footnote references
-(manually numbered &lt;a class="footnote-reference" href="#id6" id="id1"&gt;[1]&lt;/a&gt;, anonymous auto-numbered &lt;a class="footnote-reference" href="#id9" id="id2"&gt;[3]&lt;/a&gt;, labeled
-auto-numbered &lt;a class="footnote-reference" href="#label" id="id3"&gt;[2]&lt;/a&gt;, or symbolic &lt;a class="footnote-reference" href="#id10" id="id4"&gt;[*]&lt;/a&gt;), citation references
-(&lt;a class="citation-reference" href="#cit2002" id="id5"&gt;[CIT2002]&lt;/a&gt;), substitution references (&lt;img alt="EXAMPLE" src="https://jwodder.github.io/kbits-theme-demo/posts/2012/01/demo/biohazard.png" /&gt;), and &lt;span class="target" id="inline-hyperlink-targets"&gt;inline
+(manually numbered &lt;a class="footnote-reference" href="#footnote-1" id="footnote-reference-1"&gt;[1]&lt;/a&gt;, anonymous auto-numbered &lt;a class="footnote-reference" href="#footnote-2" id="footnote-reference-2"&gt;[3]&lt;/a&gt;, labeled
+auto-numbered &lt;a class="footnote-reference" href="#label" id="footnote-reference-3"&gt;[2]&lt;/a&gt;, or symbolic &lt;a class="footnote-reference" href="#footnote-3" id="footnote-reference-4"&gt;[*]&lt;/a&gt;), citation references
+(&lt;a class="citation-reference" href="#cit2002" id="citation-reference-1"&gt;[CIT2002]&lt;/a&gt;), substitution references (&lt;img alt="EXAMPLE" src="https://jwodder.github.io/kbits-theme-demo/posts/2012/01/demo/biohazard.png" /&gt;), and &lt;span class="target" id="inline-hyperlink-targets"&gt;inline
 hyperlink targets&lt;/span&gt; (see &lt;a class="reference internal" href="#targets"&gt;Targets&lt;/a&gt; below for a reference back to here).
 Character-level inline markup is also possible (although exceedingly
 ugly!) in &lt;em&gt;re&lt;/em&gt;&lt;tt class="docutils literal"&gt;Structured&lt;/tt&gt;&lt;em&gt;Text&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;The default role for interpreted text is &lt;cite&gt;Title Reference&lt;/cite&gt;.  Here are
-some explicit interpreted text roles: a PEP reference (&lt;a class="reference external" href="http://www.python.org/dev/peps/pep-0287"&gt;PEP 287&lt;/a&gt;); an
-RFC reference (&lt;a class="reference external" href="http://tools.ietf.org/html/rfc2822.html"&gt;RFC 2822&lt;/a&gt;); a &lt;sub&gt;subscript&lt;/sub&gt;; a &lt;sup&gt;superscript&lt;/sup&gt;;
+some explicit interpreted text roles: a PEP reference (&lt;a class="reference external" href="https://peps.python.org/pep-0287"&gt;PEP 287&lt;/a&gt;); an
+RFC reference (&lt;a class="reference external" href="https://tools.ietf.org/html/rfc2822.html"&gt;RFC 2822&lt;/a&gt;); a &lt;sub&gt;subscript&lt;/sub&gt;; a &lt;sup&gt;superscript&lt;/sup&gt;;
 and explicit roles for &lt;em&gt;standard&lt;/em&gt; &lt;strong&gt;inline&lt;/strong&gt;
 &lt;tt class="docutils literal"&gt;markup&lt;/tt&gt;.&lt;/p&gt;
 &lt;!-- DO NOT RE-WRAP THE FOLLOWING PARAGRAPH! --&gt;
@@ -111,7 +111,7 @@ live link to PEP 258 here.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="bullet-lists"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id27"&gt;2.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Bullet Lists&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-7"&gt;2.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Bullet Lists&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;A bullet list&lt;/p&gt;
 &lt;ul class="simple"&gt;
@@ -134,7 +134,7 @@ live link to PEP 258 here.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="enumerated-lists"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id28"&gt;2.3&amp;nbsp;&amp;nbsp;&amp;nbsp;Enumerated Lists&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-8"&gt;2.3&amp;nbsp;&amp;nbsp;&amp;nbsp;Enumerated Lists&lt;/a&gt;&lt;/h3&gt;
 &lt;ol class="arabic"&gt;
 &lt;li&gt;&lt;p class="first"&gt;Arabic numerals.&lt;/p&gt;
 &lt;ol class="loweralpha simple"&gt;
@@ -169,7 +169,7 @@ live link to PEP 258 here.&lt;/p&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 &lt;div class="section" id="definition-lists"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id29"&gt;2.4&amp;nbsp;&amp;nbsp;&amp;nbsp;Definition Lists&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-9"&gt;2.4&amp;nbsp;&amp;nbsp;&amp;nbsp;Definition Lists&lt;/a&gt;&lt;/h3&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;Term&lt;/dt&gt;
 &lt;dd&gt;Definition&lt;/dd&gt;
@@ -182,7 +182,7 @@ live link to PEP 258 here.&lt;/p&gt;
 &lt;/dl&gt;
 &lt;/div&gt;
 &lt;div class="section" id="field-lists"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id30"&gt;2.5&amp;nbsp;&amp;nbsp;&amp;nbsp;Field Lists&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-10"&gt;2.5&amp;nbsp;&amp;nbsp;&amp;nbsp;Field Lists&lt;/a&gt;&lt;/h3&gt;
 &lt;table class="docutils field-list" frame="void" rules="none"&gt;
 &lt;col class="field-name" /&gt;
 &lt;col class="field-body" /&gt;
@@ -201,7 +201,7 @@ relative to the field marker.&lt;/p&gt;
 &lt;/table&gt;
 &lt;/div&gt;
 &lt;div class="section" id="option-lists"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id31"&gt;2.6&amp;nbsp;&amp;nbsp;&amp;nbsp;Option Lists&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-11"&gt;2.6&amp;nbsp;&amp;nbsp;&amp;nbsp;Option Lists&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;For listing command-line options:&lt;/p&gt;
 &lt;table class="docutils option-list" frame="void" rules="none"&gt;
 &lt;col class="option" /&gt;
@@ -247,7 +247,7 @@ regardless of where it starts.&lt;/p&gt;
 description.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="literal-blocks"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id32"&gt;2.7&amp;nbsp;&amp;nbsp;&amp;nbsp;Literal Blocks&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-12"&gt;2.7&amp;nbsp;&amp;nbsp;&amp;nbsp;Literal Blocks&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Literal blocks are indicated with a double-colon (“::”) at the end of
 the preceding paragraph (over there &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;--&amp;gt;&lt;/span&gt;&lt;/tt&gt;).  They can be indented:&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
@@ -264,7 +264,7 @@ if literal_block:
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;div class="section" id="line-blocks"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id33"&gt;2.8&amp;nbsp;&amp;nbsp;&amp;nbsp;Line Blocks&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-13"&gt;2.8&amp;nbsp;&amp;nbsp;&amp;nbsp;Line Blocks&lt;/a&gt;&lt;/h3&gt;
 &lt;div class="line-block"&gt;
 &lt;div class="line"&gt;This is a line block.  It ends with a blank line.&lt;/div&gt;
 &lt;div class="line-block"&gt;
@@ -313,7 +313,7 @@ the left edge of the text above it.&lt;/div&gt;
 &lt;/blockquote&gt;
 &lt;/div&gt;
 &lt;div class="section" id="block-quotes"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id34"&gt;2.9&amp;nbsp;&amp;nbsp;&amp;nbsp;Block Quotes&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-14"&gt;2.9&amp;nbsp;&amp;nbsp;&amp;nbsp;Block Quotes&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Block quotes consist of indented body elements:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;My theory by A. Elk.  Brackets Miss, brackets.  This theory goes
@@ -325,7 +325,7 @@ own it, and what it is too.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/div&gt;
 &lt;div class="section" id="doctest-blocks"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id35"&gt;2.10&amp;nbsp;&amp;nbsp;&amp;nbsp;Doctest Blocks&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-15"&gt;2.10&amp;nbsp;&amp;nbsp;&amp;nbsp;Doctest Blocks&lt;/a&gt;&lt;/h3&gt;
 &lt;pre class="doctest-block"&gt;
 &amp;gt;&amp;gt;&amp;gt; print 'Python-specific usage examples; begun with &amp;quot;&amp;gt;&amp;gt;&amp;gt;&amp;quot;'
 Python-specific usage examples; begun with &amp;quot;&amp;gt;&amp;gt;&amp;gt;&amp;quot;
@@ -334,7 +334,7 @@ Python-specific usage examples; begun with &amp;quot;&amp;gt;&amp;gt;&amp;gt;&am
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;div class="section" id="tables"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id36"&gt;2.11&amp;nbsp;&amp;nbsp;&amp;nbsp;Tables&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-16"&gt;2.11&amp;nbsp;&amp;nbsp;&amp;nbsp;Tables&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Here’s a grid table followed by a simple table:&lt;/p&gt;
 &lt;table border="1" class="docutils"&gt;
 &lt;colgroup&gt;
@@ -415,11 +415,11 @@ empty: &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;--&amp;gt;&lt;
 &lt;/table&gt;
 &lt;/div&gt;
 &lt;div class="section" id="footnotes"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id37"&gt;2.12&amp;nbsp;&amp;nbsp;&amp;nbsp;Footnotes&lt;/a&gt;&lt;/h3&gt;
-&lt;table class="docutils footnote" frame="void" id="id6" rules="none"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-17"&gt;2.12&amp;nbsp;&amp;nbsp;&amp;nbsp;Footnotes&lt;/a&gt;&lt;/h3&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-1" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;[1]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#id1"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#id7"&gt;2&lt;/a&gt;)&lt;/em&gt; &lt;p&gt;A footnote contains body elements, consistently indented by at
+&lt;tr&gt;&lt;td class="label"&gt;[1]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#footnote-reference-1"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#footnote-reference-5"&gt;2&lt;/a&gt;)&lt;/em&gt; &lt;p&gt;A footnote contains body elements, consistently indented by at
 least 3 spaces.&lt;/p&gt;
 &lt;p class="last"&gt;This is the footnote’s second paragraph.&lt;/p&gt;
 &lt;/td&gt;&lt;/tr&gt;
@@ -428,34 +428,34 @@ least 3 spaces.&lt;/p&gt;
 &lt;table class="docutils footnote" frame="void" id="label" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;[2]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#id3"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#id8"&gt;2&lt;/a&gt;)&lt;/em&gt; Footnotes may be numbered, either manually (as in &lt;a class="footnote-reference" href="#id6" id="id7"&gt;[1]&lt;/a&gt;) or
+&lt;tr&gt;&lt;td class="label"&gt;[2]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#footnote-reference-3"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#footnote-reference-6"&gt;2&lt;/a&gt;)&lt;/em&gt; Footnotes may be numbered, either manually (as in &lt;a class="footnote-reference" href="#footnote-1" id="footnote-reference-5"&gt;[1]&lt;/a&gt;) or
 automatically using a “#”-prefixed label.  This footnote has a
 label so it can be referred to from multiple places, both as a
-footnote reference (&lt;a class="footnote-reference" href="#label" id="id8"&gt;[2]&lt;/a&gt;) and as a hyperlink reference
+footnote reference (&lt;a class="footnote-reference" href="#label" id="footnote-reference-6"&gt;[2]&lt;/a&gt;) and as a hyperlink reference
 (&lt;a class="reference internal" href="#label"&gt;label&lt;/a&gt;).&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;table class="docutils footnote" frame="void" id="id9" rules="none"&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-2" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id2"&gt;[3]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;This footnote is numbered automatically and anonymously using a
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-2"&gt;[3]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;This footnote is numbered automatically and anonymously using a
 label of “#” only.&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;table class="docutils footnote" frame="void" id="id10" rules="none"&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-3" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id4"&gt;[*]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Footnotes may also use symbols, specified with a “*” label.
-Here’s a reference to the next footnote: &lt;a class="footnote-reference" href="#id12" id="id11"&gt;[†]&lt;/a&gt;.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-4"&gt;[*]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Footnotes may also use symbols, specified with a “*” label.
+Here’s a reference to the next footnote: &lt;a class="footnote-reference" href="#footnote-4" id="footnote-reference-7"&gt;[†]&lt;/a&gt;.&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;table class="docutils footnote" frame="void" id="id12" rules="none"&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-4" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id11"&gt;[†]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;This footnote shows the next symbol in the sequence.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#footnote-reference-7"&gt;[†]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;This footnote shows the next symbol in the sequence.&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;table class="docutils footnote" frame="void" id="id13" rules="none"&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-5" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;[4]&lt;/td&gt;&lt;td&gt;Here’s an unreferenced footnote.&lt;/td&gt;&lt;/tr&gt;
@@ -463,64 +463,64 @@ Here’s a reference to the next footnote: &lt;a class="footnote-reference" href
 &lt;/table&gt;
 &lt;/div&gt;
 &lt;div class="section" id="citations"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id38"&gt;2.13&amp;nbsp;&amp;nbsp;&amp;nbsp;Citations&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-18"&gt;2.13&amp;nbsp;&amp;nbsp;&amp;nbsp;Citations&lt;/a&gt;&lt;/h3&gt;
 &lt;table class="docutils citation" frame="void" id="cit2002" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;[CIT2002]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#id5"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#id14"&gt;2&lt;/a&gt;)&lt;/em&gt; Citations are text-labeled footnotes. They may be
+&lt;tr&gt;&lt;td class="label"&gt;[CIT2002]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#citation-reference-1"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#citation-reference-2"&gt;2&lt;/a&gt;)&lt;/em&gt; Citations are text-labeled footnotes. They may be
 rendered separately and differently from footnotes.&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Here’s a reference to the above, &lt;a class="citation-reference" href="#cit2002" id="id14"&gt;[CIT2002]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here’s a reference to the above, &lt;a class="citation-reference" href="#cit2002" id="citation-reference-2"&gt;[CIT2002]&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="targets"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id39"&gt;2.14&amp;nbsp;&amp;nbsp;&amp;nbsp;Targets&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-19"&gt;2.14&amp;nbsp;&amp;nbsp;&amp;nbsp;Targets&lt;/a&gt;&lt;/h3&gt;
 &lt;p id="example"&gt;This paragraph is pointed to by the explicit “example” target. A
 reference can be found under &lt;a class="reference internal" href="#inline-markup"&gt;Inline Markup&lt;/a&gt;, above. &lt;a class="reference internal" href="#inline-hyperlink-targets"&gt;Inline
 hyperlink targets&lt;/a&gt; are also possible.&lt;/p&gt;
 &lt;p&gt;Section headers are implicit targets, referred to by name. See
 &lt;a class="reference internal" href="#targets"&gt;Targets&lt;/a&gt;, which is a subsection of &lt;a class="reference internal" href="#body-elements"&gt;Body Elements&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Explicit external targets are interpolated into references such as
-“&lt;a class="reference external" href="http://www.python.org/"&gt;Python&lt;/a&gt; &lt;a class="footnote-reference" href="#id17" id="id19"&gt;[5]&lt;/a&gt;”.&lt;/p&gt;
+“&lt;a class="reference external" href="http://www.python.org/"&gt;Python&lt;/a&gt; &lt;a class="footnote-reference" href="#footnote-6" id="footnote-reference-9"&gt;[5]&lt;/a&gt;”.&lt;/p&gt;
 &lt;p&gt;Targets may be indirect and anonymous.  Thus &lt;a class="reference internal" href="#targets"&gt;this phrase&lt;/a&gt; may also
 refer to the &lt;a class="reference internal" href="#targets"&gt;Targets&lt;/a&gt; section.&lt;/p&gt;
 &lt;div class="section" id="duplicate-target-names"&gt;
-&lt;h4&gt;&lt;a class="toc-backref" href="#id40"&gt;2.14.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Duplicate Target Names&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#toc-entry-20"&gt;2.14.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Duplicate Target Names&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Duplicate names in section headers or other implicit targets will
 generate “info” (level-1) system messages.  Duplicate names in
 explicit targets will generate “warning” (level-2) system messages.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="section" id="id16"&gt;
-&lt;h4&gt;&lt;a class="toc-backref" href="#id41"&gt;2.14.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Duplicate Target Names&lt;/a&gt;&lt;/h4&gt;
+&lt;div class="section" id="duplicate-target-names-1"&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#toc-entry-21"&gt;2.14.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Duplicate Target Names&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Since there are two “Duplicate Target Names” section headers, we
 cannot uniquely refer to either of them by name.  If we try to, an
 error is generated.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="directives"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id42"&gt;2.15&amp;nbsp;&amp;nbsp;&amp;nbsp;Directives&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-22"&gt;2.15&amp;nbsp;&amp;nbsp;&amp;nbsp;Directives&lt;/a&gt;&lt;/h3&gt;
 &lt;div class="contents local topic" id="contents"&gt;
 &lt;ul class="auto-toc simple"&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#document-parts" id="id53"&gt;2.15.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Document Parts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#images" id="id54"&gt;2.15.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Images&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#admonitions" id="id55"&gt;2.15.3&amp;nbsp;&amp;nbsp;&amp;nbsp;Admonitions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#topics-sidebars-and-rubrics" id="id56"&gt;2.15.4&amp;nbsp;&amp;nbsp;&amp;nbsp;Topics, Sidebars, and Rubrics&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#target-footnotes" id="id57"&gt;2.15.5&amp;nbsp;&amp;nbsp;&amp;nbsp;Target Footnotes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#replacement-text" id="id58"&gt;2.15.6&amp;nbsp;&amp;nbsp;&amp;nbsp;Replacement Text&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference internal" href="#compound-paragraph" id="id59"&gt;2.15.7&amp;nbsp;&amp;nbsp;&amp;nbsp;Compound Paragraph&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#document-parts" id="toc-entry-33"&gt;2.15.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Document Parts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#images" id="toc-entry-34"&gt;2.15.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#admonitions" id="toc-entry-35"&gt;2.15.3&amp;nbsp;&amp;nbsp;&amp;nbsp;Admonitions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#topics-sidebars-and-rubrics" id="toc-entry-36"&gt;2.15.4&amp;nbsp;&amp;nbsp;&amp;nbsp;Topics, Sidebars, and Rubrics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#target-footnotes" id="toc-entry-37"&gt;2.15.5&amp;nbsp;&amp;nbsp;&amp;nbsp;Target Footnotes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#replacement-text" id="toc-entry-38"&gt;2.15.6&amp;nbsp;&amp;nbsp;&amp;nbsp;Replacement Text&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#compound-paragraph" id="toc-entry-39"&gt;2.15.7&amp;nbsp;&amp;nbsp;&amp;nbsp;Compound Paragraph&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;p&gt;These are just a sample of the many reStructuredText Directives.  For
 others, please see
 &lt;a class="reference external" href="http://docutils.sourceforge.net/docs/ref/rst/directives.html"&gt;http://docutils.sourceforge.net/docs/ref/rst/directives.html&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="section" id="document-parts"&gt;
-&lt;h4&gt;&lt;a class="toc-backref" href="#id53"&gt;2.15.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Document Parts&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#toc-entry-33"&gt;2.15.1&amp;nbsp;&amp;nbsp;&amp;nbsp;Document Parts&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;An example of the “contents” directive can be seen above this section
 (a local, untitled table of &lt;a class="reference internal" href="#contents"&gt;contents&lt;/a&gt;) and at the beginning of the
 document (a document-wide &lt;a class="reference internal" href="#table-of-contents"&gt;table of contents&lt;/a&gt;).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="images"&gt;
-&lt;h4&gt;&lt;a class="toc-backref" href="#id54"&gt;2.15.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Images&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#toc-entry-34"&gt;2.15.2&amp;nbsp;&amp;nbsp;&amp;nbsp;Images&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;An image directive (also clickable – a hyperlink reference):&lt;/p&gt;
 &lt;a class="reference internal image-reference" href="#directives"&gt;&lt;img alt="" src="https://jwodder.github.io/kbits-theme-demo/posts/2012/01/demo/title.png" /&gt;&lt;/a&gt;
 &lt;p&gt;A figure directive:&lt;/p&gt;
@@ -550,7 +550,7 @@ document (a document-wide &lt;a class="reference internal" href="#table-of-conte
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="admonitions"&gt;
-&lt;h4&gt;&lt;a class="toc-backref" href="#id55"&gt;2.15.3&amp;nbsp;&amp;nbsp;&amp;nbsp;Admonitions&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#toc-entry-35"&gt;2.15.3&amp;nbsp;&amp;nbsp;&amp;nbsp;Admonitions&lt;/a&gt;&lt;/h4&gt;
 &lt;div class="admonition attention"&gt;
 &lt;p class="first admonition-title"&gt;Attention!&lt;/p&gt;
 &lt;p class="last"&gt;Directives at large.&lt;/p&gt;
@@ -599,7 +599,7 @@ Reader discretion is strongly advised.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="topics-sidebars-and-rubrics"&gt;
-&lt;h4&gt;&lt;a class="toc-backref" href="#id56"&gt;2.15.4&amp;nbsp;&amp;nbsp;&amp;nbsp;Topics, Sidebars, and Rubrics&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#toc-entry-36"&gt;2.15.4&amp;nbsp;&amp;nbsp;&amp;nbsp;Topics, Sidebars, and Rubrics&lt;/a&gt;&lt;/h4&gt;
 &lt;div class="sidebar"&gt;
 &lt;p class="first sidebar-title"&gt;Sidebar Title&lt;/p&gt;
 &lt;p class="sidebar-subtitle"&gt;Optional Subtitle&lt;/p&gt;
@@ -616,20 +616,20 @@ background color.&lt;/p&gt;
 &lt;p class="rubric"&gt;This is a rubric&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="target-footnotes"&gt;
-&lt;h4&gt;&lt;a class="toc-backref" href="#id57"&gt;2.15.5&amp;nbsp;&amp;nbsp;&amp;nbsp;Target Footnotes&lt;/a&gt;&lt;/h4&gt;
-&lt;table class="docutils footnote" frame="void" id="id17" rules="none"&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#toc-entry-37"&gt;2.15.5&amp;nbsp;&amp;nbsp;&amp;nbsp;Target Footnotes&lt;/a&gt;&lt;/h4&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-6" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;[5]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#id18"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#id19"&gt;2&lt;/a&gt;, &lt;a class="fn-backref" href="#id20"&gt;3&lt;/a&gt;)&lt;/em&gt; &lt;a class="reference external" href="http://www.python.org/"&gt;http://www.python.org/&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="label"&gt;[5]&lt;/td&gt;&lt;td&gt;&lt;em&gt;(&lt;a class="fn-backref" href="#footnote-reference-8"&gt;1&lt;/a&gt;, &lt;a class="fn-backref" href="#footnote-reference-9"&gt;2&lt;/a&gt;, &lt;a class="fn-backref" href="#footnote-reference-10"&gt;3&lt;/a&gt;)&lt;/em&gt; &lt;a class="reference external" href="http://www.python.org/"&gt;http://www.python.org/&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/div&gt;
 &lt;div class="section" id="replacement-text"&gt;
-&lt;h4&gt;&lt;a class="toc-backref" href="#id58"&gt;2.15.6&amp;nbsp;&amp;nbsp;&amp;nbsp;Replacement Text&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;I recommend you try &lt;a class="reference external" href="http://www.python.org/"&gt;Python, &lt;em&gt;the&lt;/em&gt; best language around&lt;/a&gt; &lt;a class="footnote-reference" href="#id17" id="id20"&gt;[5]&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#toc-entry-38"&gt;2.15.6&amp;nbsp;&amp;nbsp;&amp;nbsp;Replacement Text&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;I recommend you try &lt;a class="reference external" href="http://www.python.org/"&gt;Python, &lt;em&gt;the&lt;/em&gt; best language around&lt;/a&gt; &lt;a class="footnote-reference" href="#footnote-6" id="footnote-reference-10"&gt;[5]&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="compound-paragraph"&gt;
-&lt;h4&gt;&lt;a class="toc-backref" href="#id59"&gt;2.15.7&amp;nbsp;&amp;nbsp;&amp;nbsp;Compound Paragraph&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#toc-entry-39"&gt;2.15.7&amp;nbsp;&amp;nbsp;&amp;nbsp;Compound Paragraph&lt;/a&gt;&lt;/h4&gt;
 &lt;div class="compound"&gt;
 &lt;p class="compound-first"&gt;This paragraph contains a literal block:&lt;/p&gt;
 &lt;pre class="compound-middle literal-block"&gt;
@@ -646,12 +646,12 @@ with the “compound” directive.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="substitution-definitions"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id50"&gt;2.16&amp;nbsp;&amp;nbsp;&amp;nbsp;Substitution Definitions&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-30"&gt;2.16&amp;nbsp;&amp;nbsp;&amp;nbsp;Substitution Definitions&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;An inline image (&lt;img alt="EXAMPLE" src="https://jwodder.github.io/kbits-theme-demo/posts/2012/01/demo/biohazard.png" /&gt;) example:&lt;/p&gt;
 &lt;p&gt;(Substitution definitions are not visible in the HTML source.)&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="comments"&gt;
-&lt;h3&gt;&lt;a class="toc-backref" href="#id51"&gt;2.17&amp;nbsp;&amp;nbsp;&amp;nbsp;Comments&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#toc-entry-31"&gt;2.17&amp;nbsp;&amp;nbsp;&amp;nbsp;Comments&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Here’s one:&lt;/p&gt;
 &lt;!-- Comments begin with two dots and a space. Anything may
 follow, except for the syntax of footnotes, hyperlink
@@ -662,7 +662,7 @@ Double-dashes - - "- -" - - must be escaped somehow in HTML output. --&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="error-handling"&gt;
-&lt;h2&gt;&lt;a class="toc-backref" href="#id52"&gt;3&amp;nbsp;&amp;nbsp;&amp;nbsp;Error Handling&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#toc-entry-32"&gt;3&amp;nbsp;&amp;nbsp;&amp;nbsp;Error Handling&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Any errors caught during processing will generate system messages.  However,
 Pelican fails to build a site when its pages produce any errors or warnings, so
 the six errors in this document had to be edited out before the document could
