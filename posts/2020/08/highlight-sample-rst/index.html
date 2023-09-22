@@ -111,51 +111,51 @@ see some examples!</p>
 directive</a>.  Here’s what the output of that directive looks like in
 kbits-theme:</p>
 <pre class="code python literal-block">
-<span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">compress</span>
+<span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">compress</span><span class="w">
 
-<span class="k">def</span> <span class="nf">subsets</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">nonempty</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">proper</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;
+</span><span class="k">def</span> <span class="nf">subsets</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">nonempty</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">proper</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span><span class="w">
+    </span><span class="sd">&quot;&quot;&quot;
     Returns an iterator over all subsets of the iterable ``xs`` as tuples.
     If ``nonempty`` is true, only nonempty subsets are returned.  If
     ``proper`` is true, only proper subsets are returned.
-    &quot;&quot;&quot;</span>
-    <span class="n">xs</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">xs</span><span class="p">)</span>
-    <span class="n">selectors</span> <span class="o">=</span> <span class="p">[</span><span class="kc">False</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">xs</span><span class="p">)</span>
-    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span>
-            <span class="p">(</span><span class="n">nonempty</span> <span class="ow">and</span> <span class="ow">not</span> <span class="nb">any</span><span class="p">(</span><span class="n">selectors</span><span class="p">))</span> <span class="ow">or</span> <span class="p">(</span><span class="n">proper</span> <span class="ow">and</span> <span class="nb">all</span><span class="p">(</span><span class="n">selectors</span><span class="p">))</span>
-        <span class="p">):</span>
-            <span class="k">yield</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">compress</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">selectors</span><span class="p">))</span>
-        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">xrange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">selectors</span><span class="p">)):</span>
-            <span class="n">selectors</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="ow">not</span> <span class="n">selectors</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-            <span class="k">if</span> <span class="n">selectors</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
-                <span class="k">break</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="k">break</span>
+    &quot;&quot;&quot;</span><span class="w">
+</span>    <span class="n">xs</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">xs</span><span class="p">)</span><span class="w">
+</span>    <span class="n">selectors</span> <span class="o">=</span> <span class="p">[</span><span class="kc">False</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">xs</span><span class="p">)</span><span class="w">
+</span>    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span><span class="w">
+</span>        <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="w">
+</span>            <span class="p">(</span><span class="n">nonempty</span> <span class="ow">and</span> <span class="ow">not</span> <span class="nb">any</span><span class="p">(</span><span class="n">selectors</span><span class="p">))</span> <span class="ow">or</span> <span class="p">(</span><span class="n">proper</span> <span class="ow">and</span> <span class="nb">all</span><span class="p">(</span><span class="n">selectors</span><span class="p">))</span><span class="w">
+</span>        <span class="p">):</span><span class="w">
+</span>            <span class="k">yield</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">compress</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">selectors</span><span class="p">))</span><span class="w">
+</span>        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">xrange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">selectors</span><span class="p">)):</span><span class="w">
+</span>            <span class="n">selectors</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="ow">not</span> <span class="n">selectors</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w">
+</span>            <span class="k">if</span> <span class="n">selectors</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span><span class="w">
+</span>                <span class="k">break</span><span class="w">
+</span>        <span class="k">else</span><span class="p">:</span><span class="w">
+</span>            <span class="k">break</span>
 </pre>
 <p>… and here’s what it looks like with the <tt class="docutils literal"><span class="pre">:number-lines:</span></tt> option:</p>
 <pre class="code python literal-block">
-<span class="ln"> 1 </span><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">compress</span>
-<span class="ln"> 2 </span>
-<span class="ln"> 3 </span><span class="k">def</span> <span class="nf">subsets</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">nonempty</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">proper</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-<span class="ln"> 4 </span>    <span class="sd">&quot;&quot;&quot;
+<span class="ln"> 1 </span><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">compress</span><span class="w">
+</span><span class="ln"> 2 </span><span class="w">
+</span><span class="ln"> 3 </span><span class="w"></span><span class="k">def</span> <span class="nf">subsets</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">nonempty</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">proper</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span><span class="w">
+</span><span class="ln"> 4 </span><span class="w">    </span><span class="sd">&quot;&quot;&quot;
 </span><span class="ln"> 5 </span><span class="sd">    Returns an iterator over all subsets of the iterable ``xs`` as tuples.
 </span><span class="ln"> 6 </span><span class="sd">    If ``nonempty`` is true, only nonempty subsets are returned.  If
 </span><span class="ln"> 7 </span><span class="sd">    ``proper`` is true, only proper subsets are returned.
-</span><span class="ln"> 8 </span><span class="sd">    &quot;&quot;&quot;</span>
-<span class="ln"> 9 </span>    <span class="n">xs</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">xs</span><span class="p">)</span>
-<span class="ln">10 </span>    <span class="n">selectors</span> <span class="o">=</span> <span class="p">[</span><span class="kc">False</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">xs</span><span class="p">)</span>
-<span class="ln">11 </span>    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-<span class="ln">12 </span>        <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span>
-<span class="ln">13 </span>            <span class="p">(</span><span class="n">nonempty</span> <span class="ow">and</span> <span class="ow">not</span> <span class="nb">any</span><span class="p">(</span><span class="n">selectors</span><span class="p">))</span> <span class="ow">or</span> <span class="p">(</span><span class="n">proper</span> <span class="ow">and</span> <span class="nb">all</span><span class="p">(</span><span class="n">selectors</span><span class="p">))</span>
-<span class="ln">14 </span>        <span class="p">):</span>
-<span class="ln">15 </span>            <span class="k">yield</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">compress</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">selectors</span><span class="p">))</span>
-<span class="ln">16 </span>        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">xrange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">selectors</span><span class="p">)):</span>
-<span class="ln">17 </span>            <span class="n">selectors</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="ow">not</span> <span class="n">selectors</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-<span class="ln">18 </span>            <span class="k">if</span> <span class="n">selectors</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
-<span class="ln">19 </span>                <span class="k">break</span>
-<span class="ln">20 </span>        <span class="k">else</span><span class="p">:</span>
-<span class="ln">21 </span>            <span class="k">break</span>
+</span><span class="ln"> 8 </span><span class="sd">    &quot;&quot;&quot;</span><span class="w">
+</span><span class="ln"> 9 </span><span class="w"></span>    <span class="n">xs</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">xs</span><span class="p">)</span><span class="w">
+</span><span class="ln">10 </span><span class="w"></span>    <span class="n">selectors</span> <span class="o">=</span> <span class="p">[</span><span class="kc">False</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">xs</span><span class="p">)</span><span class="w">
+</span><span class="ln">11 </span><span class="w"></span>    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span><span class="w">
+</span><span class="ln">12 </span><span class="w"></span>        <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="w">
+</span><span class="ln">13 </span><span class="w"></span>            <span class="p">(</span><span class="n">nonempty</span> <span class="ow">and</span> <span class="ow">not</span> <span class="nb">any</span><span class="p">(</span><span class="n">selectors</span><span class="p">))</span> <span class="ow">or</span> <span class="p">(</span><span class="n">proper</span> <span class="ow">and</span> <span class="nb">all</span><span class="p">(</span><span class="n">selectors</span><span class="p">))</span><span class="w">
+</span><span class="ln">14 </span><span class="w"></span>        <span class="p">):</span><span class="w">
+</span><span class="ln">15 </span><span class="w"></span>            <span class="k">yield</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">compress</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">selectors</span><span class="p">))</span><span class="w">
+</span><span class="ln">16 </span><span class="w"></span>        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">xrange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">selectors</span><span class="p">)):</span><span class="w">
+</span><span class="ln">17 </span><span class="w"></span>            <span class="n">selectors</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="ow">not</span> <span class="n">selectors</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w">
+</span><span class="ln">18 </span><span class="w"></span>            <span class="k">if</span> <span class="n">selectors</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span><span class="w">
+</span><span class="ln">19 </span><span class="w"></span>                <span class="k">break</span><span class="w">
+</span><span class="ln">20 </span><span class="w"></span>        <span class="k">else</span><span class="p">:</span><span class="w">
+</span><span class="ln">21 </span><span class="w"></span>            <span class="k">break</span>
 </pre>
 <p>Pelican provides a more featureful alternative to “code”, the <a class="reference external" href="https://docs.getpelican.com/en/stable/content.html#syntax-highlighting">“code-block”
 directive</a>.  The default output is pretty much the same as that of “code”, but
@@ -184,7 +184,7 @@ difference:</p>
 <span class="normal">21</span></pre></div></td><td class="code"><div><pre><span></span><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">compress</span>
 
 <span class="k">def</span> <span class="nf">subsets</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">nonempty</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">proper</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Returns an iterator over all subsets of the iterable ``xs`` as tuples.</span>
 <span class="sd">    If ``nonempty`` is true, only nonempty subsets are returned.  If</span>
 <span class="sd">    ``proper`` is true, only proper subsets are returned.</span>
@@ -228,7 +228,7 @@ difference:</p>
 <span class="normal">21</span></pre></div></td><td class="code"><div><pre><span></span><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">compress</span>
 
 <span class="k">def</span> <span class="nf">subsets</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">nonempty</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">proper</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Returns an iterator over all subsets of the iterable ``xs`` as tuples.</span>
 <span class="sd">    If ``nonempty`` is true, only nonempty subsets are returned.  If</span>
 <span class="sd">    ``proper`` is true, only proper subsets are returned.</span>
@@ -271,7 +271,7 @@ difference:</p>
 <span class="normal">21</span></pre></div></td><td class="code"><div><pre><span></span><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">compress</span>
 
 <span class="k">def</span> <span class="nf">subsets</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">nonempty</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">proper</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Returns an iterator over all subsets of the iterable ``xs`` as tuples.</span>
 <span class="sd">    If ``nonempty`` is true, only nonempty subsets are returned.  If</span>
 <span class="sd">    ``proper`` is true, only proper subsets are returned.</span>
@@ -295,8 +295,8 @@ difference:</p>
 inline code samples.  To use it, first create a “subrole” with the name of the
 highlighted language supplied to the <tt class="docutils literal">:language:</tt> option:</p>
 <pre class="code rst literal-block">
-<span class="p">..</span> <span class="ow">role</span><span class="p">::</span> py(code)
-    <span class="nc">:language:</span> python
+<span class="p">..</span> <span class="ow">role</span><span class="p">::</span> py(code)<span class="w">
+</span>    <span class="nc">:language:</span> python
 </pre>
 <p>… and then you can write this:</p>
 <pre class="code rst literal-block">

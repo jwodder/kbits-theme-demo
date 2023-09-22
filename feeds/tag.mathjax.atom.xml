@@ -46,15 +46,15 @@ use this extension with kbits-theme, you must install pymdown-extensions into
 your Pelican environment and set Arithmatex’s “generic” option to true by
 adding the following configuration to your Pelican site’s &lt;tt class="docutils literal"&gt;MARKDOWN&lt;/tt&gt; setting:&lt;/p&gt;
 &lt;pre class="code python literal-block"&gt;
-&lt;span class="n"&gt;MARKDOWN&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="o"&gt;...&lt;/span&gt;
-    &lt;span class="s2"&gt;&amp;quot;extension_configs&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-        &lt;span class="o"&gt;...&lt;/span&gt;
-        &lt;span class="s2"&gt;&amp;quot;pymdownx.arithmatex&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;generic&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;},&lt;/span&gt;
-        &lt;span class="o"&gt;...&lt;/span&gt;
-    &lt;span class="p"&gt;},&lt;/span&gt;
-    &lt;span class="o"&gt;...&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="n"&gt;MARKDOWN&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;    &lt;span class="o"&gt;...&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;    &lt;span class="s2"&gt;&amp;quot;extension_configs&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;        &lt;span class="o"&gt;...&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;        &lt;span class="s2"&gt;&amp;quot;pymdownx.arithmatex&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;generic&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;},&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;        &lt;span class="o"&gt;...&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;    &lt;span class="p"&gt;},&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;    &lt;span class="o"&gt;...&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;
 &lt;p&gt;If this is the first time you’re modifying the value of &lt;tt class="docutils literal"&gt;MARKDOWN&lt;/tt&gt;, you
 should copy the default value shown in &lt;a class="reference external" href="https://docs.getpelican.com/en/stable/settings.html"&gt;the Pelican documentation&lt;/a&gt; and modify
